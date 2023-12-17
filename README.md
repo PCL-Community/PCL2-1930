@@ -1,24 +1,21 @@
-## 💬 前言
-由于 PCL2 仓库中反馈数量较多，因此在反馈者及 Collaborators 进行反馈搜索与查重时可能会搜索不到相关已提交的反馈。此处我从 Bilibili 更新日志评论区及 Github 仓库的 Issue、Discussions 中整理出了一份常见反馈列表，均为常见问题与高频重复反馈，以方便诸位 Collaborators 同志们可以更方便地进行查找，同时在这份表格中也给出了相应的解释。
+<!--
+ ________    ________      ___            _______         ___    ___             _____      ________      ________      ________     
+|\   __  \  |\   ____\    |\  \          /  ___  \       |\  \  |\  \           / __  \    |\  ___  \    |\_____  \    |\   __  \    
+\ \  \|\  \ \ \  \___|    \ \  \        /__/|_/  /|    __\_\  \_\_\  \_____    |\/_|\  \   \ \____   \   \|____|\ /_   \ \  \|\  \   
+ \ \   ____\ \ \  \        \ \  \       |__|//  / /   |\____    ___    ____\   \|/ \ \  \   \|____|\  \        \|\  \   \ \  \\\  \  
+  \ \  \___|  \ \  \____    \ \  \____      /  /_/__  \|___| \  \__|\  \___|        \ \  \      __\_\  \      __\_\  \   \ \  \\\  \ 
+   \ \__\      \ \_______\   \ \_______\   |\________\    __\_\  \_\_\  \_____       \ \__\    |\_______\    |\_______\   \ \_______\
+    \|__|       \|_______|    \|_______|    \|_______|   |\____    ____   ____\       \|__|    \|_______|    \|_______|    \|_______|
+                                                         \|___| \  \__|\  \___|                                                      
+                                                               \ \__\ \ \__\                                                         
+                                                                \|__|  \|__|                                                         
+欢迎来到这个文档，正如你所见，这是 PCL2 仓库 Discussion #1930 的源码。
+因为只能使用 Markdown，所以这个文档的排版非常难受，我已经尽可能使其看得可以顺眼一些了qwq……
+我只公布了表格正文部分，其他部分就先不公布了，意义不是很大。
+如果你希望可以直接参与到这里来补充这个表格，可以直接往这个仓库丢 Pr，我会在周末进行同步更新的。
+嗯……当然，你是没法在这里交有关这个表格的 Issue 的，直接去原页面下方丢评论就好啦。
+-->
 
-毕竟是我一个人整理的，所以必然会有疏漏，如果大家觉得这个想法还不错也可以在下方补充一些遗漏的反馈。非常非常感谢全体社区玩家的贡献！🥳
-
-<!--也非常欢迎龙猫您亲自来完善这个表格，感谢认可！表格的排版很高血压……希望不要介意😔-->
-
-<details>
-<summary>Collaborator 常用工具</summary>
-
-**常用 Label 快速跳转：**[拒绝 / 放弃](https://github.com/Hex-Dragon/PCL2/labels/%E6%8B%92%E7%BB%9D%20%2F%20%E6%94%BE%E5%BC%83) | [暂缓处理](https://github.com/Hex-Dragon/PCL2/labels/%E6%9A%82%E7%BC%93%E5%A4%84%E7%90%86) | [处理中](https://github.com/Hex-Dragon/PCL2/labels/%E5%A4%84%E7%90%86%E4%B8%AD) | [待处理](https://github.com/Hex-Dragon/PCL2/labels/%E5%BE%85%E5%A4%84%E7%90%86) | [等待反馈者](https://github.com/Hex-Dragon/PCL2/labels/%E7%AD%89%E5%BE%85%E5%8F%8D%E9%A6%88%E8%80%85) | [需要社区帮助](https://github.com/Hex-Dragon/PCL2/labels/%E9%9C%80%E8%A6%81%E7%A4%BE%E5%8C%BA%E5%B8%AE%E5%8A%A9) | [需要社区复现](https://github.com/Hex-Dragon/PCL2/labels/%E9%9C%80%E8%A6%81%E7%A4%BE%E5%8C%BA%E5%A4%8D%E7%8E%B0)  
-</details>
-
-## 📁 常见&难检反馈及问题列表
-这个表格大概按照有关问题的重复频率和所属类别简单进行了排序，您可以使用 **Ctrl+F** 进行快速搜索。暂缓处理的相关问题我会将原始 Issue 和 Discussions 中的投票页面一同展示出来，后者使用括号括起来方便辨认😉
-
-除此之外，您还可以在 PCL2 内置帮助库 或 [PCL 常见问题 兼 脑溢血急救中心](https://shimo.im/docs/qKPttVvXKqPD8YDC) 中找到一些没在这里提及的问题~ 
-
-本页面还有 [独立文档页面](https://pcl-doc.rth1.app/ "更新可能有延时，敬请谅解。如有问题请在 https://github.com/lingyunawa/pcl-doc 提交 Issue，而不是在此页面下评论。") 版本，由 @ JingHai-Lingyun 制作，持续同步更新。
-
-###### 其它页面：[获取 Issues 更改权限](https://github.com/Hex-Dragon/PCL2/discussions/477) | [讨论时的常见疑惑](https://github.com/Hex-Dragon/PCL2/discussions/775) | [简介：PCL 功能投票](https://github.com/Hex-Dragon/PCL2/discussions/2) | [自定义主页预设投稿](https://github.com/Hex-Dragon/PCL2/discussions/2528) | [内部管理沟通帖](https://github.com/Hex-Dragon/PCL2/discussions/1952) | [PCL2 帮助库](https://github.com/LTCatt/PCL2Help)
 ### Minecraft 常见问题
  |内容|相关解释|参考|
  |--|--|--|
@@ -133,10 +130,6 @@
 
 ---
 </details>
-
-<!--###### **特别鸣谢为这个表格内容与完善工作做出贡献的朋友们：略** -->
-
-##### 最近更新：2023-12-15
 
 [^1]:请注意，离线账号登录服务器本身违反 [Minecraft 最终用户协议](https://www.minecraft.net/en-us/eula) 提及的 [Minecraft 使用准则](https://www.minecraft.net/en-us/usage-guidelines) 的内容 ( 原文如此：*Access to your server: Must only be granted to users who have a genuine **paid-for version of Minecraft*** ) ，请谨慎考虑。
 [^2]:其中，若较老 Mod 搜索结果无法显示支持模组加载器，此为早期 Curseforge 不支持设置上传的 Mod 文件选择模组加载器导致；对于输入搜索关键词无法搜索到指定 Mod 或搜索时出现无关 Mod，此为 API 问题；如确认为 Mod 作者上传时的设置问题，如错误地选择了不支持的版本、Mod 前置标记错误、译名错误等问题，而非前两者问题，请尝试联系 Mod 作者或 MCMOD 百科页（仅译名问题）进行沟通确认。
