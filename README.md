@@ -15,7 +15,7 @@
 -->
 
 ### Minecraft 常见问题
- |内容|相关解释|参考|
+ | 内容 | 相关解释 | 参考 |
  |--|--|--|
  | **1.16.4 及 1.16.5 离线模式无法进入多人游戏界面** | **PCL 不会解决该问题，这超出了启动器功能范畴。** <br> *如仍需要使用多人游戏 [^1]，请自行断网启动游戏或安装 [MultiOfflineFix](https://github.com/MCTeamPotato/MultiOfflineFix "Fabric & Forge") 或 [Offline Multiplayer](https://github.com/ChickenPige0n/offline-multiplayer-fabric "仅 Fabric") 模组。同时您可以参考[此处的解决方案](https://github.com/Hex-Dragon/PCL2/discussions/1930#discussioncomment-6797858)或使用 [Authlib 更新工具](https://www.mcbbs.net/thread-1450892-1-1.html)来彻底解决此问题。* | **PCL2 内置帮助库 #2003 #2017 #2004 [#1930](https://github.com/Hex-Dragon/PCL2/discussions/1930#discussioncomment-6805733)**
  | 游戏崩溃 | 请依照本文下方附文步骤进行解决。
@@ -24,7 +24,7 @@
  | 中国移动中国联通网络下无法登录正版账户但网络速度良好 | 原因为使用中国联通或中国移动网络下 api.minecraftservices.com 和二级域名为 mojang.com 的地址均被墙，请尝试使用中国电信网络或使用 VPN，具体信息见 #2738。 | #2738
 
 ### 启动器常见问题
- |内容|相关解释|参考|
+ | 内容 | 相关解释 | 参考 |
  |--|--|--|
  | **联机！** | ***“至于联机，因为网易还在继续代理中国版，我和 HMCL 的维护者都觉得还得谨慎一点……况且现在也有 Mod 支持联机了……咳咳。” ——龙腾猫跃*** <br> *BakaXL 现已于 2023 年 10 月 8 日将其部分服务与 Octo 章鱼网络进行对接，并对其可用性进行初步评估，待评估完成后，Octo 网络会全面对其他启动器开放。*[^4]  | **[2.6.11 更新日志](https://www.bilibili.com/read/cv28121157/)** 
  | PCL 消失、报毒、无法更新 | 为 Microsoft Defender 和 360 等杀毒软件误报，请在 Windows 安全中心和杀毒软件中添加排除项或白名单，具体教程见 PCL 内置帮助库。 |  PCL2 内置帮助库 #56 [#666](https://github.com/Hex-Dragon/PCL2/Issues/666#Issuecomment-1611534587) 
@@ -35,12 +35,12 @@
  | 支持更新 Mod | 处理中。 | #102
  | 支持更新整合包 | 因新旧整合包可能存在兼容性等冲突问题，不会制作。 | #2854
  | 爱发电无法收到加群信息或更新密钥 | 加群请**在爱发电**回复【加群】，更新密钥**在爱发电**获取请回复【更新+识别码】。如无法收到回复，很可能是您已经触发了人工回复，在等待人工回复的过程中无法使用命令。您如果只是想使用命令，可以发送【取消人工处理】。如仍旧没有回复，可以等待一会后再进行尝试。 | [石墨文档](https://shimo.im/docs/qKPttVvXKqPD8YDC) #1867 #1529 
- | 使用预设自定义主页时出现问题 | 为第三方主页问题，非 PCL 问题，请联系主页作者。 | -
+ | 使用自定义主页时出现问题 | 一般情况下非启动器问题，为第三方主页问题，请联系主页作者。<br>*对于启动器内置的预设主页，请见下方 “预设主页” 部分获取对应作者及其仓库。* | 预设主页
  | 支持 MacOS、Linux、IOS、安卓 等其他操作系统 | 由于 PCL 的底层界面框架（WPF）无法跨系统，要兼容其他系统无异于完全重做，不会制作。 | #54
  | 添加皮肤库 | 不会制作该功能。 | #343
  | 支持离线披风 | 技术上无法实现。 | #700
  | 支持调整 OptiFine 和第三方披风选项 | 暂时不打算制作。 | #2045 #2065
- | 1.19.3 不支持自定义皮肤 | 正在 Discussions 中投票，技术原因。 | #1288 (#1596)
+ | 1.19.3 不支持自定义皮肤 | 正在 Discussions 中投票。 | #1288 (#1596)
  | Minecraft 更新后 PCL 内未找到该最新版本 | 请在 **设置-启动器-下载-版本列表获取** 选择 **尽量使用官方源**。 | #1226
  | 支持下载地图 | 存在语言问题。 | #44 #135
  | 支持下载资源包（材质包&纹理包） | 正在 Discussions 中投票。 | #44 (#1095)
@@ -55,8 +55,9 @@
  | 无法搜索到指定 Mod & Mod 搜索筛选选项异常 & Mod 搜索匹配版本错误 & Mod 详情页前置问题 等 Mod 搜索问题 | 为 API 或 Mod 作者上传时的设置问题，PCL 无法解决。 [^2] | #2352 #2277 #2190 #2096 等 Issues
  | 下载或安装资源时失败 | 请先尝试使用其他启动器下载，若使用后问题依然存在，则非 PCL 问题，请使用镜像源或检查您的网络环境，使用加速器或 VPN。 | 
  | 兼容暗黑模式 | *“这个基本上要重新设计所有界面，工作量太大了，我猜我都不会做……” ——龙腾猫跃* | #131
- | 支持安装 NeoForge | **[处理中-第三方]** [现镜像源已上线](https://github.com/Hex-Dragon/PCL2/issues/2244#issuecomment-1687345863)，等待 BMCLAPI 支持 Quilt 下载后一并制作。 | #2244
+ | 支持识别、安装 NeoForge | **[处理中-第三方]** [现镜像源已上线](https://github.com/Hex-Dragon/PCL2/issues/2244#issuecomment-1687345863)，等待 BMCLAPI 支持 Quilt 下载后一并制作。 | #2244
  | 支持识别、安装 Quilt | **[处理中-第三方]** 等待 BMCLAPI 支持。 | #48
+ | 支持识别、安装 Cleanroom | 正在 Discussions 中投票。 | #3003 (#3004)
  | Mod 管理允许选择使用多种排序方式 | 正在 Discussions 中投票。 | #2698 (#2700)
  | Mod 管理允许扫描子文件夹 Mod | 此功能已被移除[^3]，但如果子文件夹名称为版本名则仍会读取并加载。对于 Quilt 加载器下识别子文件夹 Mod 功能正在处理。 | #811 #1098 #1536 #1784
  | 添加更多 Minecraft 版本 | 不会添加除现已收录的远古版本外的其他远古版本，同时也不会收录社区玩家制作的 Minecraft 版本 (如：error422、alpha v1.2.3_03 等)。 | #698 #2575
@@ -75,7 +76,7 @@
  | 选中 PCL 文件并快速敲击 Enter 会导致 PCL 多开并报错提示 | 无法正确检测，不会修复。 | #1372
 
 ### 难检反馈
- |内容|相关解释|参考|
+ | 内容 | 相关解释 | 参考 |
  |--|--|--|
  | 因第三方软件或作者引起的问题 | PCL 不会处理第三方造成的问题。 | *[Label: 第三方](https://github.com/Hex-Dragon/PCL2/issues?q=label%3A%E7%AC%AC%E4%B8%89%E6%96%B9+is%3Aclosed)*
  | Mod 下载详情页加载动画 UI 在加载后未能隐藏 | **[需要社区复现]** 需要开启调试模式的复现日志以显示加载动画 Debug 信息来修复此问题。<br> *搜索关键词：加载动画、加载图标、Mod 下载、列表、UI、隐藏、消失* | #1624
@@ -89,7 +90,20 @@
  | 播放音乐时提示线程执行失败：NoDriver calling waveOutRestart | NAudio 的 Bug，技术上无法处理。 | #1753 #2348
  | 启动游戏时出现弹窗报错：GLFW error 65543 | 检查是否使用了正确的显卡（或独立显卡）启动 PCL。 | #2215
  | 调试模式性能损耗过大 | 个别问题，无法稳定复现。 | #365
- 
+
+### 预设主页
+>[!IMPORTANT]
+> 以下为 PCL2 内置的预设主页，如若以下自定义主页出现问题，**请向对应主页的仓库提交 Issue，而不是在 PCL2 仓库提交**（除非您十分确定这是 PCL 的问题所致）。
+
+| 主页名称 | 仓库链接 | 作者 |
+|--|--|--|
+| Minecraft 新闻 | https://github.com/Light-Beacon/PCL2-NewsHomepage | @Light-Beacon
+| 简单主页 | https://github.com/MFn233/PCL-Mainpage | @MFn233
+<!-- 以下主页等待加入 PCL 预设,暂不加入表格正文
+| 历史上的今天 | https://github.com/hsuchenghao/pcl-history-today-go | @hsuchenghao
+| 赤灵主页 | https://github.com/337267950/ChiLing-HomePage-PCL2 | @337267950
+-->
+
 <details>
 <summary>【附】如何优雅地解决问题&提交反馈？</summary>
 
