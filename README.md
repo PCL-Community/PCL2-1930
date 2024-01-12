@@ -27,7 +27,7 @@
  | 内容 | 相关解释 | 参考 |
  |--|--|--|
  | **联机！** | ***“至于联机，因为网易还在继续代理中国版，我和 HMCL 的维护者都觉得还得谨慎一点……况且现在也有 Mod 支持联机了……咳咳。” ——龙腾猫跃*** <br> *BakaXL 现已于 2023 年 10 月 8 日将其部分服务与 Octo 章鱼网络进行对接，并对其可用性进行初步评估，待评估完成后，Octo 网络会全面对其他启动器开放。*[^4]  | **[2.6.11 更新日志](https://www.bilibili.com/read/cv28121157/)** 
- | PCL 消失、报毒、无法更新 | 为 Microsoft Defender 和 360 等杀毒软件误报，请在 Windows 安全中心和杀毒软件中添加排除项或白名单，具体教程见 PCL 内置帮助库。 |  PCL2 内置帮助库 #56 [#666](https://github.com/Hex-Dragon/PCL2/Issues/666#Issuecomment-1611534587) 
+ | PCL 消失、报毒、无法更新 | 为 Microsoft Defender 和 360 等杀毒软件误报，请在 Windows 安全中心和杀毒软件中添加排除项或白名单，具体教程见 PCL 内置帮助库。 |  PCL2 内置帮助库 #56 [#666](https://github.com/Hex-Dragon/PCL2/issues/666#issuecomment-1611534587) 
  | 以管理员权限运行时无法使用文件拖拽功能 | **[需要社区帮助]** *“尽可能尝试修复相关代码，依然无法解决……如果谁有解决方案可以提出”* ——龙腾猫跃 | [#2531](https://github.com/Hex-Dragon/PCL2/issues/2531#issuecomment-1822511620)
  | 支持启动器多语言 | 正在 Discussions 中投票。 | #891 (#2567) |
  | 增加导出整合包功能 | 正在 Discussions 中投票。 | #98 (#100)
