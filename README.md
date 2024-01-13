@@ -17,7 +17,7 @@
 ### Minecraft 常见问题
  | 内容 | 相关解释 | 参考 |
  |--|--|--|
- | **1.16.4 及 1.16.5 离线模式无法进入多人游戏界面** | **PCL 不会解决该问题，这超出了启动器功能范畴。** <br> *如仍需要使用多人游戏 [^1]，请自行断网启动游戏或安装 [MultiOfflineFix](https://github.com/MCTeamPotato/MultiOfflineFix "Fabric & Forge") 或 [Offline Multiplayer](https://github.com/ChickenPige0n/offline-multiplayer-fabric "仅 Fabric") 模组。同时您可以参考[此处的解决方案](https://github.com/Hex-Dragon/PCL2/discussions/1930#discussioncomment-6797858)或使用 [Authlib 更新工具](https://www.mcbbs.net/thread-1450892-1-1.html)来彻底解决此问题。* | **PCL2 内置帮助库 #2003 #2017 #2004 [#1930](https://github.com/Hex-Dragon/PCL2/discussions/1930#discussioncomment-6805733)**
+ | **1.16.4 及 1.16.5 离线模式无法进入多人游戏界面** | **PCL 不会解决该问题，这超出了启动器功能范畴。** <br> *如仍需要使用多人游戏 [^1]，请自行断网启动游戏或安装 [MultiOfflineFix](https://github.com/MCTeamPotato/MultiOfflineFix "Fabric & Forge") 或 [Offline Multiplayer](https://github.com/ChickenPige0n/offline-multiplayer-fabric "仅 Fabric") 模组。同时您可以参考[此处的解决方案](https://github.com/Hex-Dragon/PCL2/discussions/1930#discussioncomment-6797858)或使用 [Authlib 更新工具](https://www.mcbbs.net/forum.php?mod=viewthread&page=1&action=printable&tid=1450892 "原始页面链接 https://www.mcbbs.net/thread-1450892-1-1.html，需要使用解锁卡。")来彻底解决此问题。* | **PCL2 内置帮助库 #2003 #2017 #2004 [#1930](https://github.com/Hex-Dragon/PCL2/discussions/1930#discussioncomment-6805733)**
  | 游戏崩溃 | 请依照本文下方附文步骤进行解决。
  | 无法登录正版账户：您可能没有在 Minecraft 官网创建档案，或者没有购买 Minecraft。 | 是 Mojang 的 Bug，与 PCL 无关。请前往 [Minecraft.net](https://www.minecraft.net/login) 登录您的 Minecraft 账号后，稍等一会即可使用 PCL 正常进行登录。 | #1299 #1264
  | 无法进入服务器 | 非 PCL 问题，具体可能的解决方案见内置帮助库或前往相关论坛寻求帮助。 | PCL2 内置帮助库
@@ -62,6 +62,7 @@
  | Mod 管理允许扫描子文件夹 Mod | 此功能已被移除[^3]，但如果子文件夹名称为版本名则仍会读取并加载。对于 Quilt 加载器下识别子文件夹 Mod 功能正在处理。 | #811 #1098 #1536 #1784
  | 添加更多 Minecraft 版本 | 不会添加除现已收录的远古版本外的其他远古版本，同时也不会收录社区玩家制作的 Minecraft 版本 (如：error422、alpha v1.2.3_03 等)。 | #698 #2575
  | 添加云端账户、启动器内置社区、云端同步账户数据、云端同步隐藏主题、官网等 | 无法抵御攻击，不会制作任何有关云端账号的内容。 | #315 等 Issues
+ | 制作简易版 PCL | 不会制作。<br> *搜索关键词：Lite、简易、简单、极简、轻量级、新手、萌新。* | #2330
  | 隐藏主题迁移 | 考虑到隐私问题，不考虑支持导出此类信息。 | #760
  | 有关拓展隐藏主题、自定义主题、背景图片功能的 Issue | 备注：此类 Issue 大概率会因为必要性及优先级较低被拒绝，但不排除个别会被采纳，仅作参考。<br> *搜索关键词：毛玻璃、背景、透明、标题、隐藏主题、音乐、图标、暗黑、RGB、渐变、图标。* | #2216 #1487 #1653 #1242 #840 #791 #711 #562 #401 #131
  | 使用滑稽彩导致卡顿&掉帧&占用过大 | 无法解决或优化此类问题。 | #1575 #1590 #2336
@@ -99,7 +100,7 @@
 |--|--|--|
 | Minecraft 新闻 | https://github.com/Light-Beacon/PCL2-NewsHomepage | @Light-Beacon
 | 简单主页 | https://github.com/MFn233/PCL-Mainpage | @MFn233
-<!-- 以下主页等待加入 PCL 预设,暂不加入表格正文
+<!-- 以下主页等待加入 PCL 预设
 | 历史上的今天 | https://github.com/hsuchenghao/pcl-history-today-go | @hsuchenghao
 | 赤灵主页 | https://github.com/337267950/ChiLing-HomePage-PCL2 | @337267950
 -->
