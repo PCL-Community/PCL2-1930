@@ -1,0 +1,12 @@
+name: "报告 Bug"
+description: "报告表格表述不当、链接错误、错别字及不恰当拼写、信息未及时更新等表格正文问题。"
+title: "[Bug]: "
+labels: ["★ Bug"]
+body:
+- type: textarea
+  id: bug_description
+  attributes:
+    label: "描述"
+    description: "请尽可能详细地描述 Bug，并上传相应截图"
+  validations:
+    required: true
