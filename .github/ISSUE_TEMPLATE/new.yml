@@ -14,4 +14,4 @@ body:
   id: new_code
   attributes:
     label: "代码"
-    description: "如果可以，请提供对应的 Markdown 代码，这将加快 Issue 处理"
+    description: "如果可以，请提供对应的 Markdown 代码，这将加快 Issue 处理。\n请使用代码块，否则我们将无法看到源代码。"
