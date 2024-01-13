@@ -8,8 +8,8 @@ body:
   attributes:
     label: "描述"
     description: "请尽可能详细地描述你想加入的条目"
-    validations:
-      requied: true
+  validations:
+    requied: true
 - type: textarea
   id: new_code
   attributes:

@@ -8,12 +8,12 @@ body:
   attributes:
     label: "Bug 发生的地方"
     description: "可用出现 Bug 地方的几个关键字来描述"
-    validations:
-      requied: true
+  validations:
+    requied: true
 - type: textarea
   id: bug_description
   attributes:
     label: "描述"
     description: "请尽可能详细地描述 Bug"
-    validations:
-      requied: true
+  validations:
+    requied: true
