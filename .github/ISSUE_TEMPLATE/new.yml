@@ -1,0 +1,15 @@
+name: "新内容申请"
+description: "申请加入新的条目"
+title: "[New]: "
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: new_description
+    label: "描述"
+    description: "请尽可能详细地描述你想加入的条目"
+    options:
+        requied: true
+  - type: textarea
+    id: new_code
+    label: "代码"
+    description: "如果可以，请提供对应的 Markdown 代码，这将加快 Issue 处理"

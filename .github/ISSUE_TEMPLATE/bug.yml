@@ -1,0 +1,19 @@
+name: "报告 Bug"
+description: "看起来哪里不对劲或不起作用了..."
+title: "[Bug]: "
+labels: ["bug"]
+body:
+  - type: input
+    id: bug_point
+    attributes:
+      label: "Bug 发生的地方"
+      description: "可用出现 Bug 地方的几个关键字来描述"
+      options:
+        requied: true
+  - type: textarea
+    id: bug_description
+    attributes:
+      label: "描述"
+      description: "请尽可能详细地描述 Bug"
+      options:
+        requied: true
