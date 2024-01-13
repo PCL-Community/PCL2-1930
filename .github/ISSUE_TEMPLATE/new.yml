@@ -1,17 +1,17 @@
-name: "新内容申请"
-description: "申请加入新的条目"
+name: "新条目补充"
+description: "申请加入新的条目。"
 title: "[New]: "
-labels: ["enhancement"]
+labels: ["★ 条目补充"]
 body:
 - type: textarea
   id: new_description
   attributes:
     label: "描述"
-    description: "请尽可能详细地描述你想加入的条目"
+    description: "请尽可能详细地描述你想加入的条目。"
   validations:
     required: true
 - type: textarea
   id: new_code
   attributes:
-    label: "代码"
-    description: "如果可以，请提供对应的 Markdown 代码，这将加快 Issue 处理。\n请使用代码块，否则我们将无法看到源代码。"
+    label: "Markdown 代码"
+    description: "如果可以，请使用代码块提供对应的 Markdown 代码。"
