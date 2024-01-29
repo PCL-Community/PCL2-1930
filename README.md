@@ -102,13 +102,13 @@
 >[!IMPORTANT]
 > 以下为 PCL2 内置的预设主页，如若以下自定义主页出现问题，**请向对应主页的仓库提交 Issue，而不是在 PCL2 仓库提交**（除非您十分确定这是 PCL 的问题所致）。
 
-| 主页名称 | 仓库链接 | 作者 |
-|--|--|--|
-| Minecraft 新闻 | https://github.com/Light-Beacon/PCL2-NewsHomepage | @Light-Beacon
-| 简单主页 | https://github.com/MFn233/PCL-Mainpage | @MFn233
+| 主页名称 | 仓库链接 | 联网更新地址 | 作者 |
+|--|--|--|--|
+| Minecraft 新闻 | https://github.com/Light-Beacon/PCL2-NewsHomepage | http://pcl.mcnews.thestack.top https://news.bugjump.net  | @Light-Beacon
+| 简单主页 | https://github.com/MFn233/PCL-Mainpage | https://gitee.com/mfn233/PCL-Mainpage/raw/main/Custom.xaml | @MFn233
 <!-- 以下主页等待加入 PCL 预设
-| 历史上的今天 | https://github.com/hsuchenghao/pcl-history-today-go | @hsuchenghao
-| 赤灵主页 | https://github.com/337267950/ChiLing-HomePage-PCL2 | @337267950
+| 历史上的今天 | https://github.com/hsuchenghao/pcl-history-today-go | https://pclnews.52chye.cn/custom.xaml | @hsuchenghao
+| 赤灵主页 | https://github.com/337267950/ChiLing-HomePage-PCL2 | - | @337267950
 -->
 
 <details>
