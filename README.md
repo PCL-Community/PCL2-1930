@@ -20,6 +20,9 @@
 4. 投票中的内容标明原始 Issue 及其对应的 Discussion。
 -->
 
+<!--通过切换 Github 主题色实现右侧文字彩蛋-->
+![2024ChineseNewYear](https://github.com/WForst-Breeze/PCL2-1930/assets/110760354/1c0cfea9-c340-411c-94ce-91c5fc01a458)
+
 ### Minecraft 常见问题
  | 内容 | 相关解释 | 参考 |
  |--|--|--|
