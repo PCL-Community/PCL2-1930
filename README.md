@@ -26,7 +26,7 @@
 ### Minecraft 常见问题
  | 内容 | 相关解释 | 参考 |
  |--|--|--|
- | **无法通过镜像源下载 Minecraft：基础连接已经关闭: 未能为 SSL/TLS 安全通道建立信任关系。** | **为近期 MCBBS 源维护所致，同时由于 BMCLAPI 源压力过大，可能导致大部分时间段无法通过镜像源下载 Minecraft。由于 PCL 会自动在 MCBBS、BMCLAPI、官方源中切换，因此无需手动选择下载源，若手动选择可能会在镜像源恢复后适得其反。请尝试以下三种解决方案：<br>1. 更换不同的网络；<br>2. 每间隔一段时间后再次尝试下载；<br>3. 若您的网络条件允许，尝试使用加速器或 VPN。** | **[Bilibili 动态](https://t.bilibili.com/891597994798874693)**
+ | **无法通过镜像源下载 Minecraft：基础连接已经关闭: 未能为 SSL/TLS 安全通道建立信任关系。** | **为近期 MCBBS 源维护所致，同时由于 BMCLAPI 源压力过大，可能导致大部分时间段无法通过镜像源下载 Minecraft。由于 PCL 会自动在 MCBBS、BMCLAPI、官方源中切换，因此无需手动选择下载源，若手动选择可能会在镜像源恢复后适得其反。请尝试以下三种解决方案：<br>1. 更换不同的网络；<br>2. 每间隔一段时间后再次尝试下载；<br>3. 若您的网络条件允许，尝试使用加速器或 VPN。** | **[Bilibili 动态](https://t.bilibili.com/891597994798874693)** #3213
  | **1.16.4 及 1.16.5 离线模式无法进入多人游戏界面** | **PCL 不会解决该问题，这超出了启动器功能范畴。** <br> *如仍需要使用多人游戏 [^1]，请自行断网启动游戏或安装 [MultiOfflineFix](https://github.com/MCTeamPotato/MultiOfflineFix "Fabric & Forge") 或 [Offline Multiplayer](https://github.com/ChickenPige0n/offline-multiplayer-fabric "仅 Fabric") 模组。同时您可以参考[此处的解决方案](https://github.com/Hex-Dragon/PCL2/discussions/1930#discussioncomment-6797858)或使用 [Authlib 更新工具](https://www.mcbbs.net/forum.php?mod=viewthread&page=1&action=printable&tid=1450892 "原始页面链接 https://www.mcbbs.net/thread-1450892-1-1.html，需要使用解锁卡。")来彻底解决此问题。* | **PCL2 内置帮助库 #2003 #2017 #2004 [#1930](https://github.com/Hex-Dragon/PCL2/discussions/1930#discussioncomment-6805733)**
  | 游戏崩溃 | 请依照本文下方附文步骤进行解决。
  | 无法登录正版账户：您可能没有在 Minecraft 官网创建档案，或者没有购买 Minecraft。 | 是 Mojang 的 Bug，与 PCL 无关。请前往 [Minecraft.net](https://www.minecraft.net/login) 登录您的 Minecraft 账号后，稍等一会即可使用 PCL 正常进行登录。 | #1299 #1264
