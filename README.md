@@ -56,6 +56,7 @@
  | 支持识别、安装 Quilt | **[处理中-第三方]** 等待 BMCLAPI 支持。 | #48
  | 支持识别、安装 NeoForge | **[处理中-第三方]** [现镜像源已上线](https://github.com/Hex-Dragon/PCL2/issues/2244#issuecomment-1687345863)，等待 BMCLAPI 支持 Quilt 下载后一并制作。 | #2244
  | 支持识别、安装 Cleanroom | 正在 Discussions 中投票。 | #3003 (#3004)
+ | 支持安装Legacy Fabric、Legacy Fabric API、Babric等 | 已不再考虑专门为 MC1.9 及以前的版本追加新功能 | #3171 #283
  | 修改、添加、移除、更新已安装版本的组件和模组加载器 | 正在 Discussions 中投票。<br> *搜索关键词：Fabric、Forge、OptiFine、LiteLoader、NeoForge、Quilt* | #220 (#227)
  | 支持下载资源包（材质包&纹理包） | 正在 Discussions 中投票。 | #44 (#1095)
  | 支持光影下载 | 正在 Discussions 中投票。 | #396 (#2768)
