@@ -14,9 +14,10 @@
 嗯……当然，你是没法在这里交有关这个表格的 Issue 的，直接去原页面下方丢评论就好啦。
 -->
 
->[!IMPARTANT]
+> 
+> [!IMPORTANT]
 > **请在编辑前认真阅读 [关于](https://github.com/WForst-Breeze/PCL2-1930/blob/form/about.md)！**
-
+>
 ---
 
 ### Minecraft 常见问题
