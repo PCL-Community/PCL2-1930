@@ -41,7 +41,7 @@
  | 以管理员权限运行时无法使用文件拖拽功能 | **[需要社区帮助]** *“尽可能尝试修复相关代码，依然无法解决……如果谁有解决方案可以提出”* ——龙腾猫跃 | [#2531](https://github.com/Hex-Dragon/PCL2/issues/2531#issuecomment-1822511620)
  | 支持启动器多语言<br>I18n support & Support more languages | 正在 Discussions 中投票。<br>Voting in Discussions. | #891 (#2567)
  | 增加导出整合包功能 | 正在 Discussions 中投票。 | #98 (#100)
- | 支持启动基岩版及 Minecraft 其他衍生游戏 | *“这玩意儿我根本启动不了！用官方启动器吧！告辞！” ——龙腾猫跃* | #81
+ | 支持启动基岩版（BE）、教育版、传奇（Minecraft Legends；MCL）、地下城（Minecraft Dungeons；MCD）等其他 Minecraft 衍生游戏 | *“这玩意儿我根本启动不了！用官方启动器吧！告辞！” ——龙腾猫跃* | #81
  | 支持第三方登录全局设置 | 正在 Discussions 中投票。 | #57 (#58)
  | 支持更新 Mod | 处理中。 | #102
  | 支持更新整合包 | 新旧整合包间可能存在兼容性等冲突问题，不会制作。 | #2854
