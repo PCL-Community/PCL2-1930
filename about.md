@@ -1,0 +1,31 @@
+## 关于本仓库
+
+本仓库公开了 Hex-Dragon/PCL2#1930 中表格部分的全部内容，旨在便于独立页面进行更新和校对。因而这个表格属于 PCL 社区，而并非属于我个人或某个集体。
+
+本仓库不会开放 Issue 页面，如你对本仓库有任何建议和问题，请在原始页面下方进行评论。若您的条件和时间允许，可以选择向本仓库发起 Pull Request。**但这并不是硬性要求，也不是本仓库创建的最初目的，也不是社区用户的义务**，因此也请不要在原始页面评论中要求他人提交 Pull Request！！
+
+由于我个人的时间并不是很多，因此对于本仓库中的 Pull Request 一般情况下会在工作日八点左右进行查看和 Review。对于问题较少的 Pull Request，我会进行 Changes Request，对于问题较多的 Pull Request，为了避免处理效率太低，我会直接对其进行修改。在你的 Pull Request 被 Merge 后，一般情况下将会在该周的周末更新~
+
+再次强调，我们是为了 PCL 社区和谐发展而相聚的，所以在沟通过程中请务必保证情绪稳定，说句不好听的就是，我没空、也不愿意和处于情绪化的人进行沟通。我希望我们给予这个社区善良，也同样可以得到善良的回报，而非谩骂。
+
+### 编辑规范
+
+为了保证整个表格措辞的严谨性和排版的统一性，请检查你的修改是否满足以下内容：
+1. 排版简洁易懂；
+2. 措辞准确，无错别字和错误拼写，英文名词拼写规范，解释部分句末有句号；
+
+| 常用名词（尤注意大小写及空格） |
+|--|
+| OptiFine；OptiFabric；Fabric API；Forge；NeoForge；Fabric；Quilt；LiteLoader；Legacy Fabric；Legacy Fabric API；Babric；CurseForge；Modrinth；MCBBS；Iris；Sodium；BMCLAPI；OpenBMCLAPI；HMCL；BakaXL；Octo；Minecraft；Beta；Alpha；Release；Minecraft Wiki；Minecraft.net；NAudio |
+
+4. 搜索关键词另起一行（`<br>`）并使用斜体；
+5. 投票中的内容标明原始 Issue 及其对应的 Discussion；
+6. 措辞起始部分避免使用表原因词语；
+7. 在英文两端添加空格（英文与标点符号之间除外）、引号两端添加空格（引号与其它标点符号之间除外）；
+8. 使用中文标点符号；
+9. 关于 “PCL” 相关措辞：
+(1) 描述对象为 PCL2 程序自身或 PCL2 开发者的语句中，使用 PCL；
+(2) 描述对象为 PCL2 社区的语句中，使用 PCL；
+(3) 描述对象为 PCL2 帮助库的语句中，使用 PCL2；
+10. 对于读者的称呼使用 “您” 而非 “你”；
+11. 措辞规范基本符合 [PCL2 帮助库标准](https://github.com/LTCatt/PCL2Help/blob/master/%E5%B8%AE%E5%8A%A9/%E6%8F%90%E4%BA%A4%E5%B8%AE%E5%8A%A9%20-%20%E7%BC%96%E5%86%99%E8%A7%84%E8%8C%83.xaml#L35)。
