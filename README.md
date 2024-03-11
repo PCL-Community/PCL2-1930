@@ -108,6 +108,7 @@
  | 调试模式性能损耗过大 | 个别问题，无法稳定复现。 | #365
  | 因感染蠕虫病毒导致 PCL 崩溃或无法更新等 | *Collaborator 请注意，日志可见：文件名或文件夹名前含有 `cache`、`HD` 字样* | #2964 #2970 #3204
  | 无法加载 Mod 图标 | 请检查您的网络环境，如无问题则请前往 Modrinth 或 CurseForge 网站内及 HMCL、BakaXL 内查看是否有图标，若均无图标，则该 Mod 作者未上传图标，非 PCL 问题。 | #3143
+ | 使用 OpenJ9 启动原版导致内存溢出 | 如果游戏日志包含 Direct buffer memory 则在游戏版本设置添加 -XX:MaxDirectMemorySize=256M | #3511
 
 ### 预设主页
 >
