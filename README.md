@@ -11,7 +11,7 @@
 因为只能使用 Markdown，所以这个文档的排版非常难受，我已经尽可能使其看得可以顺眼一些了qwq……
 我只公布了表格正文部分，其他部分就先不公布了，意义不是很大。
 如果你希望可以直接参与到这里来补充这个表格，可以直接往这个仓库丢 Pr，我会在周末进行同步更新的。
-嗯……当然，你是没法在这里交有关这个表格的 Issue 的，直接去原页面下方丢评论就好啦。
+嗯…… 显然，你是没法在这里交有关这个表格的 Issue 的，直接去原页面下方丢评论就好啦。
 -->
 
 > 
@@ -24,7 +24,7 @@
 
  | 内容 | 解释 | 参考 |
  |--|--|--|
- | **无法下载 Minecraft** | **为近期 MCBBS 关停所致，同时由于 BMCLAPI 源压力过大，可能导致大部分时间段无法通过镜像源下载 Minecraft。PCL 已于近日更新并移除了 MCBBS 下载源。届时请尝试以下四种解决方案：<br>1. 更换不同的网络；<br>2. 每间隔一段时间后再次尝试下载；<br>3. 若您的网络条件允许，尝试使用加速器或 VPN；<br>4. 如个人技术能力允许，尝试部署 [OpenBMCLAPI](https://github.com/bangbang93/openbmclapi)。** <br><br>*部分日志可见：基础连接已经关闭: 未能为 SSL/TLS 安全通道建立信任关系。* | **[Bilibili 动态](https://t.bilibili.com/899749241434406921)** #3213
+ | **无法下载 Minecraft** | **为 MCBBS 关停所致，同时由于 BMCLAPI 源压力过大，可能导致大部分时间段无法通过镜像源下载 Minecraft。届时请尝试以下四种解决方案：<br>1. 更换不同的网络；<br>2. 每间隔一段时间后再次尝试下载；<br>3. 若您的网络条件允许，尝试使用加速器或 VPN；<br>4. 如个人技术能力允许，尝试部署 [OpenBMCLAPI](https://github.com/bangbang93/openbmclapi)。** <br><br>*部分日志可见：基础连接已经关闭: 未能为 SSL/TLS 安全通道建立信任关系。* | **[Bilibili 动态](https://t.bilibili.com/899749241434406921)** #3213
  | **1.16.4 及 1.16.5 离线模式无法进入多人游戏界面** | **PCL 不会解决该问题，这超出了启动器功能范畴。** <br> *如仍需要使用多人游戏 [^1]，请自行断网启动游戏或安装 [MultiOfflineFix](https://github.com/MCTeamPotato/MultiOfflineFix "Fabric & Forge") 或 [Offline Multiplayer](https://github.com/ChickenPige0n/offline-multiplayer-fabric "仅 Fabric") 模组。同时您可以参考[此处的解决方案](https://github.com/Hex-Dragon/PCL2/discussions/1930#discussioncomment-6797858)以彻底解决此问题。* | **PCL2 内置帮助库 #2003 #2017 #2004 [#1930](https://github.com/Hex-Dragon/PCL2/discussions/1930#discussioncomment-6805733)**
  | 游戏崩溃 | 请依照本文下方附文步骤进行解决。
  | 无法登录正版账户：您可能没有在 Minecraft 官网创建档案，或者没有购买 Minecraft。 | 由 Mojang 导致的 Bug，PCL 无法解决。请前往 [Minecraft.net](https://www.minecraft.net/login) 登录您的 Minecraft 账号后，稍等片刻即可使用 PCL 正常登录。 | #1299 #1264
@@ -32,11 +32,13 @@
  | 中国移动中国联通网络下无法登录正版账户但网络速度良好 | 使用中国联通或中国移动网络下 api.minecraftservices.com 和二级域名为 mojang.com 的地址均被墙，请尝试使用中国电信网络或使用 VPN。详见 #2738。 | #2738
  | 游戏内无法正确加载皮肤 | 请检查您的网络环境，使用加速器或 VPN。 | -
 
+
+
 ### 启动器常见问题
 
  | 内容 | 解释 | 参考 |
  |--|--|--|
- | **联机！** | ***“至于联机，因为网易还在继续代理中国版，我和 HMCL 的维护者都觉得还得谨慎一点……况且现在也有 Mod 支持联机了……咳咳。” ——龙腾猫跃*** <br> *BakaXL 现已于 2023 年 10 月 8 日将其部分服务与 Octo 章鱼网络进行对接，并对其可用性进行初步评估，待评估完成后，Octo 网络会全面对其他启动器开放。*[^4]  | **[2.6.11 更新日志](https://www.bilibili.com/read/cv28121157/)**
+ | **支持通过启动器联机游玩 Minecraft** | ***“至于联机，因为网易还在继续代理中国版，我和 HMCL 的维护者都觉得还得谨慎一点……况且现在也有 Mod 支持联机了……咳咳。” ——龙腾猫跃*** <br> *BakaXL 现已于 2023 年 10 月 8 日将其部分服务与 Octo 章鱼网络进行对接，并对其可用性进行初步评估，待评估完成后，Octo 网络会全面对其他启动器开放。*[^4]  | **[2.6.11 更新日志](https://www.bilibili.com/read/cv28121157/)**
  | PCL 消失、报毒、无法更新 | 为 Microsoft Defender 和 360 等杀毒软件误报，请在 Windows 安全中心和杀毒软件中添加排除项或白名单。具体教程见 PCL 内置帮助库。 |  PCL2 内置帮助库 #56 [#666](https://github.com/Hex-Dragon/PCL2/issues/666#issuecomment-1611534587)
  | 以管理员权限运行时无法使用文件拖拽功能 | **[需要社区帮助]** *“尽可能尝试修复相关代码，依然无法解决……如果谁有解决方案可以提出”* ——龙腾猫跃 | [#2531](https://github.com/Hex-Dragon/PCL2/issues/2531#issuecomment-1822511620)
  | 支持启动器多语言<br>I18n support & Support more languages | 正在 Discussions 中投票。<br>Voting in Discussions. | #891 (#2567)
@@ -90,6 +92,8 @@
  | 选中 PCL 文件并快速敲击 Enter 会导致 PCL 多开并报错提示 | 无法正确检测，不会修复。 | #1372
  | 无法启动 Labymod 客户端 | 为其版本 Json 提供的文件大小有误所致，非 PCL 问题。 | #3225
 
+
+
 ### 难检反馈
 
  | 内容 | 解释 | 参考 |
@@ -109,6 +113,8 @@
  | 因感染蠕虫病毒导致 PCL 崩溃或无法更新等 | *Collaborator 请注意，日志可见：文件名或文件夹名前含有 `cache`、`HD` 字样* | #2964 #2970 #3204
  | 无法加载 Mod 图标 | 请检查您的网络环境，如无问题则请前往 Modrinth 或 CurseForge 网站内及 HMCL、BakaXL 内查看是否有图标，若均无图标，则该 Mod 作者未上传图标，非 PCL 问题。 | #3143
 
+
+
 ### 预设主页
 >
 >[!IMPORTANT]
@@ -116,12 +122,14 @@
 
 | 主页名称 | 仓库链接 | 联网更新地址 | 作者 |
 |--|--|--|--|
-| Minecraft 新闻 | <https://github.com/Light-Beacon/PCL2-NewsHomepage> | <http://pcl.mcnews.thestack.top> <https://news.bugjump.net>  | @Light-Beacon
-| 简单主页 | <https://github.com/MFn233/PCL-Mainpage> | <https://gitee.com/mfn233/PCL-Mainpage/raw/main/Custom.xaml> | @MFn233
+| Minecraft 新闻 | · https://github.com/Light-Beacon/PCL2-NewsHomepage | · http://pcl.mcnews.thestack.top <br> · https://news.bugjump.net  | @Light-Beacon
+| 简单主页 | · https://github.com/MFn233/PCL-Mainpage | · https://gitee.com/mfn233/PCL-Mainpage/raw/main/Custom.xaml | @MFn233
+
 <!-- 以下主页等待加入 PCL 预设
 | 历史上的今天 | https://github.com/hsuchenghao/pcl-history-today-go | https://pclnews.52chye.cn/custom.xaml | @hsuchenghao
 | 赤灵主页 | https://github.com/337267950/ChiLing-HomePage-PCL2 | - | @337267950
 -->
+
 
 <details>
 <summary>【附】如何优雅地解决问题&提交反馈？</summary>
