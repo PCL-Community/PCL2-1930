@@ -16,7 +16,7 @@
 
 > 
 > [!IMPORTANT]
-> **请在编辑前认真阅读 [关于](https://github.com/WForst-Breeze/PCL2-1930/blob/form/about.md)！**
+> **请在编辑前认真阅读 [关于](about.md)！**
 >
 > 组织内成员：不要直接修改此文件，请依旧在 Fork 后提交 Pull Request 来完善本文档。
 ---
