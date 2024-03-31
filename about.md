@@ -19,7 +19,7 @@
 
 | 常用名词（尤注意大小写及空格） |
 |--|
-| OptiFine；OptiFabric；Fabric API；Forge；NeoForge；Fabric；Quilt；LiteLoader；Legacy Fabric；Legacy Fabric API；Babric；CurseForge；Modrinth；MCBBS；Iris；Sodium；BMCLAPI；OpenBMCLAPI；HMCL；BakaXL；Octo；Minecraft；Beta；Alpha；Release；Minecraft Wiki；minecraft.net；NAudio；GitHub；Issue；Discussion；Collaborator；Pull Request；Repository；Java；Json；Jar；I18n；Log；Mod；Java Launch Wrapper；Bot；Mixin |
+| OptiFine；OptiFabric；Fabric API；Forge；NeoForge；Fabric；Quilt；LiteLoader；Legacy Fabric；Legacy Fabric API；Babric；CurseForge；Modrinth；MCBBS；Iris；Sodium；BMCLAPI；OpenBMCLAPI；HMCL；BakaXL；Octo；Minecraft；Beta；Alpha；Release；Minecraft Wiki；NAudio；GitHub；Issue；Discussion；Collaborator；Pull Request；Repository；Java；Json；Jar；I18n；Log；Mod；Java Launch Wrapper；Bot；Mixin |
 
 4. 搜索关键词另起一行（`<br>`）并使用斜体；
 5. 投票中的内容标明原始 Issue 及其对应的 Discussion；
@@ -30,9 +30,9 @@
 (1) 描述对象为 PCL2 程序自身或 PCL2 开发者的语句中，使用 PCL；  
 (2) 描述对象为 PCL2 社区的语句中，使用 PCL；  
 (3) 描述对象为 PCL2 帮助库的语句中，使用 PCL2；  
-10. 对于读者的称呼使用 “您” 而非 “你”；
-11. 措辞规范基本符合 [PCL2 帮助库标准](https://github.com/LTCatt/PCL2Help/blob/master/%E5%B8%AE%E5%8A%A9/%E6%8F%90%E4%BA%A4%E5%B8%AE%E5%8A%A9%20-%20%E7%BC%96%E5%86%99%E8%A7%84%E8%8C%83.xaml#L35)。
-12. 使用斜体时，为保持统一性，应该使用`*文本*`而并非`_文本_`。
+10.  对于读者的称呼使用 “您” 而非 “你”；
+11.  措辞规范基本符合 [PCL2 帮助库标准](https://github.com/LTCatt/PCL2Help/blob/master/%E5%B8%AE%E5%8A%A9/%E6%8F%90%E4%BA%A4%E5%B8%AE%E5%8A%A9%20-%20%E7%BC%96%E5%86%99%E8%A7%84%E8%8C%83.xaml#L35)。
+12.  使用斜体时，为保持统一性，应该使用`*文本*`而并非`_文本_`。
 
 <details>
 <summary>【错误范例】</summary>
