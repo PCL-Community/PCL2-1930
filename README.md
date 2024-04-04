@@ -28,7 +28,7 @@
  | **无法下载 Minecraft** | **为 MCBBS 关停所致，同时由于 BMCLAPI 源压力过大，可能导致大部分时间段无法通过镜像源下载 Minecraft。届时请尝试以下四种解决方案：<br>1. 更换不同的网络；<br>2. 每间隔一段时间后再次尝试下载；<br>3. 若您的网络条件允许，尝试使用加速器或 VPN；<br>4. 如个人技术能力允许，尝试部署 [OpenBMCLAPI](https://github.com/bangbang93/openbmclapi)。** <br><br>*部分日志可见：基础连接已经关闭: 未能为 SSL/TLS 安全通道建立信任关系。* | **[Bilibili 动态](https://t.bilibili.com/899749241434406921)** #3213
  | **1.16.4 及 1.16.5 离线模式无法进入多人游戏界面** | **PCL 不会解决该问题，这超出了启动器功能范畴。** <br> *如仍需要使用多人游戏 [^1]，请自行断网启动游戏或安装 [MultiOfflineFix](https://github.com/MCTeamPotato/MultiOfflineFix "Fabric & Forge") 或 [Offline Multiplayer](https://github.com/ChickenPige0n/offline-multiplayer-fabric "仅 Fabric") 模组。同时您可以参考[此处的解决方案](https://github.com/Hex-Dragon/PCL2/discussions/1930#discussioncomment-6797858)以彻底解决此问题。* | **PCL2 内置帮助库 #2003 #2017 #2004 [#1930](https://github.com/Hex-Dragon/PCL2/discussions/1930#discussioncomment-6805733)**
  | 游戏崩溃 | 请依照本文下方附文步骤进行解决。
- | 无法登录正版账户：您可能没有在 Minecraft 官网创建档案，或者没有购买 Minecraft。 | 由 Mojang 导致的 Bug，PCL 无法解决。请前往 [Minecraft.net](https://www.minecraft.net/login) 登录您的 Minecraft 账号后，稍等片刻即可使用 PCL 正常登录。 | #1299 #1264
+ | 无法登录正版账户：您可能没有在 Minecraft 官网创建档案，或者没有购买 Minecraft。 | 由 Mojang 导致的 Bug，PCL 无法解决。请前往 [Minecraft 官网](https://www.minecraft.net/login) 登录您的 Minecraft 账号后，稍等片刻即可使用 PCL 正常登录。 | #1299 #1264
  | 无法进入服务器 | 非 PCL 问题，具体可能的解决方案见内置帮助库或前往相关论坛寻求他人帮助。 | PCL2 内置帮助库
  | 中国移动中国联通网络下无法登录正版账户但网络速度良好 | 使用中国联通或中国移动网络下 api.minecraftservices.com 和二级域名为 mojang.com 的地址均被墙，请尝试使用中国电信网络或使用 VPN。详见 #2738。 | #2738
  | 游戏内无法正确加载皮肤 | 请检查您的网络环境，使用加速器或 VPN。 | -
@@ -189,7 +189,7 @@
 
 在沟通过程中，请尽可能避免连续评论或多层引用评论，如果需要修改或补充您的陈述，可以通过单击右上角的三个点，选择 Edit 来编辑您的评论或反馈。在沟通过程中请尽可能**保持态度平和，避免出现过激言论**，如您对 Issue 处理结果不满意，可以继续在下方进行信息补充。
 
-同时请注意，在沟通过程中请避免过多谈论无关内容或进行[版聊](https://baike.baidu.com/item/%E7%89%88%E8%81%8A/403656)，尽管您可以对您发布的评论进行隐藏，但**当您发表无关内容时，已经对他人进行了不必要的打扰（因为该仓库有任何动态时 Github 会给关注了这个仓库的人发一次邮件）**，若无关内容过多，**该 Issue 将被锁定**。因此为了提高沟通效率，**请善用 Edit 编辑功能**，避免连续发布评论和发表无关内容。
+同时请注意，在沟通过程中请避免过多谈论无关内容或进行[版聊](https://baike.baidu.com/item/%E7%89%88%E8%81%8A/403656)，尽管您可以对您发布的评论进行隐藏，但**当您发表无关内容时，已经对他人进行了不必要的打扰（因为该仓库有任何动态时 GitHub 会给关注了这个仓库的人发一次邮件）**，若无关内容过多，**该 Issue 将被锁定**。因此为了提高沟通效率，**请善用 Edit 编辑功能**，避免连续发布评论和发表无关内容。
 
 ---
 </details>
