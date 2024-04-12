@@ -119,7 +119,7 @@
  | 无法更新 PCL（DNS） | 请按下 Win+X ，点击 Windows PowerShell（管理员），并输入如下命令 ```netsh interface ip set dns  "适配器名称" static 8.8.8.8```[^5]，如果您使用的是 **有线连接（网线）**，请将 **适配器名称** 替换为 **以太网**，如果您使用的是 **WiFi**，请将 **适配器名称** 替换为 **WLAN**，然后输入 ```nslookup raw.githubusercontent.com```，确认 **非权威应答** 的 **Addresses** 项的值不为 0.0.0.0、127.0.0.1、:::、:::1。 | #3505
  | PCL 日志启动部分出现乱码 | 此为在文件夹插入 Unicode 控制字符而 jlw 不支持 Unicode 控制字符或在 Windows 中启用了 UTF-8 解码支持所致，非 PCL 问题。 |  #3236
  | 日志出现 not xxx in java.library.path | Java 不完整，非 PCL 问题，如果可能，请您自行准备 Java 而不是使用自动补全 Java 功能。 | #3496
- | 使用 OpenJ9 启动原版导致内存溢出 | 如果游戏日志包含 Direct buffer memory 则在游戏版本设置添加 -XX:MaxDirectMemorySize=256M ，如果使用高清材质请适当调大最大值（直接在全局设置添加可能会导致 Out Of Memory Error）| #3511
+ | 使用 OpenJ9 启动原版导致内存溢出 | 如果游戏日志包含 Direct buffer memory 则在游戏版本设置添加 -XX:MaxDirectMemorySize=256M，如果使用高清材质请适当调大最大值（直接在全局设置添加可能会导致 Out Of Memory Error）| #3511
 
 
 
