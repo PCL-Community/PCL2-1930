@@ -1,0 +1,33 @@
+name: 自动化处理 PR
+
+on:
+  pull_request:
+    types: [closed, labeled]
+
+jobs:
+  addLabelAndClosePR:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 添加 "×拒绝" 标签
+        if: github.event.pull_request.state == 'closed' && !contains(github.event.pull_request.labels.*.name, '×拒绝')
+        uses: actions/github-script@v5
+        with:
+          script: |
+            github.rest.issues.addLabels({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              labels: ['×拒绝']
+            })
+
+      - name: 关闭带有 "×拒绝" 标签的 PR
+        if: contains(github.event.pull_request.labels.*.name, '×拒绝') && github.event.action == 'labeled'
+        uses: actions/github-script@v5
+        with:
+          script: |
+            github.rest.pulls.update({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              pull_number: context.issue.number,
+              state: 'closed'
+            })
