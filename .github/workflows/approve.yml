@@ -1,0 +1,15 @@
+name: 自动请求审查
+
+on:
+  pull_request:
+    types: [opened]
+
+jobs:
+  request_review:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 请求审查
+        uses: peter-evans/create-pull-request-review@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          review-request: "WForst-Breeze"
