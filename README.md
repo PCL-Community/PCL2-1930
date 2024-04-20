@@ -103,6 +103,7 @@
  | 内容 | 解释 | 参考 |
  |--|--|--|
  | 因第三方组件引起的问题 | PCL 不会处理第三方造成的问题。 | *[Label: 第三方](https://github.com/Hex-Dragon/PCL2/issues?q=label%3A%E7%AC%AC%E4%B8%89%E6%96%B9+is%3Aclosed)*
+ | 因使用 32 位系统引起的问题 | 新版 Minecraft 已不支持 32 位系统，因此不会再额外为 32 位进行修复和调整。 | [#3649](https://github.com/Hex-Dragon/PCL2/issues/3649#issuecomment-2047054821)
  | Mod 下载详情页加载动画 UI 在加载后未能隐藏 | **[需要社区复现]** 需要开启调试模式的复现日志以显示加载动画 Debug 信息来修复此问题。<br> *搜索关键词：加载动画、加载图标、Mod 下载、列表、UI、隐藏、消失。* | #1624
  | 因系统问题无法打开 PCL | 系统原因，PCL 无法解决。<br> *搜索关键词：.Net、支持库、程序出现未知错误、显卡驱动、闪退、系统不完整。* | #2849 #2755 #2751 #2729 #2676 #2580 #2485 #2146 等 Issues
  | 无法检测到 Java | 处理中。<br> *搜索关键词：Java、JDK、搜索、检测、检查、失败、不全、选择。* | #1496
@@ -119,7 +120,6 @@
  | 无法更新 PCL（DNS） | 请按下 Win+X ，点击 Windows PowerShell（管理员），并输入如下命令 ```netsh interface ip set dns  "适配器名称" static 8.8.8.8```[^5]，如果您使用的是 **有线连接（网线）**，请将 **适配器名称** 替换为 **以太网**，如果您使用的是 **WiFi**，请将 **适配器名称** 替换为 **WLAN**，然后输入 ```nslookup raw.githubusercontent.com```，确认 **非权威应答** 的 **Addresses** 项的值不为 0.0.0.0、127.0.0.1、:::、:::1。 | #3505
  | PCL 日志启动部分出现乱码 | 此为在文件夹插入 Unicode 控制字符而 jlw 不支持 Unicode 控制字符或在 Windows 中启用了 UTF-8 解码支持所致，非 PCL 问题。 |  #3236
  | 日志出现 not xxx in java.library.path | Java 不完整，非 PCL 问题，如果可能，请您自行准备 Java 而不是使用自动补全 Java 功能。 | #3496
- | 关于 32 位系统下 PCL 问题 | 启动器后续发布的版本依然可以在32位系统上运行，但是不会再额外为 32 位进行修复和调整 | https://github.com/Hex-Dragon/PCL2/issues/3649#issuecomment-2047054821
 
 
 
