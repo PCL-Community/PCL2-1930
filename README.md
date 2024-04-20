@@ -95,7 +95,7 @@
  | 选中 PCL 文件并快速敲击 Enter 会导致 PCL 多开 | 无法正确检测，不会修复。 | #1372
  | 无法启动 Labymod 客户端 | 为其版本 Json 提供的文件大小有误所致，非 PCL 问题。 | #3225
  | 将 GitHub 链接替换为镜像站 | 使用代理源并安全性与稳定性欠佳，不会制作。 | #2879
- | 删除 Libraries 文件夹后 PCL 无法补全模组加载器的支持库文件 | 因为 Libraries 文件夹内部分支持库文件是模组加载器在安装过程中本地编译生成的文件，这部分文件无法通过从 Maven/Libraries 服务器请求文件来补全。 | #3698 https://github.com/MinecraftForge/MinecraftForge/issues/9930#issuecomment-2066723606
+ | 删除 Libraries 文件夹后补全文件失败 | Libraries 文件夹中文件只能在安装 Forge 时动态生成，除此之外没有渠道进行补全。 | #3698
 
 
 
