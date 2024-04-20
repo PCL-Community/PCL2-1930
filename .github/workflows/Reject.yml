@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 添加 "× 拒绝" 标签
-        if: github.event.pull_request.state == 'closed' && !contains(github.event.pull_request.labels.*.name, '× 拒绝') && github.event.pull_request.merged == false
+        if: github.event.pull_request.state == 'closed' && !contains(github.event.pull_request.labels.*.name, '× 拒绝')
         uses: actions/github-script@v5
         with:
           script: |
