@@ -1,0 +1,22 @@
+name: Add Reviewer WForst-Breeze to New or Reopened Pull Request
+
+on:
+  pull_request:
+    types: [opened, reopened]
+
+jobs:
+  add_reviewer:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Add Reviewer
+        if: ${{ github.event_name == 'reopened' || github.event_name == 'opened' }}
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          PR_NUMBER=$(jq --raw-output .pull_request.number "$GITHUB_EVENT_PATH")
+          REVIEWER_USERNAME="WForst-Breeze"
+          API_URL="https://api.github.com/repos/${{ github.repository }}/pulls/$PR_NUMBER/requested_reviewers"
+          curl -X POST -H "Authorization: token $GITHUB_TOKEN" -d "{\"reviewers\":[\"$REVIEWER_USERNAME\"]}" $API_URL
