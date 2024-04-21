@@ -4,6 +4,9 @@ on:
   pull_request:
     types: [closed]
 
+permissions:
+  pull-requests: write
+
 jobs:
   add-completed-label:
     if: github.event.pull_request.merged == true

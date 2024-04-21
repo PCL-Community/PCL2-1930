@@ -4,6 +4,9 @@ on:
   pull_request:
     types: [closed, labeled]
 
+permissions:
+  pull-requests: write
+
 jobs:
   addLabelAndClosePR:
     runs-on: ubuntu-latest
