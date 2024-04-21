@@ -1,0 +1,24 @@
+name: Add Reject Label on PR Close
+
+on:
+  pull_request:
+    types: [closed]
+
+jobs:
+  add_reject_label:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check if PR was closed without merging
+        if: github.event.pull_request.merged == false
+        uses: actions/github-script@v4
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            const { owner, repo, number } = github.context.issue;
+            const addLabelResponse = await github.issues.addLabels({
+              owner,
+              repo,
+              issue_number: number,
+              labels: ["× 拒绝"]
+            });
+            console.log(addLabelResponse);
