@@ -6,6 +6,7 @@ on:
 
 jobs:
   request_review:
+  if: ${{ github.repository_owner == 'PCL-Community' }}
     runs-on: ubuntu-latest
     steps:
       - name: 请求审查
