@@ -4,6 +4,9 @@ on:
   pull_request:
     types: [opened, reopened]
 
+permissions:
+  pull-requests: write
+
 jobs:
   request_review:
   if: ${{ github.repository_owner == 'PCL-Community' }}
