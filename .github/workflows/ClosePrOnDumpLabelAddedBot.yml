@@ -1,0 +1,19 @@
+name: Close PR on Reject Label
+
+on:
+  issues:
+    types: [labeled]
+
+jobs:
+  close_pr_on_reject_label:
+    runs-on: ubuntu-latest
+    if: github.event.issue.pull_request != null && github.event.label.name == '× 拒绝'
+    steps:
+      - name: Close PR
+        uses: peter-evans/close-pull-request@v3
+        with:
+          pull_request_number: ${{ github.event.issue.number }}
+          comment: 'This PR has been rejected and is now being closed.'
+          labels: '× 拒绝'
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
