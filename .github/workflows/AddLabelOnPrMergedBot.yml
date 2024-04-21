@@ -1,0 +1,27 @@
+name: Add Label on PR Merge
+
+on:
+  pull_request:
+    types: [closed]
+
+jobs:
+  add_label_on_merge:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check if PR is merged
+        if: github.event.pull_request.merged == true
+        run: echo "PR is merged"
+
+      - name: Add label
+        if: github.event.pull_request.merged == true
+        uses: actions/github-script@v4
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          script: |
+            github.issues.addLabels({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              labels: ['√ 完成']
+            })
