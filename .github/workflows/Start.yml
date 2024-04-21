@@ -6,11 +6,11 @@ on:
 
 jobs:
   request_review:
-  if: ${{ github.repository_owner == 'PCL-Community' }}
+    if: ${{ github.repository_owner == 'PCL-Community' }}
     runs-on: ubuntu-latest
     steps:
       - name: 请求审查
         uses: peter-evans/create-pull-request@v1
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          review-request: "WForst-Breeze"
+          reviewers: "WForst-Breeze"
