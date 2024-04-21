@@ -2,7 +2,7 @@ name: 自动请求审查
 
 on:
   pull_request:
-    types: [opened]
+    types: [opened, reopened]
 
 jobs:
   request_review:
