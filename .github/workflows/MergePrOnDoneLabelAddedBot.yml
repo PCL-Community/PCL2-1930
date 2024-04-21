@@ -1,0 +1,21 @@
+name: Merge PR on Label
+
+on:
+  issues:
+    types: [labeled]
+
+jobs:
+  merge_on_label:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check if label is added
+        if: github.event.label.name == '√ 完成'
+        run: echo "Label added"
+
+      - name: Merge PR
+        if: github.event.label.name == '√ 完成'
+        uses: pascalgn/automerge-action@v0.13.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          pull_labels: '√ 完成'
