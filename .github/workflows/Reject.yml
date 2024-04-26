@@ -27,6 +27,7 @@ jobs:
         if: contains(github.event.pull_request.labels.*.name, '× 拒绝') && github.event.action == 'labeled'
         uses: actions/github-script@v5
         with:
+          github-token: ${{ secrets.ACTIONS }}
           script: |
             github.rest.pulls.update({
               owner: context.repo.owner,
