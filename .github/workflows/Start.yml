@@ -4,16 +4,15 @@ on:
   pull_request:
     types: [opened, reopened]
 
-permissions:
-  pull-requests: write
-
 jobs:
   request_review:
-    if: ${{ github.repository_owner == 'PCL-Community' }}
     runs-on: ubuntu-latest
     steps:
-      - name: 请求审查
-        uses: peter-evans/create-pull-request@v1
-        with:
-          token: ${{ secrets.ACTIONS }}
-          reviewers: "WForst-Breeze"
+    - name: 请求WForst-Breeze的审查
+      uses: actions/github-script@v5
+      with:
+        github-token: ${{ secrets.GITHUB_TOKEN }}
+        script: |
+          const { owner, repo, number } = context.issue;
+          const reviewers = ['WForst-Breeze'];
+          await github.pulls.createReviewRequest({ owner, repo, pull_number: number, reviewers });
