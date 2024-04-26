@@ -138,7 +138,7 @@
 | 简单主页 | · https://github.com/MFn233/PCL-Mainpage | · https://gitee.com/mfn233/PCL-Mainpage/raw/main/Custom.xaml | @MFn233
 
 <!-- 以下主页等待加入 PCL 预设
-| 每日整合包推荐 | - | - | -
+| 每日整合包推荐 | - | https://pclsub.sodamc.com/ | @wkea
 | 历史上的今天 | https://github.com/hsuchenghao/pcl-history-today-go | https://pclnews.52chye.cn/custom.xaml | @hsuchenghao
 | 赤灵主页 | https://github.com/337267950/ChiLing-HomePage-PCL2 | - | @337267950
 -->
