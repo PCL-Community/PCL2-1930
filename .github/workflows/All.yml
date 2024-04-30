@@ -1,0 +1,92 @@
+name: PR Automation Workflow
+
+on:
+  pull_request:
+    types: [opened, closed, labeled, review_requested, review_request_removed, synchronize]
+  pull_request_review:
+    types: [submitted]
+
+jobs:
+  automate-pr-labels-and-review:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+
+      - name: Add "通过" label when approved by WForst-Breeze
+        if: github.event.review.state == 'approved' && github.event.review.user.login == 'WForst-Breeze'
+        uses: actions/github-script@v5
+        with:
+          github-token: ${{ secrets.SHEEP }}
+          script: |
+            github.rest.issues.addLabels({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              labels: ['通过']
+            })
+
+      - name: Approve PR when "通过" label is added
+        if: github.event.label.name == '通过'
+        uses: actions/github-script@v5
+        with:
+          github-token: ${{ secrets.SHEEP }}
+          script: |
+            github.rest.pulls.createReview({
+              pull_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              event: 'APPROVE'
+            })
+
+      - name: Close PR when "拒绝" label is added
+        if: github.event.label.name == '拒绝'
+        uses: actions/github-script@v5
+        with:
+          github-token: ${{ secrets.SHEEP }}
+          script: |
+            github.rest.pulls.update({
+              pull_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              state: 'closed'
+            })
+
+      - name: Add "拒绝" label when PR is closed
+        if: github.event_name == 'pull_request' && github.event.action == 'closed' && !github.event.pull_request.merged
+        uses: actions/github-script@v5
+        with:
+          github-token: ${{ secrets.SHEEP }}
+          script: |
+            github.rest.issues.addLabels({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              labels: ['拒绝']
+            })
+
+      - name: Request review from WForst-Breeze when PR is opened
+        if: github.event_name == 'pull_request' && github.event.action == 'opened'
+        uses: actions/github-script@v5
+        with:
+          github-token: ${{ secrets.SHEEP }}
+          script: |
+            github.rest.pulls.requestReviewers({
+              pull_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              reviewers: ['WForst-Breeze']
+            })
+
+      - name: Add "完成" label when PR is merged
+        if: github.event_name == 'pull_request' && github.event.action == 'closed' && github.event.pull_request.merged
+        uses: actions/github-script@v5
+        with:
+          github-token: ${{ secrets.SHEEP }}
+          script: |
+            github.rest.issues.addLabels({
+              issue_number: context.issue.number,
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              labels: ['完成']
+            })
