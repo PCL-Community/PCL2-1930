@@ -13,7 +13,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v2
 
-      - name: Add "通过" label when approved by WForst-Breeze
+      - name: Add "⇵ 通过" label when approved by WForst-Breeze
         if: github.event.review.state == 'approved' && github.event.review.user.login == 'WForst-Breeze'
         uses: actions/github-script@v5
         with:
@@ -23,11 +23,11 @@ jobs:
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              labels: ['通过']
+              labels: ['⇵ 通过']
             })
 
-      - name: Approve PR when "通过" label is added
-        if: github.event.label.name == '通过'
+      - name: Approve PR when "⇵ 通过" label is added
+        if: github.event.label.name == '⇵ 通过'
         uses: actions/github-script@v5
         with:
           github-token: ${{ secrets.SHEEP }}
@@ -39,8 +39,8 @@ jobs:
               event: 'APPROVE'
             })
 
-      - name: Close PR when "拒绝" label is added
-        if: github.event.label.name == '拒绝'
+      - name: Close PR when "× 拒绝" label is added
+        if: github.event.label.name == '× 拒绝'
         uses: actions/github-script@v5
         with:
           github-token: ${{ secrets.SHEEP }}
@@ -52,7 +52,7 @@ jobs:
               state: 'closed'
             })
 
-      - name: Add "拒绝" label when PR is closed
+      - name: Add "× 拒绝" label when PR is closed
         if: github.event_name == 'pull_request' && github.event.action == 'closed' && !github.event.pull_request.merged
         uses: actions/github-script@v5
         with:
@@ -62,7 +62,7 @@ jobs:
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              labels: ['拒绝']
+              labels: ['× 拒绝']
             })
 
       - name: Request review from WForst-Breeze when PR is opened
@@ -78,7 +78,7 @@ jobs:
               reviewers: ['WForst-Breeze']
             })
 
-      - name: Add "完成" label when PR is merged
+      - name: Add "√ 完成" label when PR is merged
         if: github.event_name == 'pull_request' && github.event.action == 'closed' && github.event.pull_request.merged
         uses: actions/github-script@v5
         with:
@@ -88,5 +88,5 @@ jobs:
               issue_number: context.issue.number,
               owner: context.repo.owner,
               repo: context.repo.repo,
-              labels: ['完成']
+              labels: ['√ 完成']
             })
