@@ -1,0 +1,17 @@
+name: Remove '× 拒绝' Label on PR Reopen
+
+on:
+  pull_request:
+    types: [reopened]
+
+jobs:
+  remove-label:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Remove '× 拒绝' label
+        if: contains(github.event.pull_request.labels.*.name, '× 拒绝')
+        run: |
+          curl -X DELETE -H "Authorization: token SHEEP" \
+          https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.pull_request.number }}/labels/× 拒绝
+        env:
+          GITHUB_TOKEN: ${{ secrets.SHEEP }}
