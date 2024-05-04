@@ -16,38 +16,39 @@
 
 > 
 > [!IMPORTANT]
-> **请在编辑前认真阅读 [关于](about.md)！**
+> **请在编辑前认真阅读 [关于](ABOUT.md)！**
 >
 > 组织内成员：不要直接修改此文件，请依旧在 Fork 后提交 Pull Request 来完善本文档。
 ---
 
 ### Minecraft 常见问题
 
+ <!-- BUILD_FLAG:BEGIN Minecraft -->
  | 内容 | 解释 | 参考 |
  |--|--|--|
- | **无法下载 Minecraft** | **为 MCBBS 关停所致，同时由于 BMCLAPI 源压力过大，可能导致大部分时间段无法通过镜像源下载 Minecraft。届时请尝试以下四种解决方案：<br>1. 更换不同的网络；<br>2. 每间隔一段时间后再次尝试下载；<br>3. 若您的网络条件允许，尝试使用加速器或 VPN；<br>4. 如个人技术能力允许，尝试部署 [OpenBMCLAPI](https://github.com/bangbang93/openbmclapi)。** <br><br>*部分日志可见：基础连接已经关闭: 未能为 SSL/TLS 安全通道建立信任关系。* | **[Bilibili 动态](https://t.bilibili.com/899749241434406921)** #3213
- | **1.16.4 及 1.16.5 离线模式无法进入多人游戏界面** | **PCL 不会解决该问题，这超出了启动器功能范畴。** <br> *如仍需要使用多人游戏 [^1]，请自行断网启动游戏或安装 [MultiOfflineFix](https://github.com/MCTeamPotato/MultiOfflineFix "Fabric & Forge") 或 [Offline Multiplayer](https://github.com/ChickenPige0n/offline-multiplayer-fabric "仅 Fabric") 模组。同时您可以参考[此处的解决方案](https://github.com/Hex-Dragon/PCL2/discussions/1930#discussioncomment-6797858)以彻底解决此问题。* | **PCL2 内置帮助库 #2003 #2017 #2004 [#1930](https://github.com/Hex-Dragon/PCL2/discussions/1930#discussioncomment-6805733)**
+ | **无法下载 Minecraft** | **为 MCBBS 关停所致，同时由于 BMCLAPI 源压力过大，可能导致大部分时间段无法通过镜像源下载 Minecraft。届时请尝试以下四种解决方案：<br>1. 更换不同的网络；<br>2. 每间隔一段时间后再次尝试下载；<br>3. 若您的网络条件允许，尝试使用加速器或 VPN；<br>4. 如个人技术能力允许，尝试部署 [OpenBMCLAPI](https://github.com/bangbang93/openbmclapi)。** <br><br>*部分日志可见：基础连接已经关闭: 未能为 SSL/TLS 安全通道建立信任关系。* | **[Bilibili&nbsp;动态](https://t.bilibili.com/899749241434406921)** #3213
+ | **1.16.4 及 1.16.5 离线模式无法进入多人游戏界面** | **PCL 不会解决该问题，这超出了启动器功能范畴。** <br> *如仍需要使用多人游戏 [^1]，请自行断网启动游戏或安装 [MultiOfflineFix](https://github.com/MCTeamPotato/MultiOfflineFix "Fabric & Forge") 或 [Offline Multiplayer](https://github.com/ChickenPige0n/offline-multiplayer-fabric "仅 Fabric") 模组。同时您可以参考[此处的解决方案](https://github.com/Hex-Dragon/PCL2/discussions/1930#discussioncomment-6797858)以彻底解决此问题。* | **PCL2&nbsp;内置帮助库 #2003 #2017 #2004 [#1930](https://github.com/Hex-Dragon/PCL2/discussions/1930#discussioncomment-6805733)**
  | 游戏崩溃 | 请依照本文下方附文步骤进行解决。
- | 无法登录正版账户：您可能没有在 Minecraft 官网创建档案，或者没有购买 Minecraft。 | 由 Mojang 导致的 Bug，PCL 无法解决。请前往 [Minecraft 官网](https://www.minecraft.net/login) 登录您的 Minecraft 账号后，稍等片刻即可使用 PCL 正常登录。 | #1299 #1264
- | 无法进入服务器 | 非 PCL 问题，具体可能的解决方案见内置帮助库或前往相关论坛寻求他人帮助。 | PCL2 内置帮助库
+ | 无法登录正版账户：您可能没有在 Minecraft 官网创建档案，或者没有购买 Minecraft。 | 由 Mojang 导致的 Bug，PCL 无法解决。请前往 [Minecraft&nbsp;官网](https://www.minecraft.net/login) 登录您的 Minecraft 账号后，稍等片刻即可使用 PCL 正常登录。 | #1299 #1264
+ | 无法进入服务器 | 非 PCL 问题，具体可能的解决方案见内置帮助库或前往相关论坛寻求他人帮助。 | PCL2&nbsp;内置帮助库
  | 中国移动中国联通网络下无法登录正版账户但网络速度良好 | 使用中国联通或中国移动网络下 api.minecraftservices.com 和二级域名为 mojang.com 的地址均被墙，请尝试使用中国电信网络或使用 VPN。详见 #2738。 | #2738
  | 游戏内无法正确加载皮肤 | 请检查您的网络环境，使用加速器或 VPN。 | -
  | 整合包中安装了 OptiFine 导致游戏无法正常加载 | 此为 OptiFine 过于激进的优化手段所致。OptiFine 和模组加载器之间存在严重的兼容性问题，请考虑只安装 OptiFine 或只安装模组加载器，亦或是使用其他 Mod 替代 OptiFine。 | #3258 #3566 #3573
-
+ <!-- BUILD_FLAG:END Minecraft -->
 
 
 ### 启动器常见问题
 
+ <!-- BUILD_FLAG:BEGIN PCL -->
  | 内容 | 解释 | 参考 |
  |--|--|--|
- | **支持通过启动器联机游玩 Minecraft** | ***“至于联机，因为网易还在继续代理中国版，我和 HMCL 的维护者都觉得还得谨慎一点……况且现在也有 Mod 支持联机了……咳咳。” ——龙腾猫跃*** <br> *BakaXL 现已于 2023 年 10 月 8 日将其部分服务与 Octo 章鱼网络进行对接，并对其可用性进行初步评估，待评估完成后，Octo 网络会全面对其他启动器开放。*[^4]  | **[2.6.11 更新日志](https://www.bilibili.com/read/cv28121157/)**
- | PCL 消失、报毒、无法更新 | 为 Microsoft Defender 和 360 等杀毒软件误报，请在 Windows 安全中心和杀毒软件中添加排除项或白名单。具体教程见 PCL 内置帮助库。 |  PCL2 内置帮助库 #56 [#666](https://github.com/Hex-Dragon/PCL2/issues/666#issuecomment-1611534587)
+ | **支持通过启动器联机游玩 Minecraft** | ***“至于联机，因为网易还在继续代理中国版，我和 HMCL 的维护者都觉得还得谨慎一点……况且现在也有 Mod 支持联机了……咳咳。” ——龙腾猫跃*** <br> *BakaXL 现已于 2023 年 10 月 8 日将其部分服务与 Octo 章鱼网络进行对接，并对其可用性进行初步评估，待评估完成后，Octo 网络会全面对其他启动器开放。*[^4]  | **[2.6.11&nbsp;更新日志](https://www.bilibili.com/read/cv28121157/)**
+ | PCL 消失、报毒、无法更新 | 为 Microsoft Defender 和 360 等杀毒软件误报，请在 Windows 安全中心和杀毒软件中添加排除项或白名单。具体教程见 PCL 内置帮助库。 |  PCL2&nbsp;内置帮助库 #56 [#666](https://github.com/Hex-Dragon/PCL2/issues/666#issuecomment-1611534587)
  | 以管理员权限运行时无法使用文件拖拽功能 | **[需要社区帮助]** *“尽可能尝试修复相关代码，依然无法解决……如果谁有解决方案可以提出”* ——龙腾猫跃 | [#2531](https://github.com/Hex-Dragon/PCL2/issues/2531#issuecomment-1822511620)
  | 支持启动器多语言选项<br>· I18n support & Support more languages | 正在 Discussions 中投票。<br>· Voting in Discussions. | #891 (#2567)
  | 增加导出整合包功能 | 正在 Discussions 中投票。 | #98 (#100)
  | 支持启动基岩版（BE）、教育版、传奇（Minecraft Legends；MCL）、地下城（Minecraft Dungeons；MCD）等其他 Minecraft 衍生游戏 | *“这玩意儿我根本启动不了！用官方启动器吧！告辞！” ——龙腾猫跃* | #81
  | 支持第三方登录全局设置 | 正在 Discussions 中投票。 | #57 (#58)
- | 支持更新 Mod | 快照版已更新，等待正式版更新。 | #102
  | 支持更新整合包 | 新旧整合包间可能存在兼容性等冲突问题，不会制作。 | #2854
  | 爱发电无法收到加群信息或更新密钥 | 加群请**在爱发电**回复 “加群”，更新密钥**在爱发电**获取请回复 “‘更新’ +识别码”。如无法收到回复，很可能是您已经触发了人工回复，在等待人工回复的过程中无法使用命令。您如果只是想使用命令，可以发送 “取消人工处理”。如仍旧没有回复，可以等待一会后再进行尝试。 | [石墨文档](https://shimo.im/docs/qKPttVvXKqPD8YDC) #1867 #1529
  | 使用自定义主页时出现问题 | 一般情况下非启动器问题，为第三方主页问题，请联系主页作者。<br>*对于启动器内置的预设主页，请见下方 “预设主页” 部分获取对应作者及其仓库。* | #3393 #3002 #2930 等 Issues
@@ -94,15 +95,17 @@
  | 添加内置 NBT 查看器/编辑器 | 超出启动器范畴，不会制作。 | #3321
  | 选中 PCL 文件并快速敲击 Enter 会导致 PCL 多开 | 无法正确检测，不会修复。 | #1372
  | 无法启动 Labymod 客户端 | 为其版本 Json 提供的文件大小有误所致，非 PCL 问题。 | #3225
+ | 删除 Libraries 文件夹后补全文件失败 | Libraries 文件夹中文件只能在安装 Forge 时动态生成，除此之外没有渠道进行补全。 | #3698
  | 将 GitHub 链接替换为镜像站 | 使用代理源并安全性与稳定性欠佳，不会制作。 | #2879
-
+ <!-- BUILD_FLAG:END PCL -->
 
 
 ### 难检反馈
 
+ <!-- BUILD_FLAG:BEGIN Hard -->
  | 内容 | 解释 | 参考 |
  |--|--|--|
- | 因第三方组件引起的问题 | PCL 不会处理第三方造成的问题。 | *[Label: 第三方](https://github.com/Hex-Dragon/PCL2/issues?q=label%3A%E7%AC%AC%E4%B8%89%E6%96%B9+is%3Aclosed)*
+ | 因第三方组件引起的问题 | PCL 不会处理第三方造成的问题。 | *[Label:&nbsp;第三方](https://github.com/Hex-Dragon/PCL2/issues?q=label%3A%E7%AC%AC%E4%B8%89%E6%96%B9+is%3Aclosed)*
  | 因使用 32 位系统引起的问题 | 新版 Minecraft 已不支持 32 位系统，因此不会再额外为 32 位进行修复和调整。 | [#3649](https://github.com/Hex-Dragon/PCL2/issues/3649#issuecomment-2047054821)
  | Mod 下载详情页加载动画 UI 在加载后未能隐藏 | **[需要社区复现]** 需要开启调试模式的复现日志以显示加载动画 Debug 信息来修复此问题。<br> *搜索关键词：加载动画、加载图标、Mod 下载、列表、UI、隐藏、消失。* | #1624
  | 因系统问题无法打开 PCL | 系统原因，PCL 无法解决。<br> *搜索关键词：.Net、支持库、程序出现未知错误、显卡驱动、闪退、系统不完整。* | #2849 #2755 #2751 #2729 #2676 #2580 #2485 #2146 等 Issues
@@ -120,23 +123,26 @@
  | 无法更新 PCL（DNS） | 请按下 Win+X ，点击 Windows PowerShell（管理员），并输入如下命令 ```netsh interface ip set dns  "适配器名称" static 8.8.8.8```[^5]，如果您使用的是 **有线连接（网线）**，请将 **适配器名称** 替换为 **以太网**，如果您使用的是 **WiFi**，请将 **适配器名称** 替换为 **WLAN**，然后输入 ```nslookup raw.githubusercontent.com```，确认 **非权威应答** 的 **Addresses** 项的值不为 0.0.0.0、127.0.0.1、:::、:::1。 | #3505
  | PCL 日志启动部分出现乱码 | 此为在文件夹插入 Unicode 控制字符而 jlw 不支持 Unicode 控制字符或在 Windows 中启用了 UTF-8 解码支持所致，非 PCL 问题。 |  #3236
  | 日志出现 not xxx in java.library.path | Java 不完整，非 PCL 问题，如果可能，请您自行准备 Java 而不是使用自动补全 Java 功能。 | #3496
-
+ <!-- BUILD_FLAG:END Hard -->
 
 
 
 ### 预设主页
 >
 >[!IMPORTANT]
-> 以下为 PCL2 内置的预设主页，如若以下自定义主页出现问题，**请向对应主页的仓库提交 Issue，而不是在 PCL2 仓库提交**（除非您十分确定这是 PCL 的问题所致）。
+> 以下为 PCL2 内置的预设主页，均由第三方作者制作。
+> 
+> 如若以下自定义主页出现问题，**请向通过下表提供的渠道向主页作者提交反馈，而不是向 PCL2 仓库提交 Issue**。
 
-| 主页名称 | 仓库链接 | 联网更新地址 | 作者 |
-|--|--|--|--|
-| Minecraft 新闻 | · https://github.com/Light-Beacon/PCL2-NewsHomepage | · http://pcl.mcnews.thestack.top <br> · https://news.bugjump.net  | @Light-Beacon
-| 简单主页 | · https://github.com/MFn233/PCL-Mainpage | · https://gitee.com/mfn233/PCL-Mainpage/raw/main/Custom.xaml | @MFn233
+ | 主页名称 | 反馈地址 | 联网更新地址 | 作者 |
+ |--|--|--|--|
+ | Minecraft 新闻 | · [Github](https://github.com/Light-Beacon/PCL2-NewsHomepage/issues/new/choose) | · http://pcl.mcnews.thestack.top <br> · https://news.bugjump.net  | @Light-Beacon
+ | 简单主页 | · [Github](https://github.com/MFn233/PCL-Mainpage/issues/new/choose) | · https://gitee.com/mfn233/PCL-Mainpage/raw/main/Custom.xaml | @MFn233
+ | 每日整合包推荐<br>（等待 PCL 更新） | · [SodaMC](https://sodamc.com/31402-29042412.html) | https://pclsub.sodamc.com/ | @wkea
 
 <!-- 以下主页等待加入 PCL 预设
-| 历史上的今天 | https://github.com/hsuchenghao/pcl-history-today-go | https://pclnews.52chye.cn/custom.xaml | @hsuchenghao
-| 赤灵主页 | https://github.com/337267950/ChiLing-HomePage-PCL2 | - | @337267950
+ | 历史上的今天 | · [Github](https://github.com/hsuchenghao/pcl-history-today-go/issues/new) | https://pclnews.52chye.cn/custom.xaml | @hsuchenghao
+ | 赤灵主页 | · [Github](https://github.com/YuShanNan/ChiLing-HomePage-PCL2/issues/new) | http://samiuv.mcfuns.cn/PCL2/Custom.xaml | @YuShanNan
 -->
 
 
@@ -195,8 +201,10 @@
 ---
 </details>
 
+<!-- BUILD_FLAG:BEGIN Footnote -->
 [^1]:请注意，离线账号登录服务器本身违反 [Minecraft 最终用户协议](https://www.minecraft.net/en-us/eula) 提及的 [Minecraft 使用准则](https://www.minecraft.net/en-us/usage-guidelines) 的内容 ( 原文如此：*Access to your server: Must only be granted to users who have a genuine **paid-for version of Minecraft*** ) ，请谨慎考虑。
 [^2]:其中，若较老 Mod 搜索结果无法显示支持模组加载器，此为早期 CurseForge 不支持设置上传的 Mod 文件选择模组加载器导致；对于输入搜索关键词无法搜索到指定 Mod 或搜索时出现无关 Mod，此为 API 问题；如确认为 Mod 作者上传时的设置问题，如错误地选择了不支持的版本、Mod 前置标记错误、译名错误等问题，而非前两者问题，请尝试联系 Mod 作者或 MCMOD 百科页（仅译名问题）进行沟通确认。
 [^3]:由于 .minecraft/mods 文件夹下创建的子文件夹内的 Mod 不被模组加载器（此为如 Forge、Fabric 类模组加载器行为，非 PCL 行为）加载，因此在新版本中移除了此功能。
 [^4]:**▷▷▷ 请注意，Octo 开放不等价于 PCL 上线联机，具体信息以龙猫发布的消息为准，仅供参考。届时切勿散布任何未经相关启动器作者及服务提供方证实的信息。**
 [^5]:复制过程中，除适配器名称需要替换外，其他内容不可替换；除适配器名称外，其他部分不要包含中文字符。
+<!-- BUILD_FLAG:END Footnote -->

@@ -1,0 +1,33 @@
+name: Remove '× 拒绝' Label on PR Reopen
+
+on:
+  pull_request:
+    types: [reopened]
+
+jobs:
+  remove-label:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Remove '× 拒绝' label
+        uses: actions/github-script@v5
+        with:
+          github-token: ${{ secrets.SHEEP }}
+          script: |
+            const { owner, repo, number } = context.issue;
+            const labelToRemove = '× 拒绝';
+            const { data: labels } = await github.rest.issues.listLabelsOnIssue({
+              owner,
+              repo,
+              issue_number: number,
+            });
+            if (labels.some(label => label.name === labelToRemove)) {
+              await github.rest.issues.removeLabel({
+                owner,
+                repo,
+                issue_number: number,
+                name: labelToRemove,
+              });
+              console.log(`Label '${labelToRemove}' removed from PR #${number}`);
+            } else {
+              console.log(`Label '${labelToRemove}' not found on PR #${number}`);
+            }
