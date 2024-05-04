@@ -18,7 +18,7 @@
 > [!IMPORTANT]
 > **请在编辑前认真阅读 [关于](ABOUT.md)！**
 >
-> 组织内成员：不要直接修改此文件，请依旧在 Fork 后提交 Pull Request 来完善本文档。
+> 组织内成员不要直接修改此文件，请依旧在 Fork 后提交 Pull Request 来完善本文档。
 ---
 
 ### Minecraft 常见问题
@@ -91,6 +91,7 @@
  | 支持使用相对路径 | *"改这个那一大堆路径设置绝壁一周之内就会出来一大堆反馈让我加相对路径，想想都吓人，算了……" ——龙腾猫跃* | #1568 #1292 #1080
  | 游戏崩溃时加粗或突出窗口中 “而不是发送这个窗口的截图” 字样 | *“没救，侠客咋样都是侠客” ——龙腾猫跃* | #2153
  | 开发简易版 PCL | 不会制作。<br> *搜索关键词：Lite、简易、简单、极简、轻量级、新手、萌新。* | #2330
+ | 上架微软商店 | 不会制作该功能。 | #1278
  | 有关 “千万别点” 的 Issue | PCL **不会受理**关于 “千万别点” 的**任何 Issues**。 | #460 #398 #407 #677 #796 #1147 #1923
  | 添加内置 NBT 查看器/编辑器 | 超出启动器范畴，不会制作。 | #3321
  | 选中 PCL 文件并快速敲击 Enter 会导致 PCL 多开 | 无法正确检测，不会修复。 | #1372
@@ -107,23 +108,22 @@
  |--|--|--|
  | 因第三方组件引起的问题 | PCL 不会处理第三方造成的问题。 | *[Label:&nbsp;第三方](https://github.com/Hex-Dragon/PCL2/issues?q=label%3A%E7%AC%AC%E4%B8%89%E6%96%B9+is%3Aclosed)*
  | 因使用 32 位系统引起的问题 | 新版 Minecraft 已不支持 32 位系统，因此不会再额外为 32 位进行修复和调整。 | [#3649](https://github.com/Hex-Dragon/PCL2/issues/3649#issuecomment-2047054821)
- | Mod 下载详情页加载动画 UI 在加载后未能隐藏 | **[需要社区复现]** 需要开启调试模式的复现日志以显示加载动画 Debug 信息来修复此问题。<br> *搜索关键词：加载动画、加载图标、Mod 下载、列表、UI、隐藏、消失。* | #1624
  | 因系统问题无法打开 PCL | 系统原因，PCL 无法解决。<br> *搜索关键词：.Net、支持库、程序出现未知错误、显卡驱动、闪退、系统不完整。* | #2849 #2755 #2751 #2729 #2676 #2580 #2485 #2146 等 Issues
+ | 调试模式性能损耗过大 | 个别问题，无法稳定复现。 | #365
+ | Mod 下载详情页加载动画 UI 在加载后未能隐藏 | **[需要社区复现]** 需要开启调试模式的复现日志以显示加载动画 Debug 信息来修复此问题。<br> *搜索关键词：加载动画、加载图标、Mod 下载、列表、UI、隐藏、消失。* | #1624
+ | 无法加载 Mod 图标 | 请检查您的网络环境，如无问题则请前往 Modrinth 或 CurseForge 网站内及 HMCL、BakaXL 内查看是否有图标，若均无图标，则该 Mod 作者未上传图标，非 PCL 问题。 | #3143
+ | 无法更新 PCL（DNS） | 请按下 Win+X ，点击 Windows PowerShell（管理员），并输入如下命令 ```netsh interface ip set dns  "适配器名称" static 8.8.8.8```[^5]，如果您使用的是 **有线连接（网线）**，请将 **适配器名称** 替换为 **以太网**，如果您使用的是 **WiFi**，请将 **适配器名称** 替换为 **WLAN**，然后输入 ```nslookup raw.githubusercontent.com```，确认 **非权威应答** 的 **Addresses** 项的值不为 0.0.0.0、127.0.0.1、:::、:::1。 | #3505
  | 无法检测到 Java | 处理中。<br> *搜索关键词：Java、JDK、搜索、检测、检查、失败、不全、选择。* | #1496
- | 上架微软商店 | 不会制作该功能。 | #1278
  | 使用特定 Java 时无法结束或者取消启动 Minecraft | 由于部分 Java 会以很奇怪的方式运行 MC，并会再创建一个 Java 进程，导致 PCL2 无法分辨到底哪一个才是 Minecraft 进程，因此无法修复。 | #364
  | 内存优化后（或已使用内存过小时）已使用内存部分不显示具体数字 | 由于排版空间不够不予以显示，同时考虑到大部分玩家在内存占用极低时不会计较具体占用内存数，因此这是刻意的设计。 | #1924
  | 切换音乐时概率性切换提示与实际播放歌曲不符 | NAudio 的 Bug，技术上无法处理。 | #866
  | 切换音频设备后，音乐播放不会自动切换到新设备 | NAudio 的 Bug，技术上无法处理。 | #480
  | 播放音乐时提示线程执行失败：NoDriver calling waveOutRestart | NAudio 的 Bug，技术上无法处理。 | #1753 #2348
  | 启动游戏时出现弹窗报错：GLFW error 65543 | 检查是否使用了正确的显卡（或独立显卡）启动 PCL。 | #2215
- | 调试模式性能损耗过大 | 个别问题，无法稳定复现。 | #365
+ | 启动 Minecrat 1.7.10-1.12.2 游戏内无声音 | 此为 OpenAL 初始化失败所致，请在游戏启动后按下 F3+T 来重新初始化 OpenAL。 | #3779 [MC-9974](https://bugs.mojang.com/browse/MC-9974)
  | 因感染蠕虫病毒导致 PCL 崩溃或无法更新等 | *Collaborator 请注意，日志可见：文件名或文件夹名前含有 `cache`、`HD` 字样。* | #2964 #2970 #3204
- | 无法加载 Mod 图标 | 请检查您的网络环境，如无问题则请前往 Modrinth 或 CurseForge 网站内及 HMCL、BakaXL 内查看是否有图标，若均无图标，则该 Mod 作者未上传图标，非 PCL 问题。 | #3143
- | 无法更新 PCL（DNS） | 请按下 Win+X ，点击 Windows PowerShell（管理员），并输入如下命令 ```netsh interface ip set dns  "适配器名称" static 8.8.8.8```[^5]，如果您使用的是 **有线连接（网线）**，请将 **适配器名称** 替换为 **以太网**，如果您使用的是 **WiFi**，请将 **适配器名称** 替换为 **WLAN**，然后输入 ```nslookup raw.githubusercontent.com```，确认 **非权威应答** 的 **Addresses** 项的值不为 0.0.0.0、127.0.0.1、:::、:::1。 | #3505
  | PCL 日志启动部分出现乱码 | 此为在文件夹插入 Unicode 控制字符而 jlw 不支持 Unicode 控制字符或在 Windows 中启用了 UTF-8 解码支持所致，非 PCL 问题。 |  #3236
  | 日志出现 not xxx in java.library.path | Java 不完整，非 PCL 问题，如果可能，请您自行准备 Java 而不是使用自动补全 Java 功能。 | #3496
- | 启动 Minecrat 1.7.10-1.12.2 可能会没有声音 | 此为 OpenAL 初始化失败所致，请在游戏启动后按下 F3+T 来重新初始化 OpenAL。 | #3779 [MC-9974](https://bugs.mojang.com/browse/MC-9974)
  <!-- BUILD_FLAG:END Hard -->
 
 
@@ -139,7 +139,7 @@
  |--|--|--|--|
  | Minecraft 新闻 | · [Github](https://github.com/Light-Beacon/PCL2-NewsHomepage/issues/new/choose) | · http://pcl.mcnews.thestack.top <br> · https://news.bugjump.net  | @Light-Beacon
  | 简单主页 | · [Github](https://github.com/MFn233/PCL-Mainpage/issues/new/choose) | · https://gitee.com/mfn233/PCL-Mainpage/raw/main/Custom.xaml | @MFn233
- | 每日整合包推荐<br>（等待 PCL 更新） | · [SodaMC](https://sodamc.com/31402-29042412.html) | https://pclsub.sodamc.com/ | @wkea
+ | 每日整合包推荐<br>*（等待 PCL 更新）* | · [SodaMC](https://sodamc.com/31402-29042412.html) | https://pclsub.sodamc.com/ | @wkea
 
 <!-- 以下主页等待加入 PCL 预设
  | 历史上的今天 | · [Github](https://github.com/hsuchenghao/pcl-history-today-go/issues/new) | https://pclnews.52chye.cn/custom.xaml | @hsuchenghao
