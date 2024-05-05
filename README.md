@@ -29,7 +29,7 @@
  | **无法下载 Minecraft** | **为 MCBBS 关停所致，同时由于 BMCLAPI 源压力过大，可能导致大部分时间段无法通过镜像源下载 Minecraft。届时请尝试以下四种解决方案：<br>1. 更换不同的网络；<br>2. 每间隔一段时间后再次尝试下载；<br>3. 若您的网络条件允许，尝试使用加速器或 VPN；<br>4. 如个人技术能力允许，尝试部署 [OpenBMCLAPI](https://github.com/bangbang93/openbmclapi)。** <br><br>*部分日志可见：基础连接已经关闭: 未能为 SSL/TLS 安全通道建立信任关系。* | **[Bilibili&nbsp;动态](https://t.bilibili.com/899749241434406921)** #3213
  | **1.16.4 及 1.16.5 离线模式无法进入多人游戏界面** | **PCL 不会解决该问题，这超出了启动器功能范畴。** <br> *如仍需要使用多人游戏 [^1]，请自行断网启动游戏或安装 [MultiOfflineFix](https://github.com/MCTeamPotato/MultiOfflineFix "Fabric & Forge") 或 [Offline Multiplayer](https://github.com/ChickenPige0n/offline-multiplayer-fabric "仅 Fabric") 模组。同时您可以参考[此处的解决方案](https://github.com/Hex-Dragon/PCL2/discussions/1930#discussioncomment-6797858)以彻底解决此问题。* | **PCL2&nbsp;内置帮助库 #2003 #2017 #2004 [#1930](https://github.com/Hex-Dragon/PCL2/discussions/1930#discussioncomment-6805733)**
  | 游戏崩溃 | 请依照本文下方附文步骤进行解决。
- | 无法登录正版账户：您可能没有在 Minecraft 官网创建档案，或者没有购买 Minecraft。 | 由 Mojang 导致的 Bug，PCL 无法解决。请前往 [Minecraft&nbsp;官网](https://www.minecraft.net/login) 登录您的 Minecraft 账号后，稍等片刻即可使用 PCL 正常登录。 | #1299 #1264
+ | 无法登录正版账户：您可能没有在 Minecraft 官网创建档案，或者没有购买 Minecraft。 | 如果您确认您已购买 Minecraft 并创建档案，但还是出现了此问题，此 Bug 预计将在下个版本修复。可使用临时解决方案，前往 [Minecraft&nbsp;官网](https://www.minecraft.net/login) 登录您拥有 Minecraft 的 Microsoft 账号后，稍等片刻即可使用 PCL 正常登录。 | #1299 #1264 #3702（#3776）
  | 无法进入服务器 | 非 PCL 问题，具体可能的解决方案见内置帮助库或前往相关论坛寻求他人帮助。 | PCL2&nbsp;内置帮助库
  | 中国移动中国联通网络下无法登录正版账户但网络速度良好 | 使用中国联通或中国移动网络下 api.minecraftservices.com 和二级域名为 mojang.com 的地址均被墙，请尝试使用中国电信网络或使用 VPN。详见 #2738。 | #2738
  | 游戏内无法正确加载皮肤 | 请检查您的网络环境，使用加速器或 VPN。 | -
@@ -97,7 +97,7 @@
  | 有关 “千万别点” 的 Issue | PCL **不会受理**关于 “千万别点” 的**任何 Issues**。 | #460 #398 #407 #677 #796 #1147 #1923
  | 添加内置 NBT 查看器/编辑器 | 超出启动器范畴，不会制作。 | #3321
  | 选中 PCL 文件并快速敲击 Enter 会导致 PCL 多开 | 无法正确检测，不会修复。 | #1372
- | 无法启动 Labymod 客户端 | 为其版本 Json 提供的文件大小有误所致，非 PCL 问题。 | #3225
+ | 无法启动 XXX 客户端 | 可能为其版本 Json 提供的文件大小有误所致，非 PCL 问题。可尝试打开设置中 “关闭文件校验” 开关后再启动。如果还是不能启动且其他启动器均不会出现 PCL 的情况，可以提交反馈。 | #3225
  | 删除 Libraries 文件夹后补全文件失败 | Libraries 文件夹中文件只能在安装 Forge 时动态生成，除此之外没有渠道进行补全。 | #3698
  | 将 GitHub 链接替换为镜像站 | 使用代理源并安全性与稳定性欠佳，不会制作。 | #2879
  <!-- BUILD_FLAG:END PCL -->
