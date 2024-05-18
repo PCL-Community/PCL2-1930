@@ -34,7 +34,7 @@
  | 游戏崩溃 | 请依照本文下方附文步骤进行解决。
  | 无法登录正版账户：您可能没有在 Minecraft 官网创建档案，或者没有购买 Minecraft。 | 此问题预计将于新版本修复。此前若您确认您已购买 Minecraft 并创建档案但仍出现此问题，请前往 [Minecraft&nbsp;官网](https://www.minecraft.net/login) 登录您拥有 Minecraft 的 Microsoft 账号后，稍等片刻即可使用 PCL 正常登录。 | #1299 #1264 #3702 (#3776)
  | 无法进入服务器 | 非 PCL 问题，具体可能的解决方案见内置帮助库或前往相关论坛寻求他人帮助。 | PCL2&nbsp;内置帮助库
- | 中国移动中国联通网络下无法登录正版账户但网络速度良好 | 使用中国联通或中国移动网络下 api.minecraftservices.com 和二级域名为 mojang.com 的地址均被墙，请尝试使用中国电信网络或使用 VPN。详见 #2738。 | #2738
+ | 部分时段无法登录正版账户但网络速度良好 | 可能为使用中国联通或中国移动网络下 api.minecraftservices.com 和二级域名为 mojang.com 的地址均被墙所致，请尝试使用中国电信网络或使用 VPN。详见 #2738。 | #2738
  | 游戏内无法正确加载皮肤 | 请检查您的网络环境，使用加速器或 VPN。 | -
  | 整合包中安装了 OptiFine 导致游戏无法正常加载 | 此为 OptiFine 过于激进的优化手段所致。OptiFine 和模组加载器之间存在严重的兼容性问题，请考虑只安装 OptiFine 或只安装模组加载器，亦或是使用其他 Mod 替代 OptiFine。 | #3258 #3566 #3573
  <!-- BUILD_FLAG:END Minecraft -->
