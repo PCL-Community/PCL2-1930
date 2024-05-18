@@ -142,7 +142,7 @@
  |--|--|--|--|
  | Minecraft 新闻 | · [Github](https://github.com/Light-Beacon/PCL2-NewsHomepage/issues/new/choose) | · http://pcl.mcnews.thestack.top <br> · https://news.bugjump.net  | @Light-Beacon
  | 简单主页 | · [Github](https://github.com/MFn233/PCL-Mainpage/issues/new/choose) | · https://gitee.com/mfn233/PCL-Mainpage/raw/main/Custom.xaml | @MFn233
- | 每日整合包推荐<br>*（等待 PCL 更新）* | · [SodaMC](https://sodamc.com/31402-29042412.html) | https://pclsub.sodamc.com/ | @wkea
+ | 每日整合包推荐 | · [SodaMC](https://sodamc.com/31402-29042412.html) | https://pclsub.sodamc.com/ | @wkea
 
 <!-- 以下主页等待加入 PCL 预设
  | 历史上的今天 | · [Github](https://github.com/hsuchenghao/pcl-history-today-go/issues/new) | https://pclnews.52chye.cn/custom.xaml | @hsuchenghao
