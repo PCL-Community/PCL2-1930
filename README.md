@@ -33,8 +33,8 @@
  | 无法进入服务器 | 非 PCL 问题，具体可能的解决方案见内置帮助库或前往相关论坛寻求他人帮助。 | PCL2&nbsp;内置帮助库
  | 中国移动中国联通网络下无法登录正版账户但网络速度良好 | 使用中国联通或中国移动网络下 api.minecraftservices.com 和二级域名为 mojang.com 的地址均被墙，请尝试使用中国电信网络或使用 VPN。详见 #2738。 | #2738
  | 游戏内无法正确加载皮肤 | 请检查您的网络环境，使用加速器或 VPN。 | -
- | 整合包中安装了 OptiFine 导致游戏无法正常加载 | 此为 Forge 49.0.50 前版本启用了 ClasspathLocator 导致无法加载 Mod 主类 |  #3566 #3573
- | 安装 OptiFine 后 皮肤 / Mod 物品显示乱码 | 此为 OpfiFine 过于激进的优化手段所致 | #3258 https://github.com/MCLF-CN/docs/issues/6
+ | 整合包中安装了 OptiFine 导致游戏无法正常加载 | 此为 Forge 49.0.50 前版本启用了 ClasspathLocator 导致无法加载 Mod 主类。 |  #3566 #3573
+ | 安装 OptiFine 后 皮肤 / Mod 物品显示乱码 | 此为部分优化 Mod 使用的优化手段过于激进所致。 | #3258 [MCLF-CN/docs#6](https://github.com/MCLF-CN/docs/issues/6)
  <!-- BUILD_FLAG:END Minecraft -->
 
 
