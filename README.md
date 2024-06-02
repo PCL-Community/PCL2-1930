@@ -16,9 +16,12 @@
 
 > 
 > [!IMPORTANT]
-> **请在编辑前认真阅读 [关于](ABOUT.md)！**
->
-> 组织内成员：不要直接修改此文件，请依旧在 Fork 后提交 Pull Request 来完善本文档。
+> 请在编辑前认真阅读 [关于](ABOUT.md)！
+
+> [!WARNING]
+> 组织内成员：不要直接修改此文件!
+> 
+> 请**在 Fork 后**提交 Pull Request 来完善本文档，而不是在此仓库创建新 Branch，这可能会触发分支保护规则而复杂化您的操作流程。
 ---
 
 ### Minecraft 常见问题
@@ -29,11 +32,11 @@
  | **无法下载 Minecraft** | **为 MCBBS 关停所致，同时由于 BMCLAPI 源压力过大，可能导致大部分时间段无法通过镜像源下载 Minecraft。届时请尝试以下四种解决方案：<br>1. 更换不同的网络；<br>2. 每间隔一段时间后再次尝试下载；<br>3. 若您的网络条件允许，尝试使用加速器或 VPN；<br>4. 如个人技术能力允许，尝试部署 [OpenBMCLAPI](https://github.com/bangbang93/openbmclapi)。** <br><br>*部分日志可见：基础连接已经关闭: 未能为 SSL/TLS 安全通道建立信任关系。* | **[Bilibili&nbsp;动态](https://t.bilibili.com/899749241434406921)** #3213
  | **1.16.4 及 1.16.5 离线模式无法进入多人游戏界面** | **PCL 不会解决该问题，这超出了启动器功能范畴。** <br> *如仍需要使用多人游戏 [^1]，请自行断网启动游戏或安装 [MultiOfflineFix](https://github.com/MCTeamPotato/MultiOfflineFix "Fabric & Forge") 或 [Offline Multiplayer](https://github.com/ChickenPige0n/offline-multiplayer-fabric "仅 Fabric") 模组。同时您可以参考[此处的解决方案](https://github.com/Hex-Dragon/PCL2/discussions/1930#discussioncomment-6797858)以彻底解决此问题。* | **PCL2&nbsp;内置帮助库 #2003 #2017 #2004 [#1930](https://github.com/Hex-Dragon/PCL2/discussions/1930#discussioncomment-6805733)**
  | 游戏崩溃 | 请依照本文下方附文步骤进行解决。
- | 无法登录正版账户：您可能没有在 Minecraft 官网创建档案，或者没有购买 Minecraft。 | 由 Mojang 导致的 Bug，PCL 无法解决。请前往 [Minecraft&nbsp;官网](https://www.minecraft.net/login) 登录您的 Minecraft 账号后，稍等片刻即可使用 PCL 正常登录。 | #1299 #1264
+ | 无法登录正版账户：您可能没有在 Minecraft 官网创建档案，或者没有购买 Minecraft。 | 此问题预计将于新版本修复。此前若您确认您已购买 Minecraft 并创建档案但仍出现此问题，请前往 [Minecraft&nbsp;官网](https://www.minecraft.net/login) 登录您拥有 Minecraft 的 Microsoft 账号后，稍等片刻即可使用 PCL 正常登录。 | #1299 #1264 #3702 (#3776)
  | 无法进入服务器 | 非 PCL 问题，具体可能的解决方案见内置帮助库或前往相关论坛寻求他人帮助。 | PCL2&nbsp;内置帮助库
- | 中国移动中国联通网络下无法登录正版账户但网络速度良好 | 使用中国联通或中国移动网络下 api.minecraftservices.com 和二级域名为 mojang.com 的地址均被墙，请尝试使用中国电信网络或使用 VPN。详见 #2738。 | #2738
+ | 部分时段无法登录正版账户但网络速度良好 | 可能为使用中国联通或中国移动网络下 api.minecraftservices.com 和二级域名为 mojang.com 的地址均被墙所致，请尝试使用中国电信网络或使用 VPN。详见 #2738。 | #2738
  | 游戏内无法正确加载皮肤 | 请检查您的网络环境，使用加速器或 VPN。 | -
- | 整合包中安装了 OptiFine 导致游戏无法正常加载 | 此为 OptiFine 过于激进的优化手段所致。OptiFine 和模组加载器之间存在严重的兼容性问题，请考虑只安装 OptiFine 或只安装模组加载器，亦或是使用其他 Mod 替代 OptiFine。 | #3258 #3566 #3573
+ | 整合包中安装了 OptiFine 导致游戏无法正常加载 | OptiFine 和模组加载器之间存在严重的兼容性问题，请考虑只安装 OptiFine 或只安装模组加载器，亦或是使用其他 Mod 替代 OptiFine。 | #3258 #3566 #3573 MCLF-CN/docs#6
  <!-- BUILD_FLAG:END Minecraft -->
 
 
@@ -56,7 +59,7 @@
  | 添加皮肤库 | 不会制作该功能。 | #343
  | 支持离线披风 | 技术上无法实现。 | #700
  | 支持调整 OptiFine 和第三方披风选项 | 暂时不打算制作。 | #2045 #2065
- | 1.19.3 及以上版本不支持自定义皮肤 | 正在 Discussions 中投票。 | #1288 (#1596)
+ | 支持离线模式下 1.19.3+ 版本自定义皮肤 | 正在 Discussions 中投票。 | #1288 (#1596)
  | Minecraft 更新后 PCL 内未找到该最新版本 | 请在 **设置-启动器-下载-版本列表获取** 选择 **尽量使用官方源**。 | #1226
  | 支持识别、安装 Quilt | **[处理中-第三方]** 等待 BMCLAPI 支持。 | #48
  | 支持识别、安装 NeoForge | **[处理中]** [现镜像源已上线](https://github.com/Hex-Dragon/PCL2/issues/2244#issuecomment-1687345863)，等待 BMCLAPI 支持 Quilt 下载后一并制作。 | #2244
@@ -69,6 +72,7 @@
  | 支持数据包下载 | 正在 Discussions 中投票。 | #2991 (#2994)
  | 支持下载地图 | 存在语言问题，不会制作。 | #44 #135
  | 支持下载第三方服务端及插件 | PCL 是启动器，此功能超出了启动器的范畴。 | #108
+ | 支持下载特定版本的 Java | 没有合适的下载源，暂不考虑。 | #3585
  | 引进新 Mod / 整合包下载源 | 没有其他可用的国内的 API。 | #1658
  | 允许管理存档、光影文件 | 不会制作该功能。 | #388 #396
  | 支持导出 Mod 列表 | 正在 Discussions 中投票。 | #2586 (#2590)
@@ -79,7 +83,8 @@
  | 添加暗黑模式 | *“这个基本上要重新设计所有界面，工作量太大了，我猜我都不会做……” ——龙腾猫跃* | #131
  | Mod 管理允许选择使用多种排序方式 | 正在 Discussions 中投票。 | #2698 (#2700)
  | Mod 管理允许扫描子文件夹 Mod | 此功能已被移除[^3]，但如果子文件夹名称为版本名则仍会读取并加载。对于 Quilt 加载器下识别子文件夹 Mod 功能正在处理。 | #811 #1098 #1536 #1784
- | 添加更多 Minecraft 版本 | 不会添加除现已收录的远古版本外的其他远古版本，同时也不会收录社区玩家制作的 Minecraft 版本 (如：error422、alpha v1.2.3_03 等)。 | #698 #2575
+ | 添加更多 Minecraft 远古版本 | 正在 Discussions 中投票。 | #3786 (#3787)
+ | 添加不由 Mojang 发布的 Minecraft 版本 | 不会收录社区玩家制作的 Minecraft 版本 (如：error422、alpha v1.2.3_03 等)。 | #2575
  | 添加云端账户、启动器内置社区、云端同步账户数据、云端同步隐藏主题、官网等 | 无法抵御攻击，不会制作任何有关云端账号的内容。 | #315 等 Issues
  | 支持隐藏主题迁移 | 考虑到隐私问题，不考虑支持导出此类信息。 | #760
  | 有关拓展隐藏主题、自定义主题、背景图片功能的 Issue | 备注：此类 Issue 大概率会因为必要性及优先级较低被拒绝，但不排除个别会被采纳，仅作参考。<br> *搜索关键词：毛玻璃、背景、透明、标题、隐藏主题、音乐、图标、暗黑、RGB、渐变、图标。* | #3202 #2216 #1487 #1653 #1242 #840 #791 #711 #562 #401 #131
@@ -91,12 +96,14 @@
  | 支持使用相对路径 | *"改这个那一大堆路径设置绝壁一周之内就会出来一大堆反馈让我加相对路径，想想都吓人，算了……" ——龙腾猫跃* | #1568 #1292 #1080
  | 游戏崩溃时加粗或突出窗口中 “而不是发送这个窗口的截图” 字样 | *“没救，侠客咋样都是侠客” ——龙腾猫跃* | #2153
  | 开发简易版 PCL | 不会制作。<br> *搜索关键词：Lite、简易、简单、极简、轻量级、新手、萌新。* | #2330
+ | 上架微软商店 | 不会制作该功能。 | #1278
  | 有关 “千万别点” 的 Issue | PCL **不会受理**关于 “千万别点” 的**任何 Issues**。 | #460 #398 #407 #677 #796 #1147 #1923
  | 添加内置 NBT 查看器/编辑器 | 超出启动器范畴，不会制作。 | #3321
  | 选中 PCL 文件并快速敲击 Enter 会导致 PCL 多开 | 无法正确检测，不会修复。 | #1372
  | 无法启动 Labymod 客户端 | 为其版本 Json 提供的文件大小有误所致，非 PCL 问题。 | #3225
- | 删除 Libraries 文件夹后补全文件失败 | Libraries 文件夹中文件只能在安装 Forge 时动态生成，除此之外没有渠道进行补全。 | #3698
+ | 删除 Libraries 文件夹或其中的文件后补全文件失败 | PCL 无法在 Libraries 文件不全的情况下完成文件补全。 | #3698
  | 将 GitHub 链接替换为镜像站 | 使用代理源并安全性与稳定性欠佳，不会制作。 | #2879
+ | 微软账户登录页面无法正确加载：当前页面的脚本发生错误 | 此为微软更新了登录页面导致无法使用 WebBrowser 渲染页面所致。快照版已临时修复该问题，在最新正式版发布前请手动点击窗口下方的提示文本以使用系统浏览器登录。 | #3849
  <!-- BUILD_FLAG:END PCL -->
 
 
@@ -107,23 +114,20 @@
  |--|--|--|
  | 因第三方组件引起的问题 | PCL 不会处理第三方造成的问题。 | *[Label:&nbsp;第三方](https://github.com/Hex-Dragon/PCL2/issues?q=label%3A%E7%AC%AC%E4%B8%89%E6%96%B9+is%3Aclosed)*
  | 因使用 32 位系统引起的问题 | 新版 Minecraft 已不支持 32 位系统，因此不会再额外为 32 位进行修复和调整。 | [#3649](https://github.com/Hex-Dragon/PCL2/issues/3649#issuecomment-2047054821)
- | Mod 下载详情页加载动画 UI 在加载后未能隐藏 | **[需要社区复现]** 需要开启调试模式的复现日志以显示加载动画 Debug 信息来修复此问题。<br> *搜索关键词：加载动画、加载图标、Mod 下载、列表、UI、隐藏、消失。* | #1624
  | 因系统问题无法打开 PCL | 系统原因，PCL 无法解决。<br> *搜索关键词：.Net、支持库、程序出现未知错误、显卡驱动、闪退、系统不完整。* | #2849 #2755 #2751 #2729 #2676 #2580 #2485 #2146 等 Issues
- | 无法检测到 Java | 处理中。<br> *搜索关键词：Java、JDK、搜索、检测、检查、失败、不全、选择。* | #1496
- | 上架微软商店 | 不会制作该功能。 | #1278
+ | 调试模式性能损耗过大 | 个别问题，无法稳定复现。 | #365
+ | Mod 下载详情页加载动画 UI 在加载后未能隐藏 | 正在处理。 <br> *搜索关键词：加载动画、加载图标、Mod 下载、列表、UI、隐藏、消失。* | #1624
+ | 无法加载 Mod 图标 | 请检查您的网络环境，如无问题则请前往 Modrinth 或 CurseForge 网站内及 HMCL、BakaXL 内查看是否有图标，若均无图标，则该 Mod 作者未上传图标，非 PCL 问题。 | #3143
+ | 无法更新 PCL（DNS） | 请按下 Win+X ，点击 Windows PowerShell（管理员），并输入如下命令 ```netsh interface ip set dns  "适配器名称" static 8.8.8.8```[^5]，如果您使用的是 **有线连接（网线）**，请将 **适配器名称** 替换为 **以太网**，如果您使用的是 **WiFi**，请将 **适配器名称** 替换为 **WLAN**，然后输入 ```nslookup raw.githubusercontent.com```，确认 **非权威应答** 的 **Addresses** 项的值不为 0.0.0.0、127.0.0.1、:::、:::1。 | #3505
  | 使用特定 Java 时无法结束或者取消启动 Minecraft | 由于部分 Java 会以很奇怪的方式运行 MC，并会再创建一个 Java 进程，导致 PCL2 无法分辨到底哪一个才是 Minecraft 进程，因此无法修复。 | #364
  | 内存优化后（或已使用内存过小时）已使用内存部分不显示具体数字 | 由于排版空间不够不予以显示，同时考虑到大部分玩家在内存占用极低时不会计较具体占用内存数，因此这是刻意的设计。 | #1924
  | 切换音乐时概率性切换提示与实际播放歌曲不符 | NAudio 的 Bug，技术上无法处理。 | #866
  | 切换音频设备后，音乐播放不会自动切换到新设备 | NAudio 的 Bug，技术上无法处理。 | #480
  | 播放音乐时提示线程执行失败：NoDriver calling waveOutRestart | NAudio 的 Bug，技术上无法处理。 | #1753 #2348
  | 启动游戏时出现弹窗报错：GLFW error 65543 | 检查是否使用了正确的显卡（或独立显卡）启动 PCL。 | #2215
- | 调试模式性能损耗过大 | 个别问题，无法稳定复现。 | #365
+ | 启动 Minecrat 1.7.10-1.12.2 游戏内无声音 | 此为 OpenAL 初始化失败所致，请在游戏启动后按下 F3+T 来重新初始化 OpenAL。 | #3779 [MC-9974](https://bugs.mojang.com/browse/MC-9974)
  | 因感染蠕虫病毒导致 PCL 崩溃或无法更新等 | *Collaborator 请注意，日志可见：文件名或文件夹名前含有 `cache`、`HD` 字样。* | #2964 #2970 #3204
- | 无法加载 Mod 图标 | 请检查您的网络环境，如无问题则请前往 Modrinth 或 CurseForge 网站内及 HMCL、BakaXL 内查看是否有图标，若均无图标，则该 Mod 作者未上传图标，非 PCL 问题。 | #3143
- | 无法更新 PCL（DNS） | 请按下 Win+X ，点击 Windows PowerShell（管理员），并输入如下命令 ```netsh interface ip set dns  "适配器名称" static 8.8.8.8```[^5]，如果您使用的是 **有线连接（网线）**，请将 **适配器名称** 替换为 **以太网**，如果您使用的是 **WiFi**，请将 **适配器名称** 替换为 **WLAN**，然后输入 ```nslookup raw.githubusercontent.com```，确认 **非权威应答** 的 **Addresses** 项的值不为 0.0.0.0、127.0.0.1、:::、:::1。 | #3505
- | PCL 日志启动部分出现乱码 | 此为在文件夹插入 Unicode 控制字符而 jlw 不支持 Unicode 控制字符或在 Windows 中启用了 UTF-8 解码支持所致，非 PCL 问题。 |  #3236
  | 日志出现 not xxx in java.library.path | Java 不完整，非 PCL 问题，如果可能，请您自行准备 Java 而不是使用自动补全 Java 功能。 | #3496
- | 启动 Minecrat 1.7.10-1.12.2 可能会没有声音 | 此为 OpenAL 初始化失败所致，请在游戏启动后按下 F3+T 来重新初始化 OpenAL。 | #3779 [MC-9974](https://bugs.mojang.com/browse/MC-9974)
  <!-- BUILD_FLAG:END Hard -->
 
 
@@ -139,8 +143,9 @@
  |--|--|--|--|
  | Minecraft 新闻 | · [Github](https://github.com/Light-Beacon/PCL2-NewsHomepage/issues/new/choose) | · http://pcl.mcnews.thestack.top <br> · https://news.bugjump.net  | @Light-Beacon
  | 简单主页 | · [Github](https://github.com/MFn233/PCL-Mainpage/issues/new/choose) | · https://gitee.com/mfn233/PCL-Mainpage/raw/main/Custom.xaml | @MFn233
- | 每日整合包推荐<br>（等待 PCL 更新） | · [SodaMC](https://sodamc.com/31402-29042412.html) | https://pclsub.sodamc.com/ | @wkea
-
+ | 每日整合包推荐 | · [SodaMC](https://sodamc.com/31402-29042412.html) | https://pclsub.sodamc.com/ | @wkea
+ | Minecraft 皮肤推荐 | · [SodaMC](https://sodamc.com/45080-44052300.html) | https://forgepixel.com/pcl_sub_file | @wkea
+ 
 <!-- 以下主页等待加入 PCL 预设
  | 历史上的今天 | · [Github](https://github.com/hsuchenghao/pcl-history-today-go/issues/new) | https://pclnews.52chye.cn/custom.xaml | @hsuchenghao
  | 赤灵主页 | · [Github](https://github.com/YuShanNan/ChiLing-HomePage-PCL2/issues/new) | http://samiuv.mcfuns.cn/PCL2/Custom.xaml | @YuShanNan
