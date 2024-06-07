@@ -14,15 +14,16 @@
 嗯…… 显然，你是没法在这里交有关这个表格的 Issue 的，直接去原页面下方丢评论就好啦。
 -->
 
-> 
-> [!IMPORTANT]
-> 请在编辑前认真阅读 [关于](ABOUT.md)！
+## PCL2 常见&难检反馈及问题列表
 
-> [!WARNING]
-> 组织内成员：不要直接修改此文件!
-> 
-> 请**在 Fork 后**提交 Pull Request 来完善本文档，而不是在此仓库创建新 Branch，这可能会触发分支保护规则而复杂化您的操作流程。
----
+### 注意事项
+
+- 请仔细阅读 [关于](ABOUT.md)！当您阅读或者贡献本仓库以及原始 Discussion 的内容后即默认您已阅读并同意该文件提及的全部内容。
+- 对于组织内成员，请不要直接修改此文件！**请在 Fork 后提交 Pull Request** 来完善本文档，而不是在此仓库创建新 Branch，这可能会触发分支保护规则而复杂化您的操作流程。
+
+### 特别鸣谢
+
+![Contributors](https://contrib.rocks/image?repo=PCL-Community/PCL2-1930)
 
 ### Minecraft 常见问题
 
