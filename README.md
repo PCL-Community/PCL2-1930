@@ -25,6 +25,8 @@
 
 ![Contributors](https://contrib.rocks/image?repo=PCL-Community/PCL2-1930)
 
+<!-- 表格正文于此开始。-->
+
 ### Minecraft 常见问题
 
  <!-- BUILD_FLAG:BEGIN Minecraft -->
