@@ -220,7 +220,7 @@
 
 <!-- BUILD_FLAG:BEGIN Footnote -->
 [^1]:请注意，离线账号登录服务器本身违反 [Minecraft 最终用户协议](https://www.minecraft.net/en-us/eula) 提及的 [Minecraft 使用准则](https://www.minecraft.net/en-us/usage-guidelines) 的内容 ( 原文如此：*Access to your server: Must only be granted to users who have a genuine **paid-for version of Minecraft*** ) ，请谨慎考虑。
-[^2]:其中，若较老 Mod 搜索结果无法显示支持模组加载器，此为早期 CurseForge 不支持设置上传的 Mod 文件选择模组加载器导致；对于输入搜索关键词无法搜索到指定 Mod 或搜索时出现无关 Mod，此为 API 问题；如确认为 Mod 作者上传时的设置问题，如错误地选择了不支持的版本、Mod 前置标记错误、译名错误等问题，而非前两者问题，请尝试联系 Mod 作者或 MCMOD 百科页（仅译名问题）进行沟通确认。
+[^2]:i. 对于较老 Mod 搜索结果无法显示支持模组加载器，此为早期 CurseForge 不支持设置选择模组加载器导致；<br>ii. 对于输入搜索关键词无法搜索到指定 Mod 或搜索时出现无关 Mod，此为 API 问题；<br>iii. 如确认为 Mod 作者上传时的设置问题，例如错误地选择了不支持的版本、Mod 前置标记错误、译名错误等问题，请尝试联系 Mod 作者或 MCMOD 百科页（仅译名问题）进行沟通确认。
 [^3]:由于 .minecraft/mods 文件夹下创建的子文件夹内的 Mod 不被模组加载器（此为如 Forge、Fabric 类模组加载器行为，非 PCL 行为）加载，因此在新版本中移除了此功能。
 [^4]:**▷▷▷ 请注意，Octo 开放不等价于 PCL 上线联机，具体信息以龙猫发布的消息为准，仅供参考。届时切勿散布任何未经相关启动器作者及服务提供方证实的信息。**
 [^5]:复制过程中，除适配器名称需要替换外，其他内容不可替换；除适配器名称外，其他部分不要包含中文字符。
