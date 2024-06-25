@@ -71,7 +71,7 @@
  | 支持安装 Legacy Fabric、Legacy Fabric API、Babric 等 | 已不再考虑专门为 Minecraft 1.9 及以前的版本追加新功能。 | #3171 #283
  | 支持修改已安装版本的组件和模组加载器 | 正在 Discussions 中投票。<br> *搜索关键词：Fabric、Forge、OptiFine、LiteLoader、NeoForge、Quilt。* | #220 (#227)
  | 安装整合包时支持修改模组加载器版本 | 修改模组加载器版本可能会导致严重的兼容性问题，请联系整合包作者解决，PCL 不会支持该功能。 | #3568
- | 支持下载资源包（材质包&纹理包） | 正在 Discussions 中投票。 | #44 (#1095)
+ | 支持下载资源包（材质包&纹理包） | 正在 Discussions 中投票，已有相关 Pull Request。 | #44 (#1095) #4020
  | 支持光影下载 | 正在 Discussions 中投票。 | #396 (#2768)
  | 支持数据包下载 | 正在 Discussions 中投票。 | #2991 (#2994)
  | 支持下载地图 | 存在语言问题，不会制作。 | #44 #135
