@@ -31,7 +31,7 @@
 
 | 常用名词（尤注意大小写及空格） |
 |--|
-| OptiFine；OptiFabric；Fabric API；Forge；NeoForge；Fabric；Quilt；LiteLoader；Legacy Fabric；Legacy Fabric API；Babric；CurseForge；Modrinth；MCBBS；Iris；Sodium；BMCLAPI；OpenBMCLAPI；HMCL；BakaXL；Octo；Minecraft；Beta；Alpha；Release；Minecraft Wiki；NAudio；GitHub；Issue；Discussion；Collaborator；Pull Request；Repository；Java；Json；Jar；I18n；Log；Mod；Java Launch Wrapper；Bot；Mixin |
+| OptiFine；OptiFabric；Fabric API；Forge；NeoForge；Fabric；Quilt；LiteLoader；Legacy Fabric；Legacy Fabric API；Babric；CurseForge；Modrinth；MCBBS；Iris；Sodium；BMCLAPI；OpenBMCLAPI；HMCL；BakaXL；Octo；Minecraft；Beta；Alpha；Release；Minecraft Wiki；NAudio；GitHub；Issue；Discussion；Collaborator；Pull Request；Repository；Java；JSON；Jar；I18n；Log；Mod；Java Launch Wrapper；Bot；Mixin |
 
 4. 搜索关键词另起一行（`<br>`）并使用斜体；
 5. 投票中的内容标明原始 Issue 及其对应的 Discussion；
