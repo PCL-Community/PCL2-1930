@@ -66,7 +66,6 @@
  | 支持离线模式下 1.19.3+ 版本自定义皮肤 | 正在 Discussions 中投票。 | #1288 (#1596)
  | Minecraft 更新后 PCL 内未找到该最新版本 | 请在 **设置-启动器-下载-版本列表获取** 选择 **尽量使用官方源**。 | #1226
  | 支持识别、安装 Quilt | **[处理中]** 已有相关 Pull Request。 | 🔹 **#4074** <br> #48
- | 支持识别、安装 NeoForge | 快照版已更新，等待正式版同步。 | 🔹 **#4045** <br> #2244
  | 支持识别、安装 Cleanroom | 正在 Discussions 中投票。 | #3003 (#3004)
  | 支持安装 Legacy Fabric、Legacy Fabric API、Babric 等 | 已不再考虑专门为 Minecraft 1.9 及以前的版本追加新功能。 | #3171 #283
  | 支持修改已安装版本的组件和模组加载器 | 正在 Discussions 中投票。<br> *搜索关键词：Fabric、Forge、OptiFine、LiteLoader、NeoForge、Quilt。* | #220 (#227)
