@@ -28,11 +28,6 @@
 1. 排版简洁易懂；
 2. 语言表述中立、客观、清晰，不得出现歧视性、嘲讽性、攻击性、偏见性、模糊性或隐喻等表述；
 3. 措辞准确，无错别字和错误拼写，英文名词拼写规范，解释部分句末有句号；
-
-| 常用名词（尤注意大小写及空格） |
-|--|
-| OptiFine；OptiFabric；Fabric API；Forge；NeoForge；Fabric；Quilt；LiteLoader；Legacy Fabric；Legacy Fabric API；Babric；CurseForge；Modrinth；MCBBS；Iris；Sodium；BMCLAPI；OpenBMCLAPI；HMCL；BakaXL；Octo；Minecraft；Beta；Alpha；Release；Minecraft Wiki；NAudio；GitHub；Issue；Discussion；Collaborator；Pull Request；Repository；Java；JSON；Jar；I18n；Log；Mod；Java Launch Wrapper；Bot；Mixin |
-
 4. 搜索关键词另起一行（`<br>`）并使用斜体；
 5. 投票中的内容标明原始 Issue 及其对应的 Discussion；
 6. 在英文两端添加空格（英文与标点符号之间除外）、引号两端添加空格（引号与其它标点符号之间除外）；
