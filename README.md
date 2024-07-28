@@ -71,13 +71,13 @@
  | 支持修改已安装版本的组件和模组加载器 | 正在 Discussions 中投票。<br> *搜索关键词：Fabric、Forge、OptiFine、LiteLoader、NeoForge、Quilt。* | #220 (#227)
  | 安装整合包时支持修改模组加载器版本 | 修改模组加载器版本可能会导致严重的兼容性问题，请联系整合包作者解决，PCL 不会支持该功能。 | #3568
  | 支持下载资源包（材质包&纹理包） | 正在 Discussions 中投票，已有相关 Pull Request。 | 🔹 **#4020** <br> #44
- | 支持光影下载 | 正在 Discussions 中投票。 | #396 (#2768)
+ | 支持光影下载 | 已有相关 Pull Request。 | 🔹 **#4359** <br> #396
  | 支持数据包下载 | 正在 Discussions 中投票。 | #2991 (#2994)
  | 支持下载地图 | 存在语言问题，不会制作。 | #44 #135
  | 支持下载第三方服务端及插件 | PCL 是启动器，此功能超出了启动器的范畴。 | #108
  | 支持下载特定版本的 Java | 没有合适的下载源，暂不考虑。 | #3585
  | 引进新 Mod / 整合包下载源 | 没有其他可用的国内的 API。 | #1658
- | 支持使用国内 Mod 镜像源 | 正在 Discussions 中投票，已有相关 Pull Request。 | 🔹 **#4291** <br> #4267 (#4270) <br> [MCLF-CN/docs#3](https://github.com/MCLF-CN/docs/issues/3#issuecomment-2238538065)
+ | 支持使用国内 Mod 镜像源 | 已有相关 Pull Request。 | 🔹 **#4291** <br> #4267 <br> [MCLF-CN/docs#3](https://github.com/MCLF-CN/docs/issues/3#issuecomment-2238538065)
  | 允许管理存档、光影文件 | 不会制作该功能。 | #388 #396
  | 支持导出 Mod 列表 | 该功能可以被导出整合包基本覆盖，暂不考虑制作。 | #2586
  | 添加 Mod 收藏夹 | 正在 Discussions 中投票。 | #487 (#1646)
