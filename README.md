@@ -52,8 +52,8 @@
  | **支持通过启动器联机游玩 Minecraft** | ***“至于联机，因为网易还在继续代理中国版，我和 HMCL 的维护者都觉得还得谨慎一点……况且现在也有 Mod 支持联机了……咳咳。”*** <br> ***“目前联机并不是遇到了技术问题。等到网易不代理国服了联机就有了”*** <br> <div align="right"> ***——龙腾猫跃*** </div> <br> *BakaXL 现已于 2023 年 10 月 8 日将其部分服务与 Octo 章鱼网络进行对接，并对其可用性进行初步评估，待评估完成后，Octo 网络会全面对其他启动器开放。*[^4]  | **[2.6.11&nbsp;更新日志](https://www.bilibili.com/read/cv28121157/)** #4166 [#4158](https://github.com/Hex-Dragon/PCL2/discussions/4158#discussioncomment-9968069)
  | PCL 消失、报毒、无法更新 | 为 Microsoft Defender 和 360 等杀毒软件误报，请在 Windows 安全中心和杀毒软件中添加排除项或白名单。具体教程见 PCL 内置帮助库。 |  PCL2&nbsp;内置帮助库 <br> #56 [#666](https://github.com/Hex-Dragon/PCL2/issues/666#issuecomment-1611534587)
  | 以管理员权限运行时无法使用文件拖拽功能 | **[需要社区帮助]** *“尽可能尝试修复相关代码，依然无法解决……如果谁有解决方案可以提出”* ——龙腾猫跃 | [#2531](https://github.com/Hex-Dragon/PCL2/issues/2531#issuecomment-1822511620)
- | 支持启动器多语言选项<br>· I18n support & Support more languages | 正在 Discussions 中投票，已有相关 Pull Request。<br>· Voting in Discussions. Related Pull Request already exists. | 🔹 **#4145** <br> #891
- | 增加导出整合包功能 | 正在 Discussions 中投票，已有相关 Pull Request。 | 🔹 **#4206** <br> #98
+ | 支持启动器多语言选项<br>· I18n support & Support more languages | 已有相关 Pull Request。<br>· Related Pull Request already exists. | 🔹 **#4145** <br> #891
+ | 增加导出整合包功能 | 已有相关 Pull Request。 | 🔹 **#4206** <br> #98
  | 支持启动基岩版（BE）、教育版、传奇（Minecraft Legends；MCL）、地下城（Minecraft Dungeons；MCD）等其他 Minecraft 衍生游戏 | *“这玩意儿我根本启动不了！用官方启动器吧！告辞！” ——龙腾猫跃* | #81
  | 支持第三方登录全局设置 | 正在 Discussions 中投票。 | #57 (#58)
  | 支持更新整合包 | 新旧整合包间可能存在兼容性等冲突问题，不会制作。 | #2854
@@ -71,13 +71,13 @@
  | 支持修改已安装版本的组件和模组加载器 | 正在 Discussions 中投票。<br> *搜索关键词：Fabric、Forge、OptiFine、LiteLoader、NeoForge、Quilt。* | #220 (#227)
  | 安装整合包时支持修改模组加载器版本 | 修改模组加载器版本可能会导致严重的兼容性问题，请联系整合包作者解决，PCL 不会支持该功能。 | #3568
  | 支持下载资源包（材质包&纹理包） | 正在 Discussions 中投票，已有相关 Pull Request。 | 🔹 **#4020** <br> #44
- | 支持光影下载 | 正在 Discussions 中投票。 | #396 (#2768)
- | 支持数据包下载 | 正在 Discussions 中投票。 | #2991 (#2994)
+ | 支持光影下载 | 已有相关 Pull Request。 | 🔹 **#4359** <br> #396
+ | 支持数据包下载 | 正在 Discussions 中投票，已有相关 Pull Request。 | 🔹 **#4360** <br> #2991 (#2994)
  | 支持下载地图 | 存在语言问题，不会制作。 | #44 #135
  | 支持下载第三方服务端及插件 | PCL 是启动器，此功能超出了启动器的范畴。 | #108
  | 支持下载特定版本的 Java | 没有合适的下载源，暂不考虑。 | #3585
  | 引进新 Mod / 整合包下载源 | 没有其他可用的国内的 API。 | #1658
- | 支持使用国内 Mod 镜像源 | 正在 Discussions 中投票，已有相关 Pull Request。 | 🔹 **#4291** <br> #4267 (#4270) <br> [MCLF-CN/docs#3](https://github.com/MCLF-CN/docs/issues/3#issuecomment-2238538065)
+ | 支持使用国内 Mod 镜像源 | 已有相关 Pull Request。 | 🔹 **#4291** <br> #4267 <br> [MCLF-CN/docs#3](https://github.com/MCLF-CN/docs/issues/3#issuecomment-2238538065)
  | 允许管理存档、光影文件 | 不会制作该功能。 | #388 #396
  | 支持导出 Mod 列表 | 该功能可以被导出整合包基本覆盖，暂不考虑制作。 | #2586
  | 添加 Mod 收藏夹 | 正在 Discussions 中投票。 | #487 (#1646)
