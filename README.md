@@ -40,6 +40,7 @@
  | 部分时段无法登录正版账户但网络速度良好 | 可能为使用中国联通或中国移动网络下 api.minecraftservices.com 和二级域名为 mojang.com 的地址均被墙所致，请尝试使用中国电信网络或使用 VPN。 | #2738
  | 游戏内无法正确加载皮肤 | 请检查您的网络环境，使用加速器或 VPN。 | -
  | 整合包中安装了 OptiFine 导致游戏无法正常加载 | OptiFine 和模组加载器之间存在严重的兼容性问题，请考虑只安装 OptiFine 或只安装模组加载器，亦或是使用其他 Mod 替代 OptiFine。 | #3258 #3566 #3573 MCLF-CN/docs#6
+ | 游戏无声音 | 在未静音的情况下，请尝试 版本设置-高级管理-补全文件，若问题仍未解决，则尝试关闭 Windows 防火墙后再试。 | #4368
  | 1.12 及以下 OptiFine Forge 版本窗口大小和设置值不同 | 此为第三方组件在启动过程中使用了不同的算法处理传入的窗口大小所致。PCL 对该问题进行的修复仅对原版生效，将不再受理 **1.12.2-**、**OptiFine/Forge** 下窗口大小和设置的尺寸不同的 Bug。| #3463
  <!-- BUILD_FLAG:END Minecraft -->
 
@@ -133,12 +134,10 @@
  | 启动 Minecrat 1.7.10-1.12.2 游戏内无声音 | 此为 OpenAL 初始化失败所致，请在游戏启动后按下 F3+T 来重新初始化 OpenAL。 | #3779 [MC-9974](https://bugs.mojang.com/browse/MC-9974)
  | 因感染蠕虫病毒导致 PCL 崩溃或无法更新等 | *Collaborator 请注意，日志可见：文件名或文件夹名前含有 `cache`、`HD` 字样。* | #2964 #2970 #3204
  | 日志出现 not xxx in java.library.path | Java 不完整，非 PCL 问题，如果可能，请您自行准备 Java 而不是使用自动补全 Java 功能。 | #3496
-
+ <!-- BUILD_FLAG:END Hard -->
  <!--参阅 #59，需要重新编写。
  | 无法更新 PCL（DNS） | 请按下 Win+X ，点击 Windows PowerShell（管理员），并输入如下命令 ```netsh interface ip set dns  "适配器名称" static 8.8.8.8```[^5]，如果您使用的是 **有线连接（网线）**，请将 **适配器名称** 替换为 **以太网**，如果您使用的是 **WiFi**，请将 **适配器名称** 替换为 **WLAN**，然后输入 ```nslookup raw.githubusercontent.com```，确认 **非权威应答** 的 **Addresses** 项的值不为 0.0.0.0、127.0.0.1、:::、:::1。 | #3505
  -->
- 
- <!-- BUILD_FLAG:END Hard -->
 
 
 
