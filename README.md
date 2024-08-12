@@ -134,6 +134,7 @@
  | 启动 Minecrat 1.7.10-1.12.2 游戏内无声音 | 此为 OpenAL 初始化失败所致，请在游戏启动后按下 F3+T 来重新初始化 OpenAL。 | #3779 [MC-9974](https://bugs.mojang.com/browse/MC-9974)
  | 因感染蠕虫病毒导致 PCL 崩溃或无法更新等 | *Collaborator 请注意，日志可见：文件名或文件夹名前含有 `cache`、`HD` 字样。* | #2964 #2970 #3204
  | 日志出现 not xxx in java.library.path | Java 不完整，非 PCL 问题，如果可能，请您自行准备 Java 而不是使用自动补全 Java 功能。 | #3496
+ | 没有安装重复模组却提示安装了重复模组 | 部分优化模组使用了相同的模组 ID 导致模组加载器误判为相同 Mod，请在安装优化模组前 **仔细核对官方文档/百科** 确认可以同时安装后再安装。| 4376
  <!-- BUILD_FLAG:END Hard -->
  <!--参阅 #59，需要重新编写。
  | 无法更新 PCL（DNS） | 请按下 Win+X ，点击 Windows PowerShell（管理员），并输入如下命令 ```netsh interface ip set dns  "适配器名称" static 8.8.8.8```[^5]，如果您使用的是 **有线连接（网线）**，请将 **适配器名称** 替换为 **以太网**，如果您使用的是 **WiFi**，请将 **适配器名称** 替换为 **WLAN**，然后输入 ```nslookup raw.githubusercontent.com```，确认 **非权威应答** 的 **Addresses** 项的值不为 0.0.0.0、127.0.0.1、:::、:::1。 | #3505
