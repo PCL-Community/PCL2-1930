@@ -9,7 +9,7 @@
                                                                                                
 欢迎来到这个文档，正如你所见，这是 PCL2 仓库 Discussion #1930 的源码。
 因为只能使用 Markdown，所以这个文档的排版非常难受，我已经尽可能使其看得可以顺眼一些了qwq……
-我只公布了表格正文部分，其他部分就先不公布了，意义不是很大。
+我只公布了表格正文部分，其他部分就先不公布了，意义不是很大。(看起来还是有必要的…… 有一回手残把前面的删掉了诗歌快一个月才发现，又重写了一遍…… 那就把整理起来比较坐牢的地方公布一下，也当作针对我自己的防呆措施 Owo)
 如果你希望可以直接参与到这里来补充这个表格，可以直接往这个仓库丢 Pr，我会在周末进行同步更新的。
 嗯…… 显然，你是没法在这里交有关这个表格的 Issue 的，直接去原页面下方丢评论就好啦。
 -->
@@ -24,6 +24,8 @@
 ### 特别鸣谢
 
 ![Contributors](https://contrib.rocks/image?repo=PCL-Community/PCL2-1930)
+
+##### [◆ 辅助管理权限说明](https://github.com/Hex-Dragon/PCL2/discussions/477) [◆ 讨论时的常见疑惑](https://github.com/Hex-Dragon/PCL2/discussions/775) [◆ 声明：请不要为了获取权限而活跃](https://github.com/Hex-Dragon/PCL2/discussions/3666) [◆ 简介：PCL 功能投票](https://github.com/Hex-Dragon/PCL2/discussions/2) [◆ 自定义主页预设投稿](https://github.com/Hex-Dragon/PCL2/discussions/2528) [◆ 内部管理沟通帖](https://github.com/Hex-Dragon/PCL2/discussions/1952) [◆ PCL2 帮助库](https://github.com/LTCatt/PCL2Help) [◆ Hex-Dragon Discord 服务器](https://discord.gg/npstwgmftR) [◇ 主页标准与指导](https://github.com/Hex-Dragon/PCL2/discussions/4483) [◇ PCL 各平行版本指南](https://github.com/Hex-Dragon/PCL2/discussions/3933) [◇ 遥遥无期的联机的相关情报公开](https://github.com/Hex-Dragon/PCL2/discussions/4166) [◇ 致各位：一些交流方面的建议 ◇](https://github.com/Hex-Dragon/PCL2/discussions/1592)
 
 <!-- 表格正文于此开始。-->
 
