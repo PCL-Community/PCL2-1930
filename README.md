@@ -33,13 +33,13 @@
  | 内容 | 解释 | 参考 |
  |--|--|--|
  | **无法下载 Minecraft** | **为 MCBBS 关停所致，同时由于 BMCLAPI 源压力过大，可能导致大部分时间段无法通过镜像源下载 Minecraft。届时请尝试以下四种解决方案：<br>1. 更换不同的网络；<br>2. 每间隔一段时间后再次尝试下载；<br>3. 若您的网络条件允许，尝试使用加速器或 VPN；<br>4. 如个人技术能力允许，尝试部署 [OpenBMCLAPI](https://github.com/bangbang93/openbmclapi)。** <br><br>*部分日志可见：基础连接已经关闭: 未能为 SSL/TLS 安全通道建立信任关系。* | **[Bilibili&nbsp;动态](https://t.bilibili.com/899749241434406921)** <br> #3213
- | **1.16.4 及 1.16.5 离线模式无法进入多人游戏界面** | **PCL 不会解决该问题，这超出了启动器功能范畴。** <br> *如仍需要使用多人游戏 [^1]，请自行断网启动游戏或安装 [MultiOfflineFix](https://github.com/MCTeamPotato/MultiOfflineFix "Fabric & Forge") 或 [Offline Multiplayer](https://github.com/ChickenPige0n/offline-multiplayer-fabric "仅 Fabric") 模组。同时您可以参考[此处的解决方案](https://github.com/Hex-Dragon/PCL2/discussions/1930#discussioncomment-6797858)以彻底解决此问题。* | **PCL2&nbsp;内置帮助库 <br> #2003 #2017 #2004 [#1930](https://github.com/Hex-Dragon/PCL2/discussions/1930#discussioncomment-6805733)**
+ | **1.16.4 及 1.16.5 离线模式无法进入多人游戏界面** | **PCL 不会解决该问题，这超出了启动器功能范畴。** <br> *如仍需要使用多人游戏 [^1]，请自行断网启动游戏或安装 [MultiOfflineFix](https://github.com/MCTeamPotato/MultiOfflineFix "Fabric & Forge") 或 [Offline Multiplayer](https://github.com/ChickenPige0n/offline-multiplayer-fabric "仅 Fabric") Mod 。同时您可以参考[此处的解决方案](https://github.com/Hex-Dragon/PCL2/discussions/1930#discussioncomment-6797858)以彻底解决此问题。* | **PCL2&nbsp;内置帮助库 <br> #2003 #2017 #2004 [#1930](https://github.com/Hex-Dragon/PCL2/discussions/1930#discussioncomment-6805733)**
  | 游戏崩溃 | 请依照本文下方附文步骤进行解决。
  | 无法登录正版账户：您可能没有在 Minecraft 官网创建档案，或者没有购买 Minecraft。 | 此问题预计将于新版本修复。此前若您确认您已购买 Minecraft 并创建档案但仍出现此问题，请前往 [Minecraft&nbsp;官网](https://www.minecraft.net/login) 登录您拥有 Minecraft 的 Microsoft 账号后，稍等片刻即可使用 PCL 正常登录。 | #1299 #1264 #3702 (#3776)
  | 无法进入服务器 | 非 PCL 问题，具体可能的解决方案见内置帮助库或前往相关论坛寻求他人帮助。 | PCL2&nbsp;内置帮助库
  | 部分时段无法登录正版账户但网络速度良好 | 可能为使用中国联通或中国移动网络下 api.minecraftservices.com 和二级域名为 mojang.com 的地址均被墙所致，请尝试使用中国电信网络或使用 VPN。 | #2738
  | 游戏内无法正确加载皮肤 | 请检查您的网络环境，使用加速器或 VPN。 | -
- | 整合包中安装了 OptiFine 导致游戏无法正常加载 | OptiFine 和模组加载器之间存在严重的兼容性问题，请考虑只安装 OptiFine 或只安装模组加载器，亦或是使用其他 Mod 替代 OptiFine。 | #3258 #3566 #3573 MCLF-CN/docs#6
+ | 整合包中安装了 OptiFine 导致游戏无法正常加载 | OptiFine 和 Mod 加载器之间存在严重的兼容性问题，请考虑只安装 OptiFine 或只安装 Mod 加载器，亦或是使用其他 Mod 替代 OptiFine。 | #3258 #3566 #3573 MCLF-CN/docs#6
  | 游戏无声音 | 在未静音的情况下，请尝试 版本设置-高级管理-补全文件，若问题仍未解决，则尝试关闭 Windows 防火墙后再试。 | #4368
  | 1.12 及以下 OptiFine Forge 版本窗口大小和设置值不同 | 此为第三方组件在启动过程中使用了不同的算法处理传入的窗口大小所致。PCL 对该问题进行的修复仅对原版生效，将不再受理 **1.12.2-**、**OptiFine/Forge** 下窗口大小和设置的尺寸不同的 Bug。| #3463
  <!-- BUILD_FLAG:END Minecraft -->
@@ -69,8 +69,8 @@
  | 支持识别、安装 Quilt | **[处理中]** 已有相关 Pull Request。 | 🔹 **#4074** <br> #48
  | 支持识别、安装 Cleanroom | 正在 Discussions 中投票。 | #3003 (#3004)
  | 支持安装 Legacy Fabric、Legacy Fabric API、Babric 等 | 已不再考虑专门为 Minecraft 1.9 及以前的版本追加新功能。 | #3171 #283
- | 支持修改已安装版本的组件和模组加载器 | 正在 Discussions 中投票。<br> *搜索关键词：Fabric、Forge、OptiFine、LiteLoader、NeoForge、Quilt。* | #220 (#227)
- | 安装整合包时支持修改模组加载器版本 | 修改模组加载器版本可能会导致严重的兼容性问题，请联系整合包作者解决，PCL 不会支持该功能。 | #3568
+ | 支持修改已安装版本的组件和 Mod 加载器 | 正在 Discussions 中投票。<br> *搜索关键词：Fabric、Forge、OptiFine、LiteLoader、NeoForge、Quilt。* | #220 (#227)
+ | 安装整合包时支持修改 Mod 加载器版本 | 修改 Mod 加载器版本可能会导致严重的兼容性问题，请联系整合包作者解决，PCL 不会支持该功能。 | #3568
  | 支持下载资源包（材质包&纹理包） | 正在 Discussions 中投票，已有相关 Pull Request。 | 🔹 **#4020** <br> #44
  | 支持光影下载 | 已有相关 Pull Request。 | 🔹 **#4359** <br> #396
  | 支持数据包下载 | 正在 Discussions 中投票，已有相关 Pull Request。 | 🔹 **#4360** <br> #2991 (#2994)
@@ -220,8 +220,8 @@
 
 <!-- BUILD_FLAG:BEGIN Footnote -->
 [^1]:请注意，离线账号登录服务器本身违反 [Minecraft 最终用户协议](https://www.minecraft.net/en-us/eula) 提及的 [Minecraft 使用准则](https://www.minecraft.net/en-us/usage-guidelines) 的内容 ( 原文如此：*Access to your server: Must only be granted to users who have a genuine **paid-for version of Minecraft*** ) ，请谨慎考虑。
-[^2]:i. 对于较老 Mod 搜索结果无法显示支持模组加载器，此为早期 CurseForge 不支持设置选择模组加载器导致；<br>ii. 对于输入搜索关键词无法搜索到指定 Mod 或搜索时出现无关 Mod，此为 API 问题；<br>iii. 如确认为 Mod 作者上传时的设置问题，例如错误地选择了不支持的版本、Mod 前置标记错误、译名错误等问题，请尝试联系 Mod 作者或 MCMOD 百科页（仅译名问题）进行沟通确认。
-[^3]:由于 .minecraft/mods 文件夹下创建的子文件夹内的 Mod 不被模组加载器（此为如 Forge、Fabric 类模组加载器行为，非 PCL 行为）加载，因此在新版本中移除了此功能。
+[^2]:i. 对于较老 Mod 搜索结果无法显示支持 Mod 加载器，此为早期 CurseForge 不支持设置选择 Mod 加载器导致；<br>ii. 对于输入搜索关键词无法搜索到指定 Mod 或搜索时出现无关 Mod，此为 API 问题；<br>iii. 如确认为 Mod 作者上传时的设置问题，例如错误地选择了不支持的版本、Mod 前置标记错误、译名错误等问题，请尝试联系 Mod 作者或 MCMOD 百科页（仅译名问题）进行沟通确认。
+[^3]:由于 .minecraft/mods 文件夹下创建的子文件夹内的 Mod 不被 Mod 加载器（此为如 Forge、Fabric 类 Mod 加载器行为，非 PCL 行为）加载，因此在新版本中移除了此功能。
 [^4]:**▷▷▷ 请注意，Octo 开放不等价于 PCL 上线联机，具体信息以龙猫发布的消息为准，仅供参考。届时切勿散布任何未经相关启动器作者及服务提供方证实的信息。**
 [^5]:复制过程中，除适配器名称需要替换外，其他内容不可替换；除适配器名称外，其他部分不要包含中文字符。
 <!-- BUILD_FLAG:END Footnote -->
