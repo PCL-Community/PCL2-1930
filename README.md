@@ -152,14 +152,14 @@
 
  | 主页名称 | 反馈地址 | 联网更新地址 | 作者 |
  |--|--|--|--|
- | Minecraft 新闻 | · [Github](https://github.com/Light-Beacon/PCL2-NewsHomepage/issues/new/choose) | · http://pcl.mcnews.thestack.top <br> · https://news.bugjump.net  | @Light-Beacon
- | 简单主页 | · [Github](https://github.com/MFn233/PCL-Mainpage/issues/new/choose) | · https://gitee.com/mfn233/PCL-Mainpage/raw/main/Custom.xaml | @MFn233
+ | Minecraft 新闻 | · [GitHub](https://github.com/Light-Beacon/PCL2-NewsHomepage/issues/new/choose) | · http://pcl.mcnews.thestack.top <br> · https://news.bugjump.net  | @Light-Beacon
+ | 简单主页 | · [GitHub](https://github.com/MFn233/PCL-Mainpage/issues/new/choose) | · https://gitee.com/mfn233/PCL-Mainpage/raw/main/Custom.xaml | @MFn233
  | 每日整合包推荐 | · [SodaMC](https://sodamc.com/31402-29042412.html) | https://pclsub.sodamc.com/ | @wkea
  | Minecraft 皮肤推荐 | · [SodaMC](https://sodamc.com/45080-44052300.html) | https://forgepixel.com/pcl_sub_file | @wkea
  
 <!-- 以下主页等待加入 PCL 预设
- | 历史上的今天 | · [Github](https://github.com/hsuchenghao/pcl-history-today-go/issues/new) | https://pclnews.52chye.cn/custom.xaml | @hsuchenghao
- | 赤灵主页 | · [Github](https://github.com/YuShanNan/ChiLing-HomePage-PCL2/issues/new) | http://samiuv.mcfuns.cn/PCL2/Custom.xaml | @YuShanNan
+ | 历史上的今天 | · [GitHub](https://github.com/hsuchenghao/pcl-history-today-go/issues/new) | https://pclnews.52chye.cn/custom.xaml | @hsuchenghao
+ | 炽翎主页 | · [GitHub](https://github.com/YuShanNan/ChiLing-HomePage-PCL2/issues/new) | http://samiuv.mcfuns.cn/PCL2/Custom.xaml | @YuShanNan
 --> 
 
 
@@ -201,11 +201,11 @@
 
 完成上述步骤后，开始填写反馈内容正文部分，依照各部分提示清晰、明了、易懂地写出您的期望内容，如果可以，请写出可供参考的解决方案。
 
-正文填写完毕后，请按照提示上传相关附件，包括但不限于：（Bug）PCL 日志、游戏日志、游戏崩溃报告、HMCL 启动日志、问题截图、复现视频等；（优化/新功能）相关截图或视频。
+正文填写完毕后，请按照提示上传相关附件，包括但不限于：[Bug] PCL 日志、游戏日志、游戏崩溃报告、HMCL 启动日志、问题截图、复现视频等；[优化/新功能] 相关截图或视频。
 
-> **💡 Tips: 开启调试模式复现问题**
+> **💡 Tip: 开启调试模式复现问题**  
 在反馈 Bug 时，我们推荐直接上传 **开启调试模式复现了问题的复现日志**，这通常会有利于解决该问题。
-若你尚不清楚如何开启调试模式，请开启 **设置-启动器-调试选项-调试模式** 后重启启动器即可。
+若你尚不清楚如何开启调试模式，请开启 `设置 → 启动器 → 调试选项 → 调试模式` 后重启启动器即可。
 
 #### 4. 后续处理及跟进工作
 
@@ -213,15 +213,15 @@
 
 在沟通过程中，请尽可能避免连续评论或多层引用评论，如果需要修改或补充您的陈述，可以通过单击右上角的三个点，选择 Edit 来编辑您的评论或反馈。在沟通过程中请尽可能**保持态度平和，避免出现过激言论**，如您对 Issue 处理结果不满意，可以继续在下方进行信息补充。
 
-同时请注意，在沟通过程中请避免过多谈论无关内容或进行[版聊](https://baike.baidu.com/item/%E7%89%88%E8%81%8A/403656)，尽管您可以对您发布的评论进行隐藏，**但当您发表无关内容时，已经对他人进行了不必要的打扰（因为该仓库有任何动态时 GitHub 会给关注了这个仓库的人发一次邮件）**，若无关内容过多，**该 Issue 将被锁定**。因此为了提高沟通效率，**请善用 Edit 编辑功能**，避免连续发布评论和发表无关内容。
+同时请注意，在沟通过程中请避免过多谈论无关内容或进行 [版聊](https://baike.baidu.com/item/%E7%89%88%E8%81%8A/403656)，尽管您可以对您发布的评论进行隐藏，**但当您发表无关内容时，已经对他人进行了不必要的打扰（因为该仓库有任何动态时 GitHub 会给关注了这个仓库的人发一次邮件）**，若无关内容过多，**该 Issue 将被锁定**。因此为了提高沟通效率，**请善用 Edit 编辑功能**，避免连续发布评论和发表无关内容。
 
 ---
 </details>
 
 <!-- BUILD_FLAG:BEGIN Footnote -->
-[^1]:请注意，离线账号登录服务器本身违反 [Minecraft 最终用户协议](https://www.minecraft.net/en-us/eula) 提及的 [Minecraft 使用准则](https://www.minecraft.net/en-us/usage-guidelines) 的内容 ( 原文如此：*Access to your server: Must only be granted to users who have a genuine **paid-for version of Minecraft*** ) ，请谨慎考虑。
-[^2]:i. 对于较老 Mod 搜索结果无法显示支持 Mod 加载器，此为早期 CurseForge 不支持设置选择 Mod 加载器导致；<br>ii. 对于输入搜索关键词无法搜索到指定 Mod 或搜索时出现无关 Mod，此为 API 问题；<br>iii. 如确认为 Mod 作者上传时的设置问题，例如错误地选择了不支持的版本、Mod 前置标记错误、译名错误等问题，请尝试联系 Mod 作者或 MCMOD 百科页（仅译名问题）进行沟通确认。
-[^3]:由于 .minecraft/mods 文件夹下创建的子文件夹内的 Mod 不被 Mod 加载器（此为如 Forge、Fabric 类 Mod 加载器行为，非 PCL 行为）加载，因此在新版本中移除了此功能。
-[^4]:**▷▷▷ 请注意，Octo 开放不等价于 PCL 上线联机，具体信息以龙猫发布的消息为准，仅供参考。届时切勿散布任何未经相关启动器作者及服务提供方证实的信息。**
+[^1]:请注意，离线账号登录服务器本身违反 [Minecraft 最终用户协议](https://www.minecraft.net/en-us/eula) 提及的 [Minecraft 使用准则](https://www.minecraft.net/en-us/usage-guidelines) 的内容 ( 原文如此：*Access to your server: Must only be granted to users who have a genuine **paid-for version of Minecraft*** ) ，请谨慎考虑。  
+[^2]:i. 对于较老 Mod 搜索结果无法显示支持 Mod 加载器，此为早期 CurseForge 不支持设置选择 Mod 加载器导致；<br>ii. 对于输入搜索关键词无法搜索到指定 Mod 或搜索时出现无关 Mod，此为 API 问题；<br>iii. 如确认为 Mod 作者上传时的设置问题，例如错误地选择了不支持的版本、Mod 前置标记错误、译名错误等问题，请尝试联系 Mod 作者或 MCMOD 百科页（仅译名问题）进行沟通确认。  
+[^3]:由于 .minecraft/mods 文件夹下创建的子文件夹内的 Mod 不被 Mod 加载器（此为如 Forge、Fabric 类 Mod 加载器行为，非 PCL 行为）加载，因此在新版本中移除了此功能。  
+[^4]:**▷▷▷ 请注意，Octo 开放不等价于 PCL 上线联机，具体信息以龙猫发布的消息为准，仅供参考。届时切勿散布任何未经相关启动器作者及服务提供方证实的信息。**  
 [^5]:复制过程中，除适配器名称需要替换外，其他内容不可替换；除适配器名称外，其他部分不要包含中文字符。
 <!-- BUILD_FLAG:END Footnote -->
