@@ -79,6 +79,7 @@
  | 支持下载第三方服务端及插件 | PCL 是启动器，此功能超出了启动器的范畴。 | #108
  | 支持下载特定版本的 Java | 没有合适的下载源，暂不考虑。 | #3585
  | 引进新 Mod / 整合包下载源 | 没有其他可用的国内的 API。 | #1658
+ | 支持使用国内 Mod 镜像源 | 快照版已更新，等待正式版同步。 | #4267 <br> [MCLF-CN/docs#3](https://github.com/MCLF-CN/docs/issues/3#issuecomment-2238538065)
  | 允许管理存档、光影文件 | 不会制作该功能。 | #388 #396
  | 支持导出 Mod 列表 | 该功能可以被导出整合包基本覆盖，暂不考虑制作。 | #2586
  | 添加 Mod 收藏夹 | 正在 Discussions 中投票。 | #487 (#1646)
@@ -219,7 +220,7 @@
 </details>
 
 <!-- BUILD_FLAG:BEGIN Footnote -->
-[^1]:请注意，离线账号登录服务器本身违反 [Minecraft 最终用户协议](https://www.minecraft.net/zh-hans/eula) 提及的 [Minecraft 使用准则](https://www.minecraft.net/zh-hans/usage-guidelines) 的内容 ( 原文如此：*Access to your server: Must only be granted to users who have a genuine **paid-for version of Minecraft*** ) ，请谨慎考虑。  
+[^1]:请注意，离线账号登录服务器本身违反 [Minecraft 最终用户协议](https://www.minecraft.net/zh-hans/eula) 提及的 [Minecraft 使用准则](https://www.minecraft.net/zh-hans/usage-guidelines) 的内容 ( 原文如此：*访问您的服务器：必须**只授予拥有 Minecraft 正规付费版本的用户*** ) ，请谨慎考虑。  
 [^2]:i. 对于较老 Mod 搜索结果无法显示支持 Mod 加载器，此为早期 CurseForge 不支持设置选择 Mod 加载器导致；<br>ii. 对于输入搜索关键词无法搜索到指定 Mod 或搜索时出现无关 Mod，此为 API 问题；<br>iii. 如确认为 Mod 作者上传时的设置问题，例如错误地选择了不支持的版本、Mod 前置标记错误、译名错误等问题，请尝试联系 Mod 作者或 MCMOD 百科页（仅译名问题）进行沟通确认。  
 [^3]:由于 .minecraft/mods 文件夹下创建的子文件夹内的 Mod 不被 Mod 加载器（此为如 Forge、Fabric 类 Mod 加载器行为，非 PCL 行为）加载，因此在新版本中移除了此功能。  
 [^4]:**▷▷▷ 请注意，Octo 开放不等价于 PCL 上线联机，具体信息以龙猫发布的消息为准，仅供参考。届时切勿散布任何未经相关启动器作者及服务提供方证实的信息。**  
