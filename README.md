@@ -35,14 +35,13 @@
  | 内容 | 解释 | 参考 |
  |--|--|--|
  | **无法下载 Minecraft** | **为 MCBBS 关停所致，同时由于 BMCLAPI 源压力过大，可能导致大部分时间段无法通过镜像源下载 Minecraft。届时请尝试以下四种解决方案：<br>1. 更换不同的网络；<br>2. 每间隔一段时间后再次尝试下载；<br>3. 若您的网络条件允许，尝试使用加速器或 VPN；<br>4. 如个人技术能力允许，尝试部署 [OpenBMCLAPI](https://github.com/bangbang93/openbmclapi)。** <br><br>*部分日志可见：基础连接已经关闭: 未能为 SSL/TLS 安全通道建立信任关系。* | **[Bilibili&nbsp;动态](https://t.bilibili.com/899749241434406921)** <br> #3213
- | **1.16.4 及 1.16.5 离线模式无法进入多人游戏界面** | **PCL 不会解决该问题，这超出了启动器功能范畴。** <br> *如仍需要使用多人游戏 [^1]，请自行断网启动游戏或安装 [MultiOfflineFix](https://github.com/MCTeamPotato/MultiOfflineFix "Fabric & Forge") 或 [Offline Multiplayer](https://github.com/ChickenPige0n/offline-multiplayer-fabric "仅 Fabric") Mod 。同时您可以参考[此处的解决方案](https://github.com/Hex-Dragon/PCL2/discussions/1930#discussioncomment-6797858)以彻底解决此问题。* | **PCL2&nbsp;内置帮助库 <br> #2003 #2017 #2004 [#1930](https://github.com/Hex-Dragon/PCL2/discussions/1930#discussioncomment-6805733)**
+ | **1.16.4 及 1.16.5 离线模式无法进入多人游戏界面** | **PCL 不会解决该问题，这超出了启动器功能范畴。** <br> *如仍需要使用多人游戏 [^1]，请自行断网启动游戏或安装 [MultiOfflineFix](https://github.com/MCTeamPotato/MultiOfflineFix "Fabric & Forge") 或 [Offline Multiplayer](https://github.com/ChickenPige0n/offline-multiplayer-fabric "仅 Fabric") Mod 。同时您可以参考 [此处的解决方案](https://github.com/Hex-Dragon/PCL2/discussions/1930#discussioncomment-6797858) 以彻底解决此问题。* | **PCL2&nbsp;内置帮助库 <br> #2003 #2017 #2004 [#1930](https://github.com/Hex-Dragon/PCL2/discussions/1930#discussioncomment-6805733)**
  | 游戏崩溃 | 请依照本文下方附文步骤进行解决。
- | 无法登录正版账户：您可能没有在 Minecraft 官网创建档案，或者没有购买 Minecraft。 | 此问题预计将于新版本修复。此前若您确认您已购买 Minecraft 并创建档案但仍出现此问题，请前往 [Minecraft&nbsp;官网](https://www.minecraft.net/login) 登录您拥有 Minecraft 的 Microsoft 账号后，稍等片刻即可使用 PCL 正常登录。 | #1299 #1264 #3702 (#3776)
  | 无法进入服务器 | 非 PCL 问题，具体可能的解决方案见内置帮助库或前往相关论坛寻求他人帮助。 | PCL2&nbsp;内置帮助库
- | 部分时段无法登录正版账户但网络速度良好 | 可能为使用中国联通或中国移动网络下 api.minecraftservices.com 和二级域名为 mojang.com 的地址均被墙所致，请尝试使用中国电信网络或使用 VPN。 | #2738
+ | 部分时段无法登录正版账户但网络速度良好 | 可能为使用中国联通或中国移动网络下 `api.minecraftservices.com` 和二级域名为 `mojang.com` 的地址均被墙所致，请尝试使用中国电信网络或使用 VPN。 | #2738
  | 游戏内无法正确加载皮肤 | 请检查您的网络环境，使用加速器或 VPN。 | -
  | 整合包中安装了 OptiFine 导致游戏无法正常加载 | OptiFine 和 Mod 加载器之间存在严重的兼容性问题，请考虑只安装 OptiFine 或只安装 Mod 加载器，亦或是使用其他 Mod 替代 OptiFine。 | #3258 #3566 #3573 MCLF-CN/docs#6
- | 游戏无声音 | 在未静音的情况下，请尝试 版本设置-高级管理-补全文件，若问题仍未解决，则尝试关闭 Windows 防火墙后再试。 | #4368
+ | 游戏无声音 | 在未静音的情况下，请尝试 版本设置 → 高级管理 → 补全文件，若问题仍未解决，则尝试关闭 Windows 防火墙后再试。 | #4368
  | 1.12 及以下 OptiFine Forge 版本窗口大小和设置值不同 | 此为第三方组件在启动过程中使用了不同的算法处理传入的窗口大小所致。PCL 对该问题进行的修复仅对原版生效，将不再受理 **1.12.2-**、**OptiFine/Forge** 下窗口大小和设置的尺寸不同的 Bug。| #3463
  <!-- BUILD_FLAG:END Minecraft -->
 
@@ -67,31 +66,31 @@
  | 支持离线披风 | 技术上无法实现。 | #700
  | 支持调整 OptiFine 和第三方披风选项 | 暂时不打算制作。 | #2045 #2065
  | 支持离线模式下 1.19.3+ 版本自定义皮肤 | 正在 Discussions 中投票。 | #1288 (#1596)
- | Minecraft 更新后 PCL 内未找到该最新版本 | 请在 **设置-启动器-下载-版本列表获取** 选择 **尽量使用官方源**。 | #1226
- | 支持识别、安装 Quilt | **[处理中]** 已有相关 Pull Request。 | 🔹 **#4074** <br> #48
+ | Minecraft 更新后 PCL 内未找到该最新版本 | 请在 **设置 → 启动器 → 下载 → 版本列表获取** 选择 **尽量使用官方源**。 | #1226
+ | 支持识别、安装 Quilt | 已有相关 Pull Request。 | 🔹 **#4074** <br> #48
  | 支持识别、安装 Cleanroom | 正在 Discussions 中投票。 | #3003 (#3004)
  | 支持安装 Legacy Fabric、Legacy Fabric API、Babric 等 | 已不再考虑专门为 Minecraft 1.9 及以前的版本追加新功能。 | #3171 #283
  | 支持修改已安装版本的组件和 Mod 加载器 | 正在 Discussions 中投票。<br> *搜索关键词：Fabric、Forge、OptiFine、LiteLoader、NeoForge、Quilt。* | #220 (#227)
  | 安装整合包时支持修改 Mod 加载器版本 | 修改 Mod 加载器版本可能会导致严重的兼容性问题，请联系整合包作者解决，PCL 不会支持该功能。 | #3568
- | 支持下载资源包（材质包&纹理包） | 正在 Discussions 中投票，已有相关 Pull Request。 | 🔹 **#4020** <br> #44
+ | 支持下载资源包（纹理包） | 已有相关 Pull Request。 | 🔹 **#4020** <br> #44
  | 支持光影下载 | 已有相关 Pull Request。 | 🔹 **#4359** <br> #396
  | 支持数据包下载 | 正在 Discussions 中投票，已有相关 Pull Request。 | 🔹 **#4360** <br> #2991 (#2994)
  | 支持下载地图 | 存在语言问题，不会制作。 | #44 #135
  | 支持下载第三方服务端及插件 | PCL 是启动器，此功能超出了启动器的范畴。 | #108
  | 支持下载特定版本的 Java | 没有合适的下载源，暂不考虑。 | #3585
  | 引进新 Mod / 整合包下载源 | 没有其他可用的国内的 API。 | #1658
- | 支持使用国内 Mod 镜像源 | 已有相关 Pull Request。 | 🔹 **#4291** <br> #4267 <br> [MCLF-CN/docs#3](https://github.com/MCLF-CN/docs/issues/3#issuecomment-2238538065)
+ | 支持使用国内 Mod 镜像源 | 快照版已更新，等待正式版同步。 | #4267 <br> [MCLF-CN/docs#3](https://github.com/MCLF-CN/docs/issues/3#issuecomment-2238538065)
  | 允许管理存档、光影文件 | 不会制作该功能。 | #388 #396
  | 支持导出 Mod 列表 | 该功能可以被导出整合包基本覆盖，暂不考虑制作。 | #2586
  | 添加 Mod 收藏夹 | 正在 Discussions 中投票。 | #487 (#1646)
  | Mod 管理支持分类 Mod | 不会制作。<br>*搜索关键词：分类、分组、模组、管理、分区、收藏、文件夹、收藏夹、星标。* | #277
- | 无法搜索到指定 Mod & Mod 搜索筛选选项异常 & Mod 搜索匹配版本错误 & Mod 详情页前置问题 等 Mod 搜索问题 | 为 API 或 Mod 作者上传时的设置问题，PCL 无法解决。 [^2] | #2352 #2277 #2190 #2069 等 Issues
+ | 无法搜索到指定 Mod & Mod 搜索筛选选项异常 & Mod 搜索匹配版本错误 & Mod 详情页前置问题 等 Mod 搜索问题 | 为 API 或 Mod 作者上传时的设置问题，PCL 无法解决。[^2] | #2352 #2277 #2190 #2069 等 Issues
  | 下载或安装资源时失败 | 请先尝试使用其他启动器下载，若使用后问题依然存在，则非 PCL 问题。请使用镜像源或检查您的网络环境，使用加速器或 VPN。<br>如若确定网络环境无问题，请尝试设置游戏 Java 为最新版本的 Java 后再试。 | #3211
  | 支持下载或安装资源时断点续传（下载失败时支持一键重新下载） | 技术上极难实现，不会制作。 | #3069
  | 支持下载或安装资源时暂停下载 | 技术上极难实现，不会制作。 | #3069
  | 添加暗黑模式 | *“这个基本上要重新设计所有界面，工作量太大了，我猜我都不会做……” ——龙腾猫跃* | #131
  | Mod 管理允许选择使用多种排序方式 | 考虑到该功能可以使用 Windows 自带资源管理器进行排序，暂无必要在启动器侧实现。 | #2698
- | Mod 管理允许扫描子文件夹 Mod | 此功能已被移除[^3]，但如果子文件夹名称为版本名则仍会读取并加载。对于 Quilt 加载器下识别子文件夹 Mod 功能正在处理。 | #811 #1098 #1536 #1784
+ | Mod 管理允许扫描子文件夹 Mod | 此功能已被移除 [^3]，但如果子文件夹名称为版本名则仍会读取并加载。对于 Quilt 加载器下识别子文件夹 Mod 功能正在处理。 | #811 #1098 #1536 #1784
  | 添加更多 Minecraft 远古版本 | 正在 Discussions 中投票。 | #3786 (#3787)
  | 添加不由 Mojang 发布的 Minecraft 版本 | 不会收录社区玩家制作的 Minecraft 版本 (如：error422、alpha v1.2.3_03 等)。 | #2575
  | 添加云端账户、启动器内置社区、云端同步账户数据、云端同步隐藏主题、官网等 | 无法抵御攻击，不会制作任何有关云端账号的内容。 | #315 等 Issues
@@ -109,7 +108,7 @@
  | 有关 “千万别点” 的 Issue | PCL **不会受理** 关于 “千万别点” 的 **任何 Issues**。 | #460 #398 #407 #677 #796 #1147 #1923
  | 添加内置 NBT 查看器/编辑器 | 超出启动器范畴，不会制作。 | #3321
  | 选中 PCL 文件并快速敲击 Enter 会导致 PCL 多开 | 无法正确检测，不会修复。 | #1372
- | 无法启动 Labymod 客户端 | 为其版本 JSON 提供的文件大小有误所致，非 PCL 问题。 | #3225
+ | 无法启动 LabyMod 客户端 | 为其版本 JSON 提供的文件大小有误所致，非 PCL 问题。 | #3225
  | 删除 Libraries 文件夹或其中的文件后补全文件失败 | PCL 无法在 Libraries 文件不全的情况下完成文件补全。 | #3698
  | 将 GitHub 链接替换为镜像站 | 代理源的安全性与稳定性欠佳，不会制作。 | #2879
  <!-- BUILD_FLAG:END PCL -->
@@ -132,11 +131,11 @@
  | 内存优化后（或已使用内存过小时）已使用内存部分不显示具体数字 | 由于排版空间不够不予以显示，同时考虑到大部分玩家在内存占用极低时不会计较具体占用内存数，因此这是刻意的设计。 | #1924
  | 切换音乐时概率性切换提示与实际播放歌曲不符 | NAudio 的 Bug，技术上无法处理。 | #866
  | 切换音频设备后，音乐播放不会自动切换到新设备 | NAudio 的 Bug，技术上无法处理。 | #480
- | 播放音乐时提示线程执行失败：NoDriver calling waveOutRestart | NAudio 的 Bug，技术上无法处理。 | #1753 #2348
+ | 播放音乐时提示线程执行失败：`NoDriver calling waveOutRestart` | NAudio 的 Bug，技术上无法处理。 | #1753 #2348
  | 启动游戏时出现弹窗报错：GLFW error 65543 | 检查是否使用了正确的显卡（或独立显卡）启动 PCL。 | #2215
  | 启动 Minecrat 1.7.10-1.12.2 游戏内无声音 | 此为 OpenAL 初始化失败所致，请在游戏启动后按下 F3+T 来重新初始化 OpenAL。 | #3779 [MC-9974](https://bugs.mojang.com/browse/MC-9974)
  | 因感染蠕虫病毒导致 PCL 崩溃或无法更新等 | *Collaborator 请注意，日志可见：文件名或文件夹名前含有 `cache`、`HD` 字样。* | #2964 #2970 #3204
- | 日志出现 not xxx in java.library.path | Java 不完整，非 PCL 问题，如果可能，请您自行准备 Java 而不是使用自动补全 Java 功能。 | #3496
+ | 日志出现 `not xxx in java.library.path` | Java 不完整，非 PCL 问题，如果可能，请您自行准备 Java 而不是使用自动补全 Java 功能。 | #3496
 
  <!-- BUILD_FLAG:END Hard -->
  <!--参阅 #59，需要重新编写。
@@ -154,14 +153,14 @@
 
  | 主页名称 | 反馈地址 | 联网更新地址 | 作者 |
  |--|--|--|--|
- | Minecraft 新闻 | · [Github](https://github.com/Light-Beacon/PCL2-NewsHomepage/issues/new/choose) | · http://pcl.mcnews.thestack.top <br> · https://news.bugjump.net  | @Light-Beacon
- | 简单主页 | · [Github](https://github.com/MFn233/PCL-Mainpage/issues/new/choose) | · https://gitee.com/mfn233/PCL-Mainpage/raw/main/Custom.xaml | @MFn233
+ | Minecraft 新闻 | · [GitHub](https://github.com/Light-Beacon/PCL2-NewsHomepage/issues/new/choose) | · http://pcl.mcnews.thestack.top <br> · https://news.bugjump.net  | @Light-Beacon
+ | 简单主页 | · [GitHub](https://github.com/MFn233/PCL-Mainpage/issues/new/choose) | · https://gitee.com/mfn233/PCL-Mainpage/raw/main/Custom.xaml | @MFn233
  | 每日整合包推荐 | · [SodaMC](https://sodamc.com/31402-29042412.html) | https://pclsub.sodamc.com/ | @wkea
  | Minecraft 皮肤推荐 | · [SodaMC](https://sodamc.com/45080-44052300.html) | https://forgepixel.com/pcl_sub_file | @wkea
  
 <!-- 以下主页等待加入 PCL 预设
- | 历史上的今天 | · [Github](https://github.com/hsuchenghao/pcl-history-today-go/issues/new) | https://pclnews.52chye.cn/custom.xaml | @hsuchenghao
- | 赤灵主页 | · [Github](https://github.com/YuShanNan/ChiLing-HomePage-PCL2/issues/new) | http://samiuv.mcfuns.cn/PCL2/Custom.xaml | @YuShanNan
+ | 历史上的今天 | · [GitHub](https://github.com/hsuchenghao/pcl-history-today-go/issues/new) | https://pclnews.52chye.cn/custom.xaml | @hsuchenghao
+ | 炽翎主页 | · [GitHub](https://github.com/YuShanNan/ChiLing-HomePage-PCL2/issues/new) | http://samiuv.mcfuns.cn/PCL2/Custom.xaml | @YuShanNan
 --> 
 
 
@@ -203,11 +202,12 @@
 
 完成上述步骤后，开始填写反馈内容正文部分，依照各部分提示清晰、明了、易懂地写出您的期望内容，如果可以，请写出可供参考的解决方案。
 
-正文填写完毕后，请按照提示上传相关附件，包括但不限于：（Bug）PCL 日志、游戏日志、游戏崩溃报告、HMCL 启动日志、问题截图、复现视频等；（优化/新功能）相关截图或视频。
+正文填写完毕后，请按照提示上传相关附件，包括但不限于：[Bug] PCL 日志、游戏日志、游戏崩溃报告、HMCL 启动日志、问题截图、复现视频等；[优化/新功能] 相关截图或视频。
 
-> **💡 Tips: 开启调试模式复现问题**
-在反馈 Bug 时，我们推荐直接上传 **开启调试模式复现了问题的复现日志**，这通常会有利于解决该问题。
-若你尚不清楚如何开启调试模式，请开启 **设置-启动器-调试选项-调试模式** 后重启启动器即可。
+> **💡 Tip: 开启调试模式复现问题**  
+>
+> 在反馈 Bug 时，我们推荐直接上传 **开启调试模式复现了问题的复现日志**，这通常会有利于解决该问题。  
+若你尚不清楚如何开启调试模式，请开启 设置 → 启动器 → 调试选项 → 调试模式 后重启启动器即可。
 
 #### 4. 后续处理及跟进工作
 
@@ -215,15 +215,14 @@
 
 在沟通过程中，请尽可能避免连续评论或多层引用评论，如果需要修改或补充您的陈述，可以通过单击右上角的三个点，选择 Edit 来编辑您的评论或反馈。在沟通过程中请尽可能**保持态度平和，避免出现过激言论**，如您对 Issue 处理结果不满意，可以继续在下方进行信息补充。
 
-同时请注意，在沟通过程中请避免过多谈论无关内容或进行[版聊](https://baike.baidu.com/item/%E7%89%88%E8%81%8A/403656)，尽管您可以对您发布的评论进行隐藏，**但当您发表无关内容时，已经对他人进行了不必要的打扰（因为该仓库有任何动态时 GitHub 会给关注了这个仓库的人发一次邮件）**，若无关内容过多，**该 Issue 将被锁定**。因此为了提高沟通效率，**请善用 Edit 编辑功能**，避免连续发布评论和发表无关内容。
+同时请注意，在沟通过程中请避免过多谈论无关内容或进行 [版聊](https://baike.baidu.com/item/%E7%89%88%E8%81%8A/403656)，尽管您可以对您发布的评论进行隐藏，**但当您发表无关内容时，已经对他人进行了不必要的打扰（因为该仓库有任何动态时 GitHub 会给关注了这个仓库的人发一次邮件）**，若无关内容过多，**该 Issue 将被锁定**。因此为了提高沟通效率，**请善用 Edit 编辑功能**，避免连续发布评论和发表无关内容。
 
----
 </details>
 
 <!-- BUILD_FLAG:BEGIN Footnote -->
-[^1]:请注意，离线账号登录服务器本身违反 [Minecraft 最终用户协议](https://www.minecraft.net/en-us/eula) 提及的 [Minecraft 使用准则](https://www.minecraft.net/en-us/usage-guidelines) 的内容 ( 原文如此：*Access to your server: Must only be granted to users who have a genuine **paid-for version of Minecraft*** ) ，请谨慎考虑。
-[^2]:i. 对于较老 Mod 搜索结果无法显示支持 Mod 加载器，此为早期 CurseForge 不支持设置选择 Mod 加载器导致；<br>ii. 对于输入搜索关键词无法搜索到指定 Mod 或搜索时出现无关 Mod，此为 API 问题；<br>iii. 如确认为 Mod 作者上传时的设置问题，例如错误地选择了不支持的版本、Mod 前置标记错误、译名错误等问题，请尝试联系 Mod 作者或 MCMOD 百科页（仅译名问题）进行沟通确认。
-[^3]:由于 .minecraft/mods 文件夹下创建的子文件夹内的 Mod 不被 Mod 加载器（此为如 Forge、Fabric 类 Mod 加载器行为，非 PCL 行为）加载，因此在新版本中移除了此功能。
-[^4]:**▷▷▷ 请注意，Octo 开放不等价于 PCL 上线联机，具体信息以龙猫发布的消息为准，仅供参考。届时切勿散布任何未经相关启动器作者及服务提供方证实的信息。**
+[^1]:请注意，离线账号登录服务器本身违反 [Minecraft 最终用户协议](https://www.minecraft.net/zh-hans/eula) 提及的 [Minecraft 使用准则](https://www.minecraft.net/zh-hans/usage-guidelines) 的内容 ( 原文如此：*访问您的服务器：必须**只授予拥有 Minecraft 正规付费版本的用户*** ) ，请谨慎考虑。  
+[^2]:i. 对于较老 Mod 搜索结果无法显示支持 Mod 加载器，此为早期 CurseForge 不支持设置选择 Mod 加载器导致；<br>ii. 对于输入搜索关键词无法搜索到指定 Mod 或搜索时出现无关 Mod，此为 API 问题；<br>iii. 如确认为 Mod 作者上传时的设置问题，例如错误地选择了不支持的版本、Mod 前置标记错误、译名错误等问题，请尝试联系 Mod 作者或 MCMOD 百科页（仅译名问题）进行沟通确认。  
+[^3]:由于 .minecraft/mods 文件夹下创建的子文件夹内的 Mod 不被 Mod 加载器（此为如 Forge、Fabric 类 Mod 加载器行为，非 PCL 行为）加载，因此在新版本中移除了此功能。  
+[^4]:**▷▷▷ 请注意，Octo 开放不等价于 PCL 上线联机，具体信息以龙猫发布的消息为准，仅供参考。届时切勿散布任何未经相关启动器作者及服务提供方证实的信息。**  
 [^5]:复制过程中，除适配器名称需要替换外，其他内容不可替换；除适配器名称外，其他部分不要包含中文字符。
 <!-- BUILD_FLAG:END Footnote -->
