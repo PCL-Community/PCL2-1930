@@ -12,7 +12,7 @@ jobs:
       - name: Request review from WForst-Breeze
         uses: peter-evans/create-pull-request@v4
         with:
-          token: ${{ secrets.sheep }}
+          token: ${{ secrets.SHEEP }}
           reviewers: WForst-Breeze
 
   add-merge-label:
@@ -22,7 +22,7 @@ jobs:
       - name: Add "▲ 合并" label on PR merge
         uses: actions-ecosystem/action-add-labels@v1
         with:
-          github_token: ${{ secrets.sheep }}
+          github_token: ${{ secrets.SHEEP }}
           labels: '▲ 合并'
 
   auto-merge:
@@ -32,7 +32,7 @@ jobs:
       - name: Auto merge PR with "▲ 合并" label
         uses: pascalgn/automerge-action@v0.14.3
         env:
-          GITHUB_TOKEN: ${{ secrets.sheep }}
+          GITHUB_TOKEN: ${{ secrets.SHEEP }}
 
   add-approved-label:
     if: github.event.review.state == 'approved' && github.event.review.user.login == 'WForst-Breeze'
@@ -41,7 +41,7 @@ jobs:
       - name: Add "⇵ 通过" label when approved by WForst-Breeze
         uses: actions-ecosystem/action-add-labels@v1
         with:
-          github_token: ${{ secrets.sheep }}
+          github_token: ${{ secrets.SHEEP }}
           labels: '⇵ 通过'
 
   auto-close-pr:
@@ -53,7 +53,7 @@ jobs:
       - name: Close PR if specific labels are added
         uses: actions-ecosystem/action-close-issue@v1
         with:
-          github_token: ${{ secrets.sheep }}
+          github_token: ${{ secrets.SHEEP }}
 
   add-request-changes-label:
     if: github.event.review.state == 'changes_requested'
