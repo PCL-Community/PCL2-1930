@@ -1,0 +1,66 @@
+name: auto-PR
+
+on:
+  pull_request:
+    types: [opened, labeled, unlabeled, closed, review_requested, review, edited, synchronize]
+
+jobs:
+  request-review:
+    if: github.event.action == 'opened'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Request review from WForst-Breeze
+        uses: peter-evans/create-pull-request@v4
+        with:
+          token: ${{ secrets.sheep }}
+          reviewers: WForst-Breeze
+
+  add-merge-label:
+    if: github.event.action == 'closed' && github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    steps:
+      - name: Add "▲ 合并" label on PR merge
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          github_token: ${{ secrets.sheep }}
+          labels: '▲ 合并'
+
+  auto-merge:
+    if: contains(github.event.pull_request.labels.*.name, '▲ 合并')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Auto merge PR with "▲ 合并" label
+        uses: pascalgn/automerge-action@v0.14.3
+        env:
+          GITHUB_TOKEN: ${{ secrets.sheep }}
+
+  add-approved-label:
+    if: github.event.review.state == 'approved' && github.event.review.user.login == 'WForst-Breeze'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Add "⇵ 通过" label when approved by WForst-Breeze
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          github_token: ${{ secrets.sheep }}
+          labels: '⇵ 通过'
+
+  auto-close-pr:
+    if: contains(github.event.pull_request.labels.*.name, '× 重新编写') || 
+        contains(github.event.pull_request.labels.*.name, '× 无效') || 
+        contains(github.event.pull_request.labels.*.name, '× 拒绝')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Close PR if specific labels are added
+        uses: actions-ecosystem/action-close-issue@v1
+        with:
+          github_token: ${{ secrets.sheep }}
+
+  add-request-changes-label:
+    if: github.event.review.state == 'changes_requested'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Add "◈ 修正" label when changes are requested
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          github_token: ${{ secrets.sheep }}
+          labels: '◈ 修正'
