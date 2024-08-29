@@ -22,29 +22,35 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Add "▲ 合并" label on PR merge
-        uses: actions-ecosystem/action-add-labels@v1
-        with:
-          github_token: ${{ secrets.SHEEP }}
-          labels: '▲ 合并'
+        run: |
+          curl -X POST \
+          -H "Authorization: token ${{ secrets.SHEEP }}" \
+          -H "Accept: application/vnd.github.v3+json" \
+          https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.pull_request.number }}/labels \
+          -d '{"labels":["▲ 合并"]}'
 
   auto-merge:
     if: contains(github.event.pull_request.labels.*.name, '▲ 合并')
     runs-on: ubuntu-latest
     steps:
       - name: Auto merge PR with "▲ 合并" label
-        uses: pascalgn/automerge-action@v0.14.3
-        env:
-          GITHUB_TOKEN: ${{ secrets.SHEEP }}
+        run: |
+          curl -X PUT \
+          -H "Authorization: token ${{ secrets.SHEEP }}" \
+          -H "Accept: application/vnd.github.v3+json" \
+          https://api.github.com/repos/${{ github.repository }}/pulls/${{ github.event.pull_request.number }}/merge
 
   add-approved-label:
     if: github.event.review.state == 'approved' && github.event.review.user.login == 'WForst-Breeze'
     runs-on: ubuntu-latest
     steps:
       - name: Add "⇵ 通过" label when approved by WForst-Breeze
-        uses: actions-ecosystem/action-add-labels@v1
-        with:
-          github_token: ${{ secrets.SHEEP }}
-          labels: '⇵ 通过'
+        run: |
+          curl -X POST \
+          -H "Authorization: token ${{ secrets.SHEEP }}" \
+          -H "Accept: application/vnd.github.v3+json" \
+          https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.pull_request.number }}/labels \
+          -d '{"labels":["⇵ 通过"]}'
 
   auto-close-pr:
     if: contains(github.event.pull_request.labels.*.name, '× 重新编写') || 
@@ -53,16 +59,21 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Close PR if specific labels are added
-        uses: actions-ecosystem/action-close-issue@v1
-        with:
-          github_token: ${{ secrets.SHEEP }}
+        run: |
+          curl -X PATCH \
+          -H "Authorization: token ${{ secrets.SHEEP }}" \
+          -H "Accept: application/vnd.github.v3+json" \
+          https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.pull_request.number }} \
+          -d '{"state":"closed"}'
 
   add-request-changes-label:
     if: github.event.review.state == 'changes_requested'
     runs-on: ubuntu-latest
     steps:
       - name: Add "◈ 修正" label when changes are requested
-        uses: actions-ecosystem/action-add-labels@v1
-        with:
-          github_token: ${{ secrets.sheep }}
-          labels: '◈ 修正'
+        run: |
+          curl -X POST \
+          -H "Authorization: token ${{ secrets.SHEEP }}" \
+          -H "Accept: application/vnd.github.v3+json" \
+          https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.pull_request.number }}/labels \
+          -d '{"labels":["◈ 修正"]}'
