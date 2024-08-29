@@ -1,0 +1,20 @@
+name: Add label after a pull request is merged
+
+on:
+    pull_request:
+        types:
+          - labeled
+
+permissions:
+    pull-requests: write
+
+jobs:
+    label_after_merged:
+        if: github.event.pull_request.merged == true
+        runs-on: ubuntu-latest
+        steps:
+            - name: Add label
+              run: |
+                gh pr edit ${{ github.event.pull_request.number }} --add-label "▲ 合并"
+              env:
+                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

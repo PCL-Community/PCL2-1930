@@ -1,0 +1,19 @@
+name: Add label after a pull request is approved
+
+on:
+    pull_request_review:
+        types: [submitted]
+
+permissions:
+    pull-requests: write
+
+jobs:
+    label_after_merged:
+        if: github.event.review.state == 'approved'
+        runs-on: ubuntu-latest
+        steps:
+            - name: Add label
+              run: |
+                gh pr edit ${{ github.event.pull_request.number }} --add-label "⇵ 通过"
+              env:
+                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

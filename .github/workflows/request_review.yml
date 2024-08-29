@@ -1,0 +1,18 @@
+name: Request review after a pull request is created
+
+on:
+    pull_request:
+        types: [opened, reopened]
+
+permissions:
+    pull-requests: write
+
+jobs:
+    request_review:
+        runs-on: ubuntu-latest
+        steps:
+            - name: Request review
+              run: |
+                gh pr edit ${{ github.event.pull_request.number }} --add-reviewers WForst-Breeze
+              env:
+                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
