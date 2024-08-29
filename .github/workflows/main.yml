@@ -2,7 +2,7 @@ name: auto-PR
 
 on:
   pull_request:
-    types: [opened, labeled, unlabeled, closed, review_requested, review, edited, synchronize]
+    types: [opened, labeled, unlabeled, closed, review_requested,  edited, synchronize]
 
 jobs:
   request-review:
