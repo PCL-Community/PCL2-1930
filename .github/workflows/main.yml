@@ -8,9 +8,6 @@ jobs:
   pr_workflow:
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v2
-
       - name: Request review from WForst-Breeze on PR creation
         if: github.event.action == 'opened'
         run: |
