@@ -21,13 +21,12 @@ jobs:
             -d '{"reviewers":["WForst-Breeze"]}'
 
       - name: Add "▲ 合并" label on PR merge
-        if: github.event.action == 'closed' && github.event.pull_request.merged == true
-        run: |
-          curl -X POST \
-            -H "Authorization: token ${{ secrets.SHEEP }}" \
-            -H "Accept: application/vnd.github.v3+json" \
-            https://api.github.com/repos/${{ github.repository }}/issues/${{ github.event.pull_request.number }}/labels \
-            -d '{"labels":["▲ 合并"]}'
+        if: github.event.action == 'closed' && github.event.pull_request.merged == true    
+      - name: Add merge label
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          github_token: ${{ secrets.SHEEP }}
+          labels: '▲ 合并'
 
       - name: Auto-merge PR with "▲ 合并" label
         if: contains(github.event.pull_request.labels.*.name, '▲ 合并')
