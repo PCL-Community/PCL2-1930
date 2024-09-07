@@ -21,8 +21,7 @@ jobs:
             -d '{"reviewers":["WForst-Breeze"]}'
 
       - name: Add "▲ 合并" label on PR merge
-        if: github.event.action == 'closed' && github.event.pull_request.merged == true    
-      - name: Add merge label
+        if: github.event.action == 'closed' && github.event.pull_request.merged == true      
         uses: actions-ecosystem/action-add-labels@v1
         with:
           github_token: ${{ secrets.SHEEP }}
