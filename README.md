@@ -111,6 +111,8 @@
  | 删除 Libraries 文件夹或其中的文件后补全文件失败 | PCL 无法在 Libraries 文件不全的情况下完成文件补全。 | #3698
  | 将 GitHub 链接替换为镜像站 | 代理源的安全性与稳定性欠佳，不会制作。 | #2879
  | 无法加载部分来自 Modrinth 的 Mod 图标 | 此类 Mod 使用了 SVG/WebP 格式的图标。对于后者目前正在处理。 | #1409 #4734
+ | 支持识别、安装 OptiKai | 正在 Discussions 中投票。 | #3881 (#3882)
+ | PCL 无法访问 Modrinth，但浏览器能正常访问 | PLACEHOLDER | PLACEHOLDER
  <!-- BUILD_FLAG:END PCL -->
 
 
@@ -136,6 +138,9 @@
  | 启动 Minecrat 1.7.10-1.12.2 游戏内无声音 | 此为 OpenAL 初始化失败所致，请在游戏启动后按下 F3+T 来重新初始化 OpenAL。 | #3779 [MC-9974](https://bugs.mojang.com/browse/MC-9974)
  | 因感染蠕虫病毒导致 PCL 崩溃或无法更新等 | *Collaborator 请注意，日志可见：文件名或文件夹名前含有 `cache`、`HD` 字样。* | #2964 #2970 #3204
  | 日志出现 `not xxx in java.library.path` | Java 不完整，非 PCL 问题，如果可能，请您自行准备 Java 而不是使用自动补全 Java 功能。 | #3496
+ | 开机自启 PCL | 不考虑在启动器内添加支持。 | #2896
+ | 打开 PCL 时关闭已运行的 MC | *“……很难识别一个 Java 进程是不是真的 MC，并且作用也不是很大，算了 orz” ——龙腾猫跃* | #1243
+ | 窗口最底部卡片展开时无动画 | *“因为这时候滚动条没有贴底。WPF 的逻辑问题，修不了 orz” ——龙腾猫跃* | #4739
 
  <!-- BUILD_FLAG:END Hard -->
  <!--参阅 #59，需要重新编写。
