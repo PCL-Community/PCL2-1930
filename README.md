@@ -72,9 +72,9 @@
  | 支持安装 Legacy Fabric、Legacy Fabric API、Babric 等 | 已不再考虑专门为 Minecraft 1.9 及以前的版本追加新功能。 | #3171 #283
  | 支持修改已安装版本的组件和 Mod 加载器 | 正在 Discussions 中投票。<br> *搜索关键词：Fabric、Forge、OptiFine、LiteLoader、NeoForge、Quilt。* | #220 (#227)
  | 安装整合包时支持修改 Mod 加载器版本 | 修改 Mod 加载器版本可能会导致严重的兼容性问题，请联系整合包作者解决，PCL 不会支持该功能。 | #3568
- | 支持资源包下载 | 已有相关 Pull Request。 | 🔹 **#4020** <br> #44
- | 支持光影包下载 | 已有相关 Pull Request。 | 🔹 **#4359** <br> #396
- | 支持数据包下载 | 正在 Discussions 中投票，已有相关 Pull Request。 | 🔹 **#4360** <br> #2991 (#2994)
+ | 支持下载资源包（纹理包/材质包） | 已有相关 Pull Request。 | 🔹 **#4020** <br> #44
+ | 支持下载光影包 | 已有相关 Pull Request。 | 🔹 **#4359** <br> #396
+ | 支持下载数据包 | 正在 Discussions 中投票，已有相关 Pull Request。 | 🔹 **#4360** <br> #2991 (#2994)
  | 支持下载地图 | 存在语言问题，不会制作。 | #44 #135
  | 支持下载原版服务端 | 已有相关 Pull Request。 | 🔹 **#4810** <br> #112
  | 支持下载第三方服务端及插件 | PCL 是启动器，此功能超出了启动器的范畴。 | #108
@@ -111,8 +111,8 @@
  | 无法启动 LabyMod 客户端 | 为其版本 JSON 提供的文件大小有误所致，非 PCL 问题。 | #3225
  | 删除 Libraries 文件夹或其中的文件后补全文件失败 | PCL 无法在 Libraries 文件不全的情况下完成文件补全。 | #3698
  | 将 GitHub 链接替换为镜像站 | 代理源的安全性与稳定性欠佳，不会制作。 | #2879
- | 无法加载部分来自 Modrinth 的 Mod 图标 | 此类 Mod 使用了 SVG 格式的图标，PCL 不考虑支持此类图标。 | #1409
  | 支持识别、安装 OptiKai | 正在 Discussions 中投票。 | #3881 (#3882)
+ | 无法加载部分来自 Modrinth 的 Mod 图标 | 此类 Mod 使用了 SVG 格式的图标，PCL 不考虑支持此类图标。 | #1409
  | PCL 无法访问 Modrinth，但浏览器能正常访问 | PLACEHOLDER | #4334
  <!-- BUILD_FLAG:END PCL -->
 
