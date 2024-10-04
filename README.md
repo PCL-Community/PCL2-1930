@@ -157,6 +157,8 @@
  | 每日整合包推荐 | · [SodaMC](https://sodamc.com/31402-29042412.html) | · https://pclsub.sodamc.com | @wkea
  | Minecraft 皮肤推荐 | · [SodaMC](https://sodamc.com/45080-44052300.html) | · https://forgepixel.com/pcl_sub_file | @wkea
  | OpenBMCLAPI 仪表盘 Lite | · [GitHub](https://github.com/Mxmilu666/cloudflare-pcl-bmclapi/issues/new/choose) | · https://pcl-bmcl.milulu.xyz | @Silverteal <br> @Mxmilu666
+ | PCL 主页市场 | · [GitHub](https://github.com/HomePlaza-Of-PCL2/Homepage-Market/issues/new/choose) | · https://homepage-market.pages.dev/Custom.xaml | @JingHai-Lingyun
+ | PCL 更新日志 | · [GitHub](https://github.com/Joker2184/UpdateHomepage/issues/new) | · https://updatehomepage.pages.dev/UpdateHomepage.xaml | @Joker2184
 
 <!-- 以下主页等待加入 PCL 预设
  | 历史上的今天 | · [GitHub](https://github.com/hsuchenghao/pcl-history-today-go/issues/new) | · https://pclnews.52chye.cn/custom.xaml | @hsuchenghao
