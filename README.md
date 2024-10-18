@@ -83,7 +83,7 @@
  | 引进新 Mod / 整合包下载源 | 没有其他可用的国内的 API。 | #1658
  | 允许管理存档、截图、资源包、光影包等文件 | 已有相关 Pull Request。 | 🔹 **#4770**
  | 支持导出 Mod 列表 | 该功能可以被导出整合包基本覆盖，暂不考虑制作。 | #2586
- | 添加 Mod 收藏夹 | 正在 Discussions 中投票。 | #487 (#1646)
+ | 添加 Mod 收藏夹 | 正在 Discussions 中投票，已有相关 Pull Request。 | 🔹 **#4933** <br> #487 (#1646)
  | Mod 管理支持分类 Mod | 不会制作。<br>*搜索关键词：分类、分组、模组、管理、分区、收藏、文件夹、收藏夹、星标。* | #277
  | 无法搜索到指定 Mod & Mod 搜索筛选选项异常 & Mod 搜索匹配版本错误 & Mod 详情页前置问题 等 Mod 搜索问题 | 为 API 或 Mod 作者上传时的设置问题，PCL 无法解决。[^2] | #2352 #2277 #2190 #2069 等 Issues
  | 无法加载部分来自 Modrinth 的 Mod 图标 | 此类 Mod 使用了 SVG 格式的图标，PCL 不考虑支持此类图标。 | #1409
@@ -166,6 +166,8 @@
  | OpenBMCLAPI 仪表盘 Lite | · [GitHub](https://github.com/Mxmilu666/cloudflare-pcl-bmclapi/issues/new/choose) | · https://pcl-bmcl.milulu.xyz | @Silverteal <br> @Mxmilu666
  | PCL 主页市场 | · [GitHub](https://github.com/HomePlaza-Of-PCL2/Homepage-Market/issues/new/choose) | · https://homepage-market.pages.dev/Custom.xaml | @JingHai-Lingyun
  | PCL 更新日志 | · [GitHub](https://github.com/Joker2184/UpdateHomepage/issues/new) | · https://updatehomepage.pages.dev/UpdateHomepage.xaml | @Joker2184
+ | PCL 新功能说明书 | · [GitHub](https://github.com/WForst-Breeze/Whats-New-PCL2/issues/new) | · https://gitee.com/wforstbreeze/whats-new-pcl/raw/main/Custom.xaml | @WForst-Breeze
+ | OpenMCIM 仪表盘 | · [GitHub](https://github.com/Hex-Dragon/PCL2/discussions/4906) | · https://files.mcimirror.top/PCL | @SALTWOOD
 
 <!-- 以下主页等待加入 PCL 预设
  | 历史上的今天 | · [GitHub](https://github.com/hsuchenghao/pcl-history-today-go/issues/new) | · https://pclnews.52chye.cn/custom.xaml | @hsuchenghao
