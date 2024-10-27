@@ -160,13 +160,13 @@
  | 主页名称 | 反馈地址 | 联网更新地址 | 作者 |
  |--|--|--|--|
  | Minecraft 新闻 | · [GitHub](https://github.com/Light-Beacon/PCL2-NewsHomepage/issues/new/choose) | · http://pcl.mcnews.thestack.top <br> · https://news.bugjump.net  | @Light-Beacon
- | 简单主页 | · [GitHub](https://github.com/MFn233/PCL-Mainpage/issues/new/choose) | · https://gitee.com/mfn233/PCL-Mainpage/raw/main/Custom.xaml | @MFn233
+ | 简单主页 | · [GitHub](https://github.com/MFn233/PCL-Mainpage/issues/new/choose) | · https://raw.gitcode.com/MFn233/PCL-Mainpage/raw/main/Custom.xaml | @MFn233
  | 每日整合包推荐 | · [SodaMC](https://sodamc.com/31402-29042412.html) | · https://pclsub.sodamc.com | @wkea
  | Minecraft 皮肤推荐 | · [SodaMC](https://sodamc.com/45080-44052300.html) | · https://forgepixel.com/pcl_sub_file | @wkea
  | OpenBMCLAPI 仪表盘 Lite | · [GitHub](https://github.com/Mxmilu666/cloudflare-pcl-bmclapi/issues/new/choose) | · https://pcl-bmcl.milulu.xyz | @Silverteal <br> @Mxmilu666
  | PCL 主页市场 | · [GitHub](https://github.com/HomePlaza-Of-PCL2/Homepage-Market/issues/new/choose) | · https://homepage-market.pages.dev/Custom.xaml | @JingHai-Lingyun
  | PCL 更新日志 | · [GitHub](https://github.com/Joker2184/UpdateHomepage/issues/new) | · https://updatehomepage.pages.dev/UpdateHomepage.xaml | @Joker2184
- | PCL 新功能说明书 | · [GitHub](https://github.com/WForst-Breeze/Whats-New-PCL2/issues/new) | · https://gitee.com/wforstbreeze/whats-new-pcl/raw/main/Custom.xaml | @WForst-Breeze
+ | PCL 新功能说明书 | · [GitHub](https://github.com/WForst-Breeze/Whats-New-PCL2/issues/new) | · https://raw.gitcode.com/WForst-Breeze/WhatsNewPCL/raw/main/Custom.xaml | @WForst-Breeze
  | OpenMCIM 仪表盘 | · [GitHub](https://github.com/Hex-Dragon/PCL2/discussions/4906) | · https://files.mcimirror.top/PCL | @SALTWOOD
 
 <!-- 以下主页等待加入 PCL 预设
