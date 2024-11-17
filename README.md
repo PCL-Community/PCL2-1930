@@ -58,7 +58,7 @@
  | 增加导出整合包功能 | 已有相关 Pull Request。 | 🔹 **#4758** <br> #98
  | 支持启动基岩版（BE）、教育版、传奇（Minecraft Legends；MCL）、地下城（Minecraft Dungeons；MCD）等其他 Minecraft 衍生游戏 | *“这玩意儿我根本启动不了！用官方启动器吧！告辞！” ——龙腾猫跃* | #81
  | 支持第三方登录全局设置 | 正在 Discussions 中投票。 | #57 (#58)
- | 支持更新整合包 | 新旧整合包间可能存在兼容性等冲突问题，不会制作。 | #2854
+ | 支持更新整合包 | 正在 Discussions 中投票。 | #5068 (#5069)
  | 爱发电无法收到加群信息或更新密钥 | 加群请 **在爱发电** 回复 “加群”，更新密钥 **在爱发电** 获取请回复 “‘更新’ +识别码”。如无法收到回复，很可能是您已经触发了人工回复，在等待人工回复的过程中无法使用命令。您如果只是想使用命令，可以发送 “取消人工处理”。如仍旧没有回复，可以等待一会后再进行尝试。 | [石墨文档](https://shimo.im/docs/qKPttVvXKqPD8YDC) <br> #1867 #1529
  | 使用自定义主页时出现问题 | 一般情况下非启动器问题，为第三方主页问题，请联系主页作者。<br>*对于启动器内置的预设主页，请见下方 “预设主页” 部分获取对应作者及其仓库。* | #3393 #3002 #2930 等 Issues
  | 支持 macOS、Linux、iOS、Android 等其他操作系统 | PCL 的底层界面框架（WPF）无法跨系统，要兼容其他系统无异于完全重做，不会制作。 | #54
@@ -87,7 +87,7 @@
  | Mod 管理支持分类 Mod | 不会制作。<br>*搜索关键词：分类、分组、模组、管理、分区、收藏、文件夹、收藏夹、星标。* | #277
  | 无法搜索到指定 Mod & Mod 搜索筛选选项异常 & Mod 搜索匹配版本错误 & Mod 详情页前置问题 等 Mod 搜索问题 | 为 API 或 Mod 作者上传时的设置问题，PCL 无法解决。[^2] | #2352 #2277 #2190 #2069 等 Issues
  | 无法加载部分来自 Modrinth 的 Mod 图标 | 此类 Mod 使用了 SVG 格式的图标，PCL 不考虑支持此类图标。 | #1409
- | PCL 无法访问 Modrinth，但浏览器能正常访问 | **[需要社区帮助]** 开发者已根据社区讨论放出复现代码，但未能复现成功，需要社区协助复现 | [#4334](https://github.com/Hex-Dragon/PCL2/issues/4334#issuecomment-2387925270)
+ | PCL 无法访问 Modrinth，但浏览器能正常访问 | 目前已无法复现，如有遇到此类现象可在 #4334 评论。 | #4334
  | 下载或安装资源时失败 | 请先尝试使用其他启动器下载，若使用后问题依然存在，则非 PCL 问题。请使用镜像源或检查您的网络环境，使用加速器或 VPN。<br>如若确定网络环境无问题，请尝试设置游戏 Java 为最新版本的 Java 后再试。 | #3211
  | 支持下载或安装资源时断点续传（下载失败时支持一键重新下载） | 技术上极难实现，不会制作。 | #3069
  | 支持下载或安装资源时暂停下载 | 技术上极难实现，不会制作。 | #3069
@@ -159,15 +159,16 @@
 
  | 主页名称 | 反馈地址 | 联网更新地址 | 作者 |
  |--|--|--|--|
- | Minecraft 新闻 | · [GitHub](https://github.com/Light-Beacon/PCL2-NewsHomepage/issues/new/choose) | · http://pcl.mcnews.thestack.top <br> · https://news.bugjump.net  | @Light-Beacon
+ | Minecraft 新闻 | · [GitHub](https://github.com/Light-Beacon/PCL2-NewsHomepage/issues/new/choose) | · https://pcl.mcnews.thestack.top | @Light-Beacon
  | 简单主页 | · [GitHub](https://github.com/MFn233/PCL-Mainpage/issues/new/choose) | · https://raw.gitcode.com/MFn233/PCL-Mainpage/raw/main/Custom.xaml | @MFn233
  | 每日整合包推荐 | · [SodaMC](https://sodamc.com/31402-29042412.html) | · https://pclsub.sodamc.com | @wkea
  | Minecraft 皮肤推荐 | · [SodaMC](https://sodamc.com/45080-44052300.html) | · https://forgepixel.com/pcl_sub_file | @wkea
- | OpenBMCLAPI 仪表盘 Lite | · [GitHub](https://github.com/Mxmilu666/cloudflare-pcl-bmclapi/issues/new/choose) | · https://pcl-bmcl.milulu.xyz | @Silverteal <br> @Mxmilu666
+ | OpenBMCLAPI 仪表盘 Lite | · [GitHub](https://github.com/Mxmilu666/cloudflare-pcl-bmclapi/issues/new/choose) | · https://pcl-bmcl.milu.ink | @Silverteal <br> @Mxmilu666
  | PCL 主页市场 | · [GitHub](https://github.com/HomePlaza-Of-PCL2/Homepage-Market/issues/new/choose) | · https://homepage-market.pages.dev/Custom.xaml | @JingHai-Lingyun
- | PCL 更新日志 | · [GitHub](https://github.com/Joker2184/UpdateHomepage/issues/new) | · https://updatehomepage.pages.dev/UpdateHomepage.xaml | @Joker2184
+ | PCL 新闻速报 | · [GitHub](https://github.com/Joker2184/UpdateHomepage/issues/new) | · https://pclhomeplazaoss.lingyunawa.top:27000/d/Homepages/Joker2184/UpdateHomepage.xaml | @Joker2184
  | PCL 新功能说明书 | · [GitHub](https://github.com/WForst-Breeze/Whats-New-PCL2/issues/new) | · https://raw.gitcode.com/WForst-Breeze/WhatsNewPCL/raw/main/Custom.xaml | @WForst-Breeze
  | OpenMCIM 仪表盘 | · [GitHub](https://github.com/Hex-Dragon/PCL2/discussions/4906) | · https://files.mcimirror.top/PCL | @SALTWOOD
+ | 杂志主页 | · [GitHub](https://github.com/Hex-Dragon/PCL2/discussions/4926) | · https://pclhomeplazaoss.lingyunawa.top:27000/d/Homepages/Ext1nguisher/Custom.xaml | @Ext1nguisher
 
 <!-- 以下主页等待加入 PCL 预设
  | 历史上的今天 | · [GitHub](https://github.com/hsuchenghao/pcl-history-today-go/issues/new) | · https://pclnews.52chye.cn/custom.xaml | @hsuchenghao
