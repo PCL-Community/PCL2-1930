@@ -163,11 +163,11 @@
  | 每日整合包推荐 | · [SodaMC](https://sodamc.com/31402-29042412.html) | · https://pclsub.sodamc.com | @wkea
  | Minecraft 皮肤推荐 | · [SodaMC](https://sodamc.com/45080-44052300.html) | · https://forgepixel.com/pcl_sub_file | @wkea
  | OpenBMCLAPI 仪表盘 Lite | · [GitHub](https://github.com/Mxmilu666/cloudflare-pcl-bmclapi/issues/new/choose) | · https://pcl-bmcl.milu.ink | @Silverteal <br> @Mxmilu666
- | PCL 主页市场 | · [GitHub](https://github.com/HomePlaza-Of-PCL2/Homepage-Market/issues/new/choose) | · http://pclhomeplazaoss.lingyunawa.top:27000/d/Homepages/JingHai-Lingyun/Custom.xaml | @JingHai-Lingyun
- | PCL 新闻速报 | · [GitHub](https://github.com/Joker2184/UpdateHomepage/issues/new) | · http://pclhomeplazaoss.lingyunawa.top:27000/d/Homepages/Joker2184/UpdateHomepage.xaml | @Joker2184
+ | PCL 主页市场 | · [GitHub](https://github.com/HomePlaza-Of-PCL2/Homepage-Market/issues/new/choose) | · https://homepage-market.pages.dev/Custom.xaml | @JingHai-Lingyun
+ | PCL 新闻速报 | · [GitHub](https://github.com/Joker2184/UpdateHomepage/issues/new) | · https://pclhomeplazaoss.lingyunawa.top:27000/d/Homepages/Joker2184/UpdateHomepage.xaml | @Joker2184
  | PCL 新功能说明书 | · [GitHub](https://github.com/WForst-Breeze/Whats-New-PCL2/issues/new) | · https://raw.gitcode.com/WForst-Breeze/WhatsNewPCL/raw/main/Custom.xaml | @WForst-Breeze
  | OpenMCIM 仪表盘 | · [GitHub](https://github.com/Hex-Dragon/PCL2/discussions/4906) | · https://files.mcimirror.top/PCL | @SALTWOOD
- | 杂志主页 | · [GitHub](https://github.com/Hex-Dragon/PCL2/discussions/4926) | · http://pclhomeplazaoss.lingyunawa.top:27000/d/Homepages/Ext1nguisher/Custom.xaml | @Ext1nguisher
+ | 杂志主页 | · [GitHub](https://github.com/Hex-Dragon/PCL2/discussions/4926) | · https://pclhomeplazaoss.lingyunawa.top:27000/d/Homepages/Ext1nguisher/Custom.xaml | @Ext1nguisher
 
 <!-- 以下主页等待加入 PCL 预设
  | 历史上的今天 | · [GitHub](https://github.com/hsuchenghao/pcl-history-today-go/issues/new) | · https://pclnews.52chye.cn/custom.xaml | @hsuchenghao
