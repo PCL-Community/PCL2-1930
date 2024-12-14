@@ -72,7 +72,7 @@
  | 支持识别、安装 OptiKai | 正在 Discussions 中投票。 | #3881 (#3882)
  | 支持安装 Legacy Fabric、Legacy Fabric API、Babric 等 | 已不再考虑专门为 Minecraft 1.9 及以前的版本追加新功能。 | #3171 #283
  | 支持修改已安装版本的组件和 Mod 加载器 | 正在 Discussions 中投票。<br> *搜索关键词：Fabric、Forge、OptiFine、LiteLoader、NeoForge、Quilt。* | #220 (#227)
- | 支持识别和标注客户端/服务端 Mod | 由于 Mod 作者错误标注的情况非常多，实际上无法区分哪些为客户端 Mod，哪些为服务端 Mod | #2467
+ | 支持识别和标注客户端/服务端 Mod | 由于 Mod 作者错误标注的情况非常多，实际上无法区分哪些为客户端 Mod，哪些为服务端 Mod。 | #2467
  | 安装整合包时支持修改 Mod 加载器版本 | 修改 Mod 加载器版本可能会导致严重的兼容性问题，请联系整合包作者解决，PCL 不会支持该功能。 | #3568
  | 支持下载资源包（纹理包/材质包） | 已有相关 Pull Request。 | 🔹 **#4020** <br> #44
  | 支持下载光影包 | 已有相关 Pull Request。 | 🔹 **#4359** <br> #396
