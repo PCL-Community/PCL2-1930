@@ -59,6 +59,8 @@
  | 支持启动基岩版（BE）、教育版、传奇（Minecraft Legends；MCL）、地下城（Minecraft Dungeons；MCD）等其他 Minecraft 衍生游戏 | *“这玩意儿我根本启动不了！用官方启动器吧！告辞！” ——龙腾猫跃* | #81
  | 支持第三方登录全局设置 | 正在 Discussions 中投票。 | #57 (#58)
  | 支持更新整合包 | 正在 Discussions 中投票。 | #5068 (#5069)
+ | 支持独立网络代理设置 | 正在 Discussion 中投票。 | #1228 (#1233)
+ | 第三方 Yggdrasil 认证服务器 OAuth 登录支持 | 正在 Discussion 中投票，已有相关 Pull Request。 | 🔹 **#5132** <br> #4941 (#4948)
  | 爱发电无法收到加群信息或更新密钥 | 加群请 **在爱发电** 回复 “加群”，更新密钥 **在爱发电** 获取请回复 “‘更新’ +识别码”。如无法收到回复，很可能是您已经触发了人工回复，在等待人工回复的过程中无法使用命令。您如果只是想使用命令，可以发送 “取消人工处理”。如仍旧没有回复，可以等待一会后再进行尝试。 | [石墨文档](https://shimo.im/docs/qKPttVvXKqPD8YDC) <br> #1867 #1529
  | 使用自定义主页时出现问题 | 一般情况下非启动器问题，为第三方主页问题，请联系主页作者。<br>*对于启动器内置的预设主页，请见下方 “预设主页” 部分获取对应作者及其仓库。* | #3393 #3002 #2930 等 Issues
  | 支持 macOS、Linux、iOS、Android 等其他操作系统 | PCL 的底层界面框架（WPF）无法跨系统，要兼容其他系统无异于完全重做，不会制作。 | #54
@@ -81,6 +83,7 @@
  | 支持下载特定版本的 Java | 没有合适的下载源，暂不考虑。 | #3585
  | 引进新 Mod / 整合包下载源 | 没有其他可用的国内的 API。 | #1658
  | 允许管理存档、截图、资源包、光影包等文件 | 已有相关 Pull Request。 | 🔹 **#4770**
+ | 在 Mod 管理为 Mod 添加标签 & 分组 | 正在 Discussions 中投票。 | #277 (#5214)
  | 支持导出 Mod 列表 | 该功能可以被导出整合包基本覆盖，暂不考虑制作。 | #2586
  | 添加 Mod 收藏夹 | 正在 Discussions 中投票，已有相关 Pull Request。 | 🔹 **#4933** <br> #487 (#1646)
  | Mod 管理支持分类 Mod | 正在 Discussions 中投票。<br>*搜索关键词：分类、分组、模组、管理、分区、收藏、文件夹、收藏夹、星标。* | #277 (#5214)
@@ -173,6 +176,8 @@
 <!-- 以下主页等待加入 PCL 预设
  | 历史上的今天 | · [GitHub](https://github.com/hsuchenghao/pcl-history-today-go/issues/new) | · https://pclnews.52chye.cn/custom.xaml | @hsuchenghao
  | 炽翎主页 | · [GitHub](https://github.com/YuShanNan/ChiLing-HomePage-PCL2/issues/new) | · http://samiuv.mcfuns.cn/PCL2/Custom.xaml | @YuShanNan
+ | Java 下载主页 | · [GitHub](https://github.com/zkitefly/PCL2-java_download_page) | · 暂无 | @zkitefly
+ | Vocaloid WikiPage | · [GitHub](https://github.com/LTY-Followers/VocaloidWikiPageForPCL2) | · 暂无 | @wuliaodexiaoluo & @ shimoranla
 --> 
 
 
