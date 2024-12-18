@@ -175,8 +175,8 @@
 <!-- 以下主页等待加入 PCL 预设
  | 历史上的今天 | · [GitHub](https://github.com/hsuchenghao/pcl-history-today-go/issues/new) | · https://pclnews.52chye.cn/custom.xaml | @hsuchenghao
  | 炽翎主页 | · [GitHub](https://github.com/YuShanNan/ChiLing-HomePage-PCL2/issues/new) | · http://samiuv.mcfuns.cn/PCL2/Custom.xaml | @YuShanNan
- | Java 下载主页 | · [GitHub](https://github.com/zkitefly/PCL2-java_download_page) | · 暂无 | @zkitefly
- | Vocaloid WikiPage | · [GitHub](https://github.com/LTY-Followers/VocaloidWikiPageForPCL2) | · 暂无 | @wuliaodexiaoluo & @ shimoranla
+ | Java 下载主页 | · [GitHub](https://github.com/zkitefly/PCL2-java_download_page/issues/new) | · 暂无 | @zkitefly
+ | Vocaloid WikiPage | · [GitHub](https://github.com/LTY-Followers/VocaloidWikiPageForPCL2/issues/new) | · 暂无 | @wuliaodexiaoluo & @ shimoranla
 --> 
 
 
