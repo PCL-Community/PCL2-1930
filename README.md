@@ -101,6 +101,7 @@
  | 使用滑稽彩导致卡顿&掉帧&占用过大 | 无法解决或优化此类问题。 | #1575 #1590 #2336
  | 支持启动器字体自定义 | 会导致严重的 UI 适配问题，不考虑制作。 | #1724 #766 #366
  | 支持启动器开机自启动 | 不考虑在启动器内添加支持。 | #2896
+ | 支持独立网络代理设置 | 正在 Discussion 中投票。 | #1228 (#1233)
  | 有关与 Minecraft 多人游戏服务器交互的内容 | 不会制作该功能。 | #829 #1993
  | 接入 ChatGPT、文心一言、Copilot、NewBing 等 AI 语言模型 | 不会制作该功能。 | #2791 #1557
  | 支持使用相对路径 | *“改这个那一大堆路径设置绝壁一周之内就会出来一大堆反馈让我加相对路径，想想都吓人，算了……” ——龙腾猫跃* | #1568 #1292 #1080
@@ -127,6 +128,7 @@
  | 因使用 32 位系统引起的问题 | 新版 Minecraft 已不支持 32 位系统，因此不会再额外为 32 位进行修复和调整。 | [#3649](https://github.com/Hex-Dragon/PCL2/issues/3649#issuecomment-2047054821)
  | 因系统问题无法打开 PCL | 系统原因，PCL 无法解决。<br> *搜索关键词：.NET、支持库、程序出现未知错误、显卡驱动、闪退、系统不完整。* | #2849 #2755 #2751 #2729 #2676 #2580 #2485 #2146 等 Issues
  | 调试模式性能损耗过大 | 个别问题，无法稳定复现。 | #365
+ | 第三方 Yggdrasil 认证服务器 OAuth 登录支持 | 正在 Discussion 中投票，已有相关 Pull Request。 | 🔹 **#5132** <br> #4941 (#4948)
  | Mod 下载详情页加载动画 UI 在加载后未能隐藏 | **[需要社区复现]** 需要社区给出稳定的复现方式。 <br> *搜索关键词：加载动画、加载图标、Mod 下载、列表、UI、隐藏、消失。* | #1624
  | 无法加载 Mod 图标 | 请检查您的网络环境，如无问题则请前往 Modrinth 或 CurseForge 网站内及 HMCL、BakaXL 内查看是否有图标，若均无图标，则该 Mod 作者未上传图标，非 PCL 问题。| -
  | 没有安装重复 Mod 却提示安装了重复 Mod | 部分 Mod 使用了相同的 Mod ID 导致 Mod 加载器误判为相同 Mod，请在安装 Mod 前仔细检查官方文档 / 百科确认可以同时安装后再安装。| #4376
@@ -173,6 +175,8 @@
 <!-- 以下主页等待加入 PCL 预设
  | 历史上的今天 | · [GitHub](https://github.com/hsuchenghao/pcl-history-today-go/issues/new) | · https://pclnews.52chye.cn/custom.xaml | @hsuchenghao
  | 炽翎主页 | · [GitHub](https://github.com/YuShanNan/ChiLing-HomePage-PCL2/issues/new) | · http://samiuv.mcfuns.cn/PCL2/Custom.xaml | @YuShanNan
+ | Java 下载主页 | · [GitHub](https://github.com/zkitefly/PCL2-java_download_page/issues/new) | · 暂无 | @zkitefly
+ | Vocaloid WikiPage | · [GitHub](https://github.com/LTY-Followers/VocaloidWikiPageForPCL2/issues/new) | · 暂无 | @wuliaodexiaoluo & @ shimoranla
 --> 
 
 
