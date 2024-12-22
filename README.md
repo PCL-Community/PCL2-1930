@@ -29,6 +29,8 @@
 
 <!-- 表格正文于此开始。-->
 
+## 可使用 Ctrl+F 来进行搜索
+
 ### Minecraft 常见问题
 
  <!-- BUILD_FLAG:BEGIN Minecraft -->
