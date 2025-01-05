@@ -29,7 +29,8 @@
 
 <!-- 表格正文于此开始。-->
 
-### Minecraft 常见问题
+<details>
+<summary><h3>Minecraft 常见问题</h3></summary>
 
  <!-- BUILD_FLAG:BEGIN Minecraft -->
  | 内容 | 解释 | 参考 |
@@ -45,8 +46,10 @@
  | 1.12 及以下 OptiFine Forge 版本窗口大小和设置值不同 | 此为第三方组件在启动过程中使用了不同的算法处理传入的窗口大小所致。PCL 对该问题进行的修复仅对原版生效，将不再受理 **1.12.2-**、**OptiFine/Forge** 下窗口大小和设置的尺寸不同的 Bug。| #3463
  <!-- BUILD_FLAG:END Minecraft -->
 
+</details>
 
-### 启动器常见问题
+<details>
+<summary><h3>启动器常见问题</h3></summary>
 
  <!-- BUILD_FLAG:BEGIN PCL -->
  | 内容 | 解释 | 参考 |
@@ -120,8 +123,10 @@
  | 部分 Mod 加载器报错后启动器崩溃分析乱码 | 由于无法确认 Mod 加载器日志输出文本的实际编码，无法修复。 | #4700
  <!-- BUILD_FLAG:END PCL -->
 
+</details>
 
-### 难检反馈
+<details>
+<summary><h3>难检反馈</h3></summary>
 
  <!-- BUILD_FLAG:BEGIN Hard -->
  | 内容 | 解释 | 参考 |
@@ -152,9 +157,11 @@
  | 无法更新 PCL（DNS） | 请按下 Win+X ，点击 Windows PowerShell（管理员），并输入如下命令 ```netsh interface ip set dns  "适配器名称" static 8.8.8.8```[^5]，如果您使用的是 **有线连接（网线）**，请将 **适配器名称** 替换为 **以太网**，如果您使用的是 **WiFi**，请将 **适配器名称** 替换为 **WLAN**，然后输入 ```nslookup raw.githubusercontent.com```，确认 **非权威应答** 的 **Addresses** 项的值不为 0.0.0.0、127.0.0.1、:::、:::1。 | #3505
  -->
 
+</details>
 
+<details>
+<summary><h3>预设主页</h3></summary>
 
-### 预设主页
 >
 >[!IMPORTANT]
 > 以下为 PCL2 内置的预设主页，均由第三方作者制作。
@@ -182,7 +189,11 @@
  | Vocaloid WikiPage | · [GitHub](https://github.com/LTY-Followers/VocaloidWikiPageForPCL2/issues/new) | · 暂无 | @wuliaodexiaoluo & @ shimoranla
 --> 
 
-### PCL 衍生版本
+</details>
+
+<details>
+<summary><h3>衍生版本</h3></summary>
+
 >
 >[!WARNING]
 > 下表列出了当前已知的所有 PCL 衍生版本，你可以通过下方提供的渠道进行下载。  
@@ -195,6 +206,7 @@
  | **PCL 多语言版**<br>*· PCL Multi-Language Version* | This version has no huge differences, compared with official release. We made some contributions to let it has the ability of switching language.<br>*· 此版本与 PCL2 原版没有太大的不同点，我们为其添加了切换语言的功能。* | @tangge233 及社区翻译志愿者 | #4580 | [GitHub](https://github.com/tangge233/PCL2/issues) |
  | **PCL2 社区版**<br>*PCL2 Community Edition* | PCL2 Community Edition（PCL2 社区版，或 PCL2-CE，简称 CE）是由 PCL-Community 及其成员共同开发的 PCL2 下游分支，包括了主线暂未制作的功能和改进。 | @PCL-Community | #5342 | [GitHub](https://github.com/PCL-Community/PCL2-CE/issues) |
 
+</details>
 
 
 <details>
