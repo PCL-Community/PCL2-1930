@@ -194,8 +194,8 @@
 
  | 衍生版本名称 | 特色 | 作者 | 发布页 | 反馈地址 |
  |--|--|--|--|--|
- | **PCL 多语言版**<br>*PCL Multi-Language Version* | This version has no huge differences, compared with official release. We made some contributions to let it has the ability of switching language.<br>*此版本与 PCL2 原版没有太大的不同，我们为其添加了切换语言的功能。* | @tangge233 <br>社区翻译志愿者 | #4580 | [GitHub](https://github.com/tangge233/PCL2/issues?q=is%3Aissue+) |
- | **PCL2 社区版**<br>*PCL2 Community Edition* | PCL2 Community Edition（PCL2 社区版，或 PCL2-CE，简称 CE）是由 PCL-Community 及其成员共同开发的 PCL2 下游分支，包括了主线暂未制作的功能和改进。 | @PCL-Community | #5342 | [GitHub](https://github.com/PCL-Community/PCL2-CE/issues?q=is%3Aissue+) |
+ | **PCL 多语言版**<br>*· PCL Multi-Language Version* | This version has no huge differences, compared with official release. We made some contributions to let it has the ability of switching language.<br>*· 此版本与 PCL2 原版没有太大的不同，我们为其添加了切换语言的功能。* | @tangge233 <br>社区翻译志愿者 | #4580 | [GitHub](https://github.com/tangge233/PCL2/issues?q=is%3Aissue+) |
+ | **PCL2 社区版**<br>*· PCL2 Community Edition* | PCL2 Community Edition（PCL2 社区版，或 PCL2-CE，简称 CE）是由 PCL-Community 及其成员共同开发的 PCL2 下游分支，包括了主线暂未制作的功能和改进。 | @PCL-Community | #5342 | [GitHub](https://github.com/PCL-Community/PCL2-CE/issues?q=is%3Aissue+) |
 
 
 
