@@ -188,12 +188,14 @@
 > 下表列出了当前已知的所有 PCL 衍生版本，你可以通过下方提供的渠道进行下载。  
 > PCL 衍生版本的分发和传播需要遵循 [PCL2 仓库提供的指南](https://github.com/Hex-Dragon/PCL2/blob/main/LICENCE)。
 >
-> 如果你在使用过程中遇到了问题或出现了 Bug，**请通过下表提供的渠道向主页作者提交反馈，而不是向 PCL2 仓库提交 Issue**。请注意，使用衍生版本造成的一切问题 PCL2 均不负责。
+> 如果你在使用过程中遇到了问题或出现了 Bug，**请通过下表提供的渠道向衍生版本仓库提交反馈，而不是向 Hex-Dragon/PCL2 仓库提交 Issue**。
+> 
+> 请注意，**使用衍生版本造成的一切问题，PCL2 官方均不负责**。
 
  | 衍生版本名称 | 特色 | 作者 | 发布页 | 反馈地址 |
  |--|--|--|--|--|
- | **PCL 多语言版**<br>*· PCL Multi-Language Version* | This version has no huge differences, compared with official release. We made some contributions to let it has the ability of switching language.<br>*· 此版本与 PCL2 原版没有太大的不同点，我们为其添加了切换语言的功能。* | @tangge233 及社区翻译志愿者 | #4580 | [GitHub](https://github.com/tangge233/PCL2/issues) |
- | **PCL2 社区版**<br>*PCL2 Community Edition* | PCL2 Community Edition（PCL2 社区版，或 PCL2-CE，简称 CE）是由 PCL-Community 及其成员共同开发的 PCL2 下游分支，包括了主线暂未制作的功能和改进。 | @PCL-Community | #5342 | [GitHub](https://github.com/PCL-Community/PCL2-CE/issues) |
+ | **PCL 多语言版**<br>*· PCL Multi-Language Version* | This version has no huge differences, compared with official release. We made some contributions to let it has the ability of switching language.<br>*· 此版本与 PCL2 原版没有太大的不同，我们为其添加了切换语言的功能。* | @tangge233 <br>社区翻译志愿者 | #4580 | [GitHub](https://github.com/tangge233/PCL2/issues?q=is%3Aissue+) |
+ | **PCL2 社区版**<br>*· PCL2 Community Edition* | PCL2 Community Edition（PCL2 社区版，或 PCL2-CE，简称 CE）是由 PCL-Community 及其成员共同开发的 PCL2 下游分支，包括了主线暂未制作的功能和改进。 | @PCL-Community | #5342 | [GitHub](https://github.com/PCL-Community/PCL2-CE/issues?q=is%3Aissue+) |
 
 
 
