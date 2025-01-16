@@ -52,10 +52,10 @@
  | 内容 | 解释 | 参考 |
  |--|--|--|
  | **支持通过启动器联机游玩 Minecraft** | ***“至于联机，因为网易还在继续代理中国版，我和 HMCL 的维护者都觉得还得谨慎一点……况且现在也有 Mod 支持联机了……咳咳。”*** <br> ***“目前联机并不是遇到了技术问题。等到网易不代理国服了联机就有了”*** <br> <div align="right"> ***——龙腾猫跃*** </div> <br> *BakaXL 现已于 2023 年 10 月 8 日将其部分服务与 Octo 章鱼网络进行对接，并对其可用性进行初步评估，待评估完成后，Octo 网络会全面对其他启动器开放。*[^4]  | **[2.6.11&nbsp;更新日志](https://www.bilibili.com/read/cv28121157/)** #4166 [#4158](https://github.com/Hex-Dragon/PCL2/discussions/4158#discussioncomment-9968069)
- | **支持启动器多语言选项**<br>**· I18n support & Support more languages** | **社区正在进行翻译工作，已有相关 Pull Request。**<br>**· The community is working on translation. Related pull request already exists.**<br>*如若您需要多语言版本，请见 #4580。*<br>*· You can download the multi-language version at #4580.* | 🔹 **#4145** <br> #891 #4580
+ | **支持启动器多语言选项**<br>**· I18n support & Support more languages** | **社区正在进行翻译工作，已有相关 Pull Request。**<br>**· The community is working on translation. Related pull request already exists.**<br>*如若您需要多语言版本，请见 #4580。*<br>*· You can download the multi-language version at #4580.* | **⇵ #4145** <br> #891 #4580
  | PCL 消失、报毒、无法更新 | 为 Microsoft Defender 和 360 等杀毒软件误报，请在 Windows 安全中心和杀毒软件中添加排除项或白名单。具体教程见 PCL 内置帮助库。 |  PCL2&nbsp;内置帮助库 <br> #56 [#666](https://github.com/Hex-Dragon/PCL2/issues/666#issuecomment-1611534587)
  | 以管理员权限运行时无法使用文件拖拽功能 | **[需要社区帮助]** *“尽可能尝试修复相关代码，依然无法解决……如果谁有解决方案可以提出”* ——龙腾猫跃 | [#2531](https://github.com/Hex-Dragon/PCL2/issues/2531#issuecomment-1822511620)
- | 增加导出整合包功能 | 已有相关 Pull Request。 | 🔹 **#4758** <br> #98
+ | 增加导出整合包功能 | 已有相关 Pull Request。 | **⇵ #4758** <br> #98
  | 支持启动基岩版（BE）、教育版、传奇（Minecraft Legends；MCL）、地下城（Minecraft Dungeons；MCD）等其他 Minecraft 衍生游戏 | *“这玩意儿我根本启动不了！用官方启动器吧！告辞！” ——龙腾猫跃* | #81
  | 支持第三方登录全局设置 | 正在 Discussions 中投票。 | #57 (#58)
  | 支持更新整合包 | 正在 Discussions 中投票。 | #5068 (#5069)
@@ -67,23 +67,23 @@
  | 支持调整 OptiFine 和第三方披风选项 | 暂时不打算制作。 | #2045 #2065
  | 支持离线模式下 1.19.3+ 版本自定义皮肤 | 正在 Discussions 中投票。 | #1288 (#1596)
  | Minecraft 更新后 PCL 内未找到该最新版本 | 请在 **“设置 → 启动器 → 下载 → 版本列表获取”** 选择 **“尽量使用官方源”**。 | #1226
- | 支持识别、安装 Quilt | 已有相关 Pull Request。 | 🔹 **#4074** <br> #48
+ | 支持识别、安装 Quilt | 已有相关 Pull Request。 | **⇵ #4074** <br> #48
  | 支持识别、安装 Cleanroom | 正在 Discussions 中投票。 | #3003 (#3004)
  | 支持识别、安装 OptiKai | 正在 Discussions 中投票。 | #3881 (#3882)
  | 支持安装 Legacy Fabric、Legacy Fabric API、Babric 等 | 已不再考虑专门为 Minecraft 1.9 及以前的版本追加新功能。 | #3171 #283
  | 支持修改已安装版本的组件和 Mod 加载器 | 正在 Discussions 中投票。<br> *搜索关键词：Fabric、Forge、OptiFine、LiteLoader、NeoForge、Quilt。* | #220 (#227)
  | 支持识别和标注客户端/服务端 Mod | 由于 Mod 作者错误标注的情况非常多，实际上无法区分哪些为客户端 Mod，哪些为服务端 Mod。 | #2467
  | 安装整合包时支持修改 Mod 加载器版本 | 修改 Mod 加载器版本可能会导致严重的兼容性问题，请联系整合包作者解决，PCL 不会支持该功能。 | #3568
- | 支持下载资源包（纹理包/材质包） | 已有相关 Pull Request。 | 🔹 **#4020** <br> #44
- | 支持下载光影包 | 已有相关 Pull Request。 | 🔹 **#4359** <br> #396
- | 支持下载数据包 | 正在 Discussions 中投票，已有相关 Pull Request。 | 🔹 **#4360** <br> #2991 (#2994)
+ | 支持下载资源包（纹理包/材质包） | 已有相关 Pull Request。 | **⇵ #4020** <br> #44
+ | 支持下载光影包 | 已有相关 Pull Request。 | **⇵ #4359** <br> #396
+ | 支持下载数据包 | 正在 Discussions 中投票，已有相关 Pull Request。 | **⇵ #4360** <br> #2991 (#2994)
  | 支持下载地图 | 存在语言问题，不会制作。 | #44 #135
  | 支持下载第三方服务端及插件 | PCL 是启动器，此功能超出了启动器的范畴。 | #108
  | 支持下载特定版本的 Java | 没有合适的下载源，暂不考虑。 | #3585
  | 引进新 Mod / 整合包下载源 | 没有其他可用的国内的 API。 | #1658
- | 允许管理存档、截图、资源包、光影包等文件 | 已有相关 Pull Request。 | 🔹 **#4770**
+ | 允许管理存档、截图、资源包、光影包等文件 | 已有相关 Pull Request。 | **⇵ #4770**
  | 支持导出 Mod 列表 | 该功能可以被导出整合包基本覆盖，暂不考虑制作。 | #2586
- | 添加 Mod 收藏夹 | 正在 Discussions 中投票，已有相关 Pull Request。 | 🔹 **#4933** <br> #487 (#1646)
+ | 添加 Mod 收藏夹 | 正在 Discussions 中投票，已有相关 Pull Request。 | **⇵ #4933** <br> #487 (#1646)
  | Mod 管理支持分类 Mod | 正在 Discussions 中投票。<br>*搜索关键词：分类、分组、模组、管理、分区、收藏、文件夹、收藏夹、星标。* | #277 (#5214)
  | 无法搜索到指定 Mod & Mod 搜索筛选选项异常 & Mod 搜索匹配版本错误 & Mod 详情页前置问题 等 Mod 搜索问题 | 为 API 或 Mod 作者上传时的设置问题，PCL 无法解决。[^2] | #2352 #2277 #2190 #2069 等 Issues
  | 支持对已安装的 Mod 进行前置缺失 & 版本安装错误 & 重复安装检查 | 正在 Discussion 中投票。 | #5235（#5236）
@@ -95,7 +95,7 @@
  | 添加暗黑模式 | *“这个基本上要重新设计所有界面，工作量太大了，我猜我都不会做……” ——龙腾猫跃* | #131
  | Mod 管理允许选择使用多种排序方式 | 考虑到该功能可以使用 Windows 自带资源管理器进行排序，暂无必要在启动器侧实现。 | #2698
  | Mod 管理允许扫描子文件夹 Mod | 此功能已被移除 [^3]，但如果子文件夹名称为版本名则仍会读取并加载。对于 Quilt 加载器下识别子文件夹 Mod 功能正在处理。 | #811 #1098 #1536 #1784
- | 添加更多 Minecraft 远古版本 | 已有相关 Pull Request。 |  🔹 **#4555** <br> #3786
+ | 添加更多 Minecraft 远古版本 | 已有相关 Pull Request。 |  **⇵ #4555** <br> #3786
  | 添加不由 Mojang 发布的 Minecraft 版本 | 不会收录社区玩家制作的 Minecraft 版本（如：error422、alpha v1.2.3_03 等）。 | #2575
  | 添加云端账户、启动器内置社区、云端同步账户数据、云端同步隐藏主题、官网等 | 无法抵御攻击，不会制作任何有关云端账号的内容。 | #315 等 Issues
  | 支持隐藏主题迁移 | 考虑到隐私问题，不考虑支持导出此类信息。 | #760
@@ -131,7 +131,7 @@
  | 因使用 32 位系统引起的问题 | 新版 Minecraft 已不支持 32 位系统，因此不会再额外为 32 位进行修复和调整。 | [#3649](https://github.com/Hex-Dragon/PCL2/issues/3649#issuecomment-2047054821)
  | 因系统问题无法打开 PCL | 系统原因，PCL 无法解决。<br> *搜索关键词：.NET、支持库、程序出现未知错误、显卡驱动、闪退、系统不完整。* | #2849 #2755 #2751 #2729 #2676 #2580 #2485 #2146 等 Issues
  | 调试模式性能损耗过大 | 个别问题，无法稳定复现。 | #365
- | 第三方 Yggdrasil 认证服务器 OAuth 登录支持 | 正在 Discussion 中投票，已有相关 Pull Request。 | 🔹 **#5132** <br> #4941 (#4948)
+ | 第三方 Yggdrasil 认证服务器 OAuth 登录支持 | 正在 Discussion 中投票，已有相关 Pull Request。 | **⇵ #5132** <br> #4941 (#4948)
  | Mod 下载详情页加载动画 UI 在加载后未能隐藏 | **[需要社区复现]** 需要社区给出稳定的复现方式。 <br> *搜索关键词：加载动画、加载图标、Mod 下载、列表、UI、隐藏、消失。* | #1624
  | 无法加载 Mod 图标 | 请检查您的网络环境，如无问题则请前往 Modrinth 或 CurseForge 网站内及 HMCL、BakaXL 内查看是否有图标，若均无图标，则该 Mod 作者未上传图标，非 PCL 问题。| -
  | 没有安装重复 Mod 却提示安装了重复 Mod | 部分 Mod 使用了相同的 Mod ID 导致 Mod 加载器误判为相同 Mod，请在安装 Mod 前仔细检查官方文档 / 百科确认可以同时安装后再安装。| #4376
