@@ -128,6 +128,7 @@
  | 因第三方组件引起的问题 | PCL 不会处理第三方造成的问题。 | *[Label:&nbsp;第三方](https://github.com/Hex-Dragon/PCL2/issues?q=label%3A%E7%AC%AC%E4%B8%89%E6%96%B9+is%3Aclosed)*
  | 因使用可编译开源版本导致的问题 | 因可编译版本可能经过了二次修改，因此此类版本造成的问题可能与 PCL 原版无关。| #3948
  | 使用自动补全的 Java 无法使用第三方登录加入多人游戏服务器 | 此为低版本 Java 未信任 Let's Encrypt 等证书提供方签发的证书所致，请使用 8u101 或更高版本 Java 再试一次。<br> *搜索关键词：PKIX path building failed、javax.net.ssl.SSLHandshakeException、身份认证服务器目前正在停机维护、SSL 证书* | [Let's Encrypt Certificate Compatibility](https://letsencrypt.org/docs/certificate-compatibility/) #5252 [Authlib-Injector#117](https://github.com/yushijinhun/authlib-injector/pull/117#issuecomment-841990531)
+ | 修改游戏主文件 | 超出启动器范畴，不会制作。| #5828
  | 因使用 32 位系统引起的问题 | 新版 Minecraft 已不支持 32 位系统，因此不会再额外为 32 位进行修复和调整。 | [#3649](https://github.com/Hex-Dragon/PCL2/issues/3649#issuecomment-2047054821)
  | 因系统问题无法打开 PCL | 系统原因，PCL 无法解决。<br> *搜索关键词：.NET、支持库、程序出现未知错误、显卡驱动、闪退、系统不完整。* | #2849 #2755 #2751 #2729 #2676 #2580 #2485 #2146 等 Issues
  | 调试模式性能损耗过大 | 个别问题，无法稳定复现。 | #365
