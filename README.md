@@ -31,7 +31,6 @@
 
 ### Minecraft 常见问题
 
- <!-- BUILD_FLAG:BEGIN Minecraft -->
  | 内容 | 解释 | 参考 |
  |--|--|--|
  | **无法下载 Minecraft** | **为 MCBBS 关停所致，同时由于 BMCLAPI 源压力过大，可能导致大部分时间段无法通过镜像源下载 Minecraft。届时请尝试以下四种解决方案：<br>1. 更换不同的网络；<br>2. 每间隔一段时间后再次尝试下载；<br>3. 若您的网络条件允许，尝试使用加速器或 VPN；<br>4. 如个人技术能力允许，尝试部署 [OpenBMCLAPI](https://github.com/bangbang93/openbmclapi)。** <br><br>*部分日志可见：`基础连接已经关闭: 未能为 SSL/TLS 安全通道建立信任关系。`* | **[Bilibili&nbsp;动态](https://t.bilibili.com/899749241434406921)** <br> #3213
@@ -43,12 +42,10 @@
  | 整合包中安装了 OptiFine 导致游戏无法正常加载 | OptiFine 和 Mod 加载器之间存在严重的兼容性问题，请考虑只安装 OptiFine 或只安装 Mod 加载器，亦或是使用其他 Mod 替代 OptiFine。 | #3258 #3566 #3573 MCLF-CN/docs#6
  | 游戏无声音 | 在未静音的情况下，请尝试 “版本设置 → 高级管理 → 补全文件”，若问题仍未解决，则尝试关闭 Windows 防火墙后再试。 | #4368
  | 1.12 及以下 OptiFine Forge 版本窗口大小和设置值不同 | 此为第三方组件在启动过程中使用了不同的算法处理传入的窗口大小所致。PCL 对该问题进行的修复仅对原版生效，将不再受理 **1.12.2-**、**OptiFine/Forge** 下窗口大小和设置的尺寸不同的 Bug。| #3463
- <!-- BUILD_FLAG:END Minecraft -->
 
 
 ### 启动器常见问题
 
- <!-- BUILD_FLAG:BEGIN PCL -->
  | 内容 | 解释 | 参考 |
  |--|--|--|
  | **支持通过启动器联机游玩 Minecraft** | ***“至于联机，因为网易还在继续代理中国版，我和 HMCL 的维护者都觉得还得谨慎一点……况且现在也有 Mod 支持联机了……咳咳。”*** <br> ***“目前联机并不是遇到了技术问题。等到网易不代理国服了联机就有了”*** <br> <div align="right"> ***——龙腾猫跃*** </div> <br> *BakaXL 现已于 2023 年 10 月 8 日将其部分服务与 Octo 章鱼网络进行对接，并对其可用性进行初步评估，待评估完成后，Octo 网络会全面对其他启动器开放。*[^4]  | **[2.6.11&nbsp;更新日志](https://www.bilibili.com/read/cv28121157/)** #4166 [#4158](https://github.com/Hex-Dragon/PCL2/discussions/4158#discussioncomment-9968069)
@@ -117,12 +114,10 @@
  | 删除 Libraries 文件夹或其中的文件后补全文件失败 | PCL 无法在 Libraries 文件不全的情况下完成文件补全。 | #3698
  | 将 GitHub 链接替换为镜像站 | 代理源的安全性与稳定性欠佳，不会制作。 | #2879
  | 部分 Mod 加载器报错后启动器崩溃分析乱码 | 由于无法确认 Mod 加载器日志输出文本的实际编码，无法修复。 | #4700
- <!-- BUILD_FLAG:END PCL -->
 
 
 ### 难检反馈
 
- <!-- BUILD_FLAG:BEGIN Hard -->
  | 内容 | 解释 | 参考 |
  |--|--|--|
  | 因第三方组件引起的问题 | PCL 不会处理第三方造成的问题。 | *[Label:&nbsp;第三方](https://github.com/Hex-Dragon/PCL2/issues?q=label%3A%E7%AC%AC%E4%B8%89%E6%96%B9+is%3Aclosed)*
@@ -148,8 +143,6 @@
  | 部分情况下正式版无法更新 | 由于第三方接口问题，部分情况下正式版无法进行更新。详情请见 #4965。 | #4965
  | 日志出现 `not xxx in java.library.path` | Java 不完整，非 PCL 问题，如果可能，请您自行准备 Java 而不是使用自动补全 Java 功能。 | #3496
 
-
- <!-- BUILD_FLAG:END Hard -->
  <!--参阅 #59，需要重新编写。
  | 无法更新 PCL（DNS） | 请按下 Win+X ，点击 Windows PowerShell（管理员），并输入如下命令 ```netsh interface ip set dns  "适配器名称" static 8.8.8.8```[^5]，如果您使用的是 **有线连接（网线）**，请将 **适配器名称** 替换为 **以太网**，如果您使用的是 **WiFi**，请将 **适配器名称** 替换为 **WLAN**，然后输入 ```nslookup raw.githubusercontent.com```，确认 **非权威应答** 的 **Addresses** 项的值不为 0.0.0.0、127.0.0.1、:::、:::1。 | #3505
  -->
@@ -256,7 +249,6 @@
 
 </details>
 
-<!-- BUILD_FLAG:BEGIN Footnote -->
 [^1]:请注意，离线账号登录服务器本身违反 [Minecraft 最终用户协议](https://www.minecraft.net/zh-hans/eula) 提及的 [Minecraft 使用准则](https://www.minecraft.net/zh-hans/usage-guidelines) 的内容 ( 原文如此：*访问您的服务器：必须**只授予拥有 Minecraft 正规付费版本的用户*** ) ，请谨慎考虑。  
 [^2]:i. 对于较老 Mod 搜索结果无法显示支持 Mod 加载器，此为早期 CurseForge 不支持设置选择 Mod 加载器导致；<br>ii. 对于输入搜索关键词无法搜索到指定 Mod 或搜索时出现无关 Mod，此为 API 问题；<br>iii. 如确认为 Mod 作者上传时的设置问题，例如错误地选择了不支持的版本、Mod 前置标记错误、译名错误等问题，请尝试联系 Mod 作者或 MCMod 百科页（仅译名问题）进行沟通确认。  
 [^3]:由于 .minecraft/mods 文件夹下创建的子文件夹内的 Mod 不被 Mod 加载器（此为如 Forge、Fabric 类 Mod 加载器行为，非 PCL 行为）加载，因此在新版本中移除了此功能。  
@@ -265,4 +257,3 @@
 暂时无用的注释
 [^5]:复制过程中，除适配器名称需要替换外，其他内容不可替换；除适配器名称外，其他部分不要包含中文字符。
 -->
-<!-- BUILD_FLAG:END Footnote -->
