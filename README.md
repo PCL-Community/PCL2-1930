@@ -156,23 +156,23 @@
 
  | 主页名称 | 反馈地址 | 联网更新地址 | 作者 |
  |--|--|--|--|
- | Minecraft 新闻 | · [GitHub](https://github.com/Light-Beacon/PCL2-NewsHomepage/issues/new/choose) | · https://pcl.mcnews.thestack.top | @Light-Beacon
- | 简单主页 | · [GitHub](https://github.com/MFn233/PCL-Mainpage/issues/new/choose) | · https://raw.gitcode.com/MFn233/PCL-Mainpage/raw/main/Custom.xaml | @MFn233
- | 每日整合包推荐 | · [SodaMC](https://sodamc.com/31402-29042412.html) | · https://pclsub.sodamc.com | @wkea
- | Minecraft 皮肤推荐 | · [SodaMC](https://sodamc.com/45080-44052300.html) | · https://forgepixel.com/pcl_sub_file | @wkea
- | OpenBMCLAPI 仪表盘 Lite | · [GitHub](https://github.com/Mxmilu666/cloudflare-pcl-bmclapi/issues/new/choose) | · https://pcl-bmcl.milu.ink | @Silverteal <br> @Mxmilu666
- | PCL 主页市场 | · [GitHub](https://github.com/HomePlaza-Of-PCL2/Homepage-Market/issues/new/choose) | · http://pclhomeplazaoss.lingyunawa.top:26994/d/Homepages/JingHai-Lingyun/Custom.xaml | @MoYuan-CN
- | PCL 新闻速报 | · [GitHub](https://github.com/Joker2184/UpdateHomepage/issues/new) | · http://pclhomeplazaoss.lingyunawa.top:26994/d/Homepages/Joker2184/UpdateHomepage.xaml | @Joker2184
- | PCL 新功能说明书 | · [GitHub](https://github.com/WForst-Breeze/Whats-New-PCL2/issues/new) | · https://raw.gitcode.com/WForst-Breeze/WhatsNewPCL/raw/main/Custom.xaml | @WForst-Breeze
- | 杂志主页 | · [Gitee](https://gitee.com/planet_of_daniel/pcl2-homepage-fhg/issues/new) | · http://pclhomeplazaoss.lingyunawa.top:26994/d/Homepages/Ext1nguisher/Custom.xaml | @CreeperIsASpy
+ | Minecraft 新闻 | · [GitHub](https://github.com/Light-Beacon/PCL2-NewsHomepage/issues/new/choose) | `https://pcl.mcnews.thestack.top` | @Light-Beacon
+ | 简单主页 | · [GitHub](https://github.com/MFn233/PCL-Mainpage/issues/new/choose) | `https://raw.gitcode.com/MFn233/PCL-Mainpage/raw/main/Custom.xaml` | @MFn233
+ | 每日整合包推荐 | · [SodaMC](https://sodamc.com/31402-29042412.html) | `https://pclsub.sodamc.com` | @wkea
+ | Minecraft 皮肤推荐 | · [SodaMC](https://sodamc.com/45080-44052300.html) | `https://forgepixel.com/pcl_sub_file` | @wkea
+ | OpenBMCLAPI 仪表盘 Lite | · [GitHub](https://github.com/Mxmilu666/cloudflare-pcl-bmclapi/issues/new/choose) | `https://pcl-bmcl.milu.ink` | @Silverteal <br> @Mxmilu666
+ | PCL 主页市场 | · [GitHub](https://github.com/HomePlaza-Of-PCL2/Homepage-Market/issues/new/choose) | `http://pclhomeplazaoss.lingyunawa.top:26994/d/Homepages/JingHai-Lingyun/Custom.xaml` | @MoYuan-CN
+ | PCL 新闻速报 | · [GitHub](https://github.com/Joker2184/UpdateHomepage/issues/new) | `http://pclhomeplazaoss.lingyunawa.top:26994/d/Homepages/Joker2184/UpdateHomepage.xaml` | @Joker2184
+ | PCL 新功能说明书 | · [GitHub](https://github.com/WForst-Breeze/Whats-New-PCL2/issues/new) | `https://raw.gitcode.com/WForst-Breeze/WhatsNewPCL/raw/main/Custom.xaml` | @WForst-Breeze
+ | 杂志主页 | · [Gitee](https://gitee.com/planet_of_daniel/pcl2-homepage-fhg/issues/new) | `http://pclhomeplazaoss.lingyunawa.top:26994/d/Homepages/Ext1nguisher/Custom.xaml` | @CreeperIsASpy
 
 
 <!-- 以下主页等待加入 PCL 预设
- | 历史上的今天 | · [GitHub](https://github.com/hsuchenghao/pcl-history-today-go/issues/new) | · https://pclnews.52chye.cn/custom.xaml | @hsuchenghao
- | 炽翎主页 | · [GitHub](https://github.com/YuShanNan/ChiLing-HomePage-PCL2/issues/new) | · http://samiuv.mcfuns.cn/PCL2/Custom.xaml | @YuShanNan
- | Java 下载主页 | · [GitHub](https://github.com/zkitefly/PCL2-java_download_page/issues/new) | · 暂无 | @zkitefly
- | Vocaloid WikiPage | · [GitHub](https://github.com/LTY-Followers/VocaloidWikiPageForPCL2/issues/new) | · 暂无 | @wuliaodexiaoluo & @ shimoranla
- | OpenMCIM 仪表盘 | · [GitHub](https://github.com/Hex-Dragon/PCL2/discussions/4906) | · https://files.mcimirror.top/PCL | @SALTWOOD
+ | 历史上的今天 | · [GitHub](https://github.com/hsuchenghao/pcl-history-today-go/issues/new) | `https://pclnews.52chye.cn/custom.xaml` | @hsuchenghao
+ | 炽翎主页 | · [GitHub](https://github.com/YuShanNan/ChiLing-HomePage-PCL2/issues/new) | `http://samiuv.mcfuns.cn/PCL2/Custom.xaml` | @YuShanNan
+ | Java 下载主页 | · [GitHub](https://github.com/zkitefly/PCL2-java_download_page/issues/new) | 暂无 | @zkitefly
+ | Vocaloid WikiPage | · [GitHub](https://github.com/LTY-Followers/VocaloidWikiPageForPCL2/issues/new) | 暂无 | @wuliaodexiaoluo & @ shimoranla
+ | OpenMCIM 仪表盘 | · [GitHub](https://github.com/Hex-Dragon/PCL2/discussions/4906) | `https://files.mcimirror.top/PCL` | @SALTWOOD
 --> 
 
 ### PCL 衍生版本
