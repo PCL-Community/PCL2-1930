@@ -70,9 +70,6 @@
  | 支持修改已安装版本的组件和 Mod 加载器 | 正在 Discussions 中投票。<br> *搜索关键词：Fabric、Forge、OptiFine、LiteLoader、NeoForge、Quilt。* | #220 (#227)
  | 支持识别和标注客户端/服务端 Mod | 由于 Mod 作者错误标注的情况非常多，实际上无法区分哪些为客户端 Mod，哪些为服务端 Mod。 | #2467
  | 安装整合包时支持修改 Mod 加载器版本 | 修改 Mod 加载器版本可能会导致严重的兼容性问题，请联系整合包作者解决，PCL 不会支持该功能。 | #3568
- | 支持下载资源包（纹理包/材质包） | 已有相关 Pull Request。 | **⇵ #4020** <br> #44
- | 支持下载光影包 | 已有相关 Pull Request。 | **⇵ #4359** <br> #396
- | 支持下载数据包 | 正在 Discussions 中投票，已有相关 Pull Request。 | **⇵ #4360** <br> #2991 (#2994)
  | 支持下载地图 | 存在语言问题，不会制作。 | #44 #135
  | 支持下载第三方服务端及插件 | PCL 是启动器，此功能超出了启动器的范畴。 | #108
  | 支持下载特定版本的 Java | 没有合适的下载源，暂不考虑。 | #3585
@@ -88,7 +85,7 @@
  | 下载或安装资源时失败 | 请先尝试使用其他启动器下载，若使用后问题依然存在，则非 PCL 问题。请使用镜像源或检查您的网络环境，使用加速器或 VPN。<br>如若确定网络环境无问题，请尝试设置游戏 Java 为最新版本的 Java 后再试。 | #3211
  | 支持下载或安装资源时断点续传（下载失败时支持一键重新下载） | 技术上极难实现，不会制作。 | #3069
  | 支持下载或安装资源时暂停下载 | 技术上极难实现，不会制作。 | #3069
- | 添加暗黑/深色/夜间模式 | 正在 Discussions 中投票，已有相关 Pull Request。 | **⇵ #5656** <br> #131 (#5658)
+ | 添加暗黑 / 深色 / 夜间模式 | 正在 Discussions 中投票，已有相关 Pull Request。 | **⇵ #5656** <br> #131 (#5658)
  | Mod 管理允许选择使用多种排序方式 | 考虑到该功能可以使用 Windows 自带资源管理器进行排序，暂无必要在启动器侧实现。 | #2698
  | Mod 管理允许扫描子文件夹 Mod | 此功能已被移除 [^3]，但如果子文件夹名称为版本名则仍会读取并加载。对于 Quilt 加载器下识别子文件夹 Mod 功能正在处理。 | #811 #1098 #1536 #1784
  | 添加更多 Minecraft 远古版本 | 已有相关 Pull Request。 |  **⇵ #4555** <br> #3786
@@ -165,6 +162,7 @@
  | PCL 新闻速报 | · [GitHub](https://github.com/Joker2184/UpdateHomepage/issues/new) | `http://pclhomeplazaoss.lingyunawa.top:26994/d/Homepages/Joker2184/UpdateHomepage.xaml` | @Joker2184
  | PCL 新功能说明书 | · [GitHub](https://github.com/WForst-Breeze/Whats-New-PCL2/issues/new) | `https://raw.gitcode.com/WForst-Breeze/WhatsNewPCL/raw/main/Custom.xaml` | @WForst-Breeze
  | 杂志主页 | · [Gitee](https://gitee.com/planet_of_daniel/pcl2-homepage-fhg/issues/new) | `http://pclhomeplazaoss.lingyunawa.top:26994/d/Homepages/Ext1nguisher/Custom.xaml` | @CreeperIsASpy
+ | PCL GitHub 仪表盘 | · [GitHub](https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage/issues/new) | `https://raw.gitcode.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage/raw/main/custom.xaml` | @Deep-Dark-Forest
 
 
 <!-- 以下主页等待加入 PCL 预设
