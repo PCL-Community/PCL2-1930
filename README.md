@@ -25,7 +25,7 @@
 
 ![Contributors](https://contrib.rocks/image?repo=PCL-Community/PCL2-1930)
 
-##### [◆ 辅助管理权限说明](https://github.com/Hex-Dragon/PCL2/discussions/477) [◆ 讨论时的常见疑惑](https://github.com/Hex-Dragon/PCL2/discussions/775) [◆ 声明：请不要为了获取权限而活跃](https://github.com/Hex-Dragon/PCL2/discussions/3666) [◆ 简介：PCL 功能投票](https://github.com/Hex-Dragon/PCL2/discussions/2) [◆ 内部管理沟通帖](https://github.com/Hex-Dragon/PCL2/discussions/1952) [◆ PCL2 帮助库](https://github.com/LTCatt/PCL2Help) [◆ Hex-Dragon Discord 服务器](https://discord.gg/npstwgmftR) [◇ 主页标准与指导](https://github.com/Hex-Dragon/PCL2/discussions/4483) [◇ PCL 各平行版本指南](https://github.com/Hex-Dragon/PCL2/discussions/3933) [◇ 遥遥无期的联机的相关情报公开](https://github.com/Hex-Dragon/PCL2/discussions/4166) [◇ 致各位：一些交流方面的建议 ◇](https://github.com/Hex-Dragon/PCL2/discussions/1592)
+##### [◆ 辅助管理权限说明](https://github.com/Meloong-Git/PCL/discussions/477) [◆ 讨论时的常见疑惑](https://github.com/Meloong-Git/PCL/discussions/775) [◆ 声明：请不要为了获取权限而活跃](https://github.com/Meloong-Git/PCL/discussions/3666) [◆ 简介：PCL 功能投票](https://github.com/Meloong-Git/PCL/discussions/2) [◆ 内部管理沟通帖](https://github.com/Meloong-Git/PCL/discussions/1952) [◆ PCL2 帮助库](https://github.com/LTCatt/PCL2Help) [◆ Hex-Dragon Discord 服务器](https://discord.gg/npstwgmftR) [◇ 主页标准与指导](https://github.com/Meloong-Git/PCL/discussions/4483) [◇ PCL 各平行版本指南](https://github.com/Meloong-Git/PCL/discussions/3933) [◇ 遥遥无期的联机的相关情报公开](https://github.com/Meloong-Git/PCL/discussions/4166) [◇ 致各位：一些交流方面的建议 ◇](https://github.com/Meloong-Git/PCL/discussions/1592)
 
 <!-- 表格正文于此开始。-->
 
@@ -34,7 +34,7 @@
  | 内容 | 解释 | 参考 |
  |--|--|--|
  | **无法下载 Minecraft** | **为 MCBBS 关停所致，同时由于 BMCLAPI 源压力过大，可能导致大部分时间段无法通过镜像源下载 Minecraft。届时请尝试以下四种解决方案：<br>1. 更换不同的网络；<br>2. 每间隔一段时间后再次尝试下载；<br>3. 若您的网络条件允许，尝试使用加速器或 VPN；<br>4. 如个人技术能力允许，尝试部署 [OpenBMCLAPI](https://github.com/bangbang93/openbmclapi)。** <br><br>*部分日志可见：`基础连接已经关闭: 未能为 SSL/TLS 安全通道建立信任关系。`* | **[Bilibili&nbsp;动态](https://t.bilibili.com/899749241434406921)** <br> #3213
- | **1.16.4 及 1.16.5 离线模式无法进入多人游戏界面** | **PCL 不会解决该问题，这超出了启动器功能范畴。** <br> *如仍需要使用多人游戏 [^1]，请自行断网启动游戏或安装 [MultiOfflineFix](https://github.com/MCTeamPotato/MultiOfflineFix "Fabric & Forge") 或 [Offline Multiplayer](https://github.com/ChickenPige0n/offline-multiplayer-fabric "仅 Fabric") Mod。同时您可以参考 [此处的解决方案](https://github.com/Hex-Dragon/PCL2/discussions/1930#discussioncomment-6797858) 以彻底解决此问题。* | **PCL2&nbsp;内置帮助库 <br> #2003 #2017 #2004 [#1930](https://github.com/Hex-Dragon/PCL2/discussions/1930#discussioncomment-6805733)**
+ | **1.16.4 及 1.16.5 离线模式无法进入多人游戏界面** | **PCL 不会解决该问题，这超出了启动器功能范畴。** <br> *如仍需要使用多人游戏 [^1]，请自行断网启动游戏或安装 [MultiOfflineFix](https://github.com/MCTeamPotato/MultiOfflineFix "Fabric & Forge") 或 [Offline Multiplayer](https://github.com/ChickenPige0n/offline-multiplayer-fabric "仅 Fabric") Mod。同时您可以参考 [此处的解决方案](https://github.com/Meloong-Git/PCL/discussions/1930#discussioncomment-6797858) 以彻底解决此问题。* | **PCL2&nbsp;内置帮助库 <br> #2003 #2017 #2004 [#1930](https://github.com/Meloong-Git/PCL/discussions/1930#discussioncomment-6805733)**
  | 游戏崩溃 | 请依照本文下方附文步骤进行解决。
  | 无法进入服务器 | 非 PCL 问题，具体可能的解决方案见内置帮助库或前往相关论坛寻求他人帮助。 | PCL2&nbsp;内置帮助库
  | 部分时段无法登录正版账户但网络速度良好 | 可能为使用中国联通或中国移动网络下 `api.minecraftservices.com` 和二级域名为 `mojang.com` 的地址均被屏蔽所致，请尝试使用中国电信网络或使用 VPN。 | #2738
@@ -48,10 +48,10 @@
 
  | 内容 | 解释 | 参考 |
  |--|--|--|
- | **支持通过启动器联机游玩 Minecraft** | ***“至于联机，因为网易还在继续代理中国版，我和 HMCL 的维护者都觉得还得谨慎一点……况且现在也有 Mod 支持联机了……咳咳。”*** <br> ***“目前联机并不是遇到了技术问题。等到网易不代理国服了联机就有了”*** <br> <div align="right"> ***——龙腾猫跃*** </div> <br> *BakaXL 现已于 2023 年 10 月 8 日将其部分服务与 Octo 章鱼网络进行对接，并对其可用性进行初步评估，待评估完成后，Octo 网络会全面对其他启动器开放。*[^4]  | **[2.6.11&nbsp;更新日志](https://www.bilibili.com/read/cv28121157/)** #4166 [#4158](https://github.com/Hex-Dragon/PCL2/discussions/4158#discussioncomment-9968069)
+ | **支持通过启动器联机游玩 Minecraft** | ***“至于联机，因为网易还在继续代理中国版，我和 HMCL 的维护者都觉得还得谨慎一点……况且现在也有 Mod 支持联机了……咳咳。”*** <br> ***“目前联机并不是遇到了技术问题。等到网易不代理国服了联机就有了”*** <br> <div align="right"> ***——龙腾猫跃*** </div> <br> *BakaXL 现已于 2023 年 10 月 8 日将其部分服务与 Octo 章鱼网络进行对接，并对其可用性进行初步评估，待评估完成后，Octo 网络会全面对其他启动器开放。*[^4]  | **[2.6.11&nbsp;更新日志](https://www.bilibili.com/read/cv28121157/)** #4166 [#4158](https://github.com/Meloong-Git/PCL/discussions/4158#discussioncomment-9968069)
  | **支持启动器多语言选项**<br>**· I18n support & Support more languages** | **社区正在进行翻译工作，已有相关 Pull Request。**<br>**· The community is working on translation. Related pull request already exists.**<br>*如若您需要多语言版本，请见 #4580。*<br>*· You can download the multi-language version at #4580.* | **⇵ #4145** <br> #891 #4580
- | PCL 消失、报毒、无法更新 | 为 Microsoft Defender 和 360 等杀毒软件误报，请在 Windows 安全中心和杀毒软件中添加排除项或白名单。具体教程见 PCL 内置帮助库。 |  PCL2&nbsp;内置帮助库 <br> #56 [#666](https://github.com/Hex-Dragon/PCL2/issues/666#issuecomment-1611534587)
- | 以管理员权限运行时无法使用文件拖拽功能 | **[需要社区帮助]** *“尽可能尝试修复相关代码，依然无法解决……如果谁有解决方案可以提出”* ——龙腾猫跃 | [#2531](https://github.com/Hex-Dragon/PCL2/issues/2531#issuecomment-1822511620)
+ | PCL 消失、报毒、无法更新 | 为 Microsoft Defender 和 360 等杀毒软件误报，请在 Windows 安全中心和杀毒软件中添加排除项或白名单。具体教程见 PCL 内置帮助库。 |  PCL2&nbsp;内置帮助库 <br> #56 [#666](https://github.com/Meloong-Git/PCL/issues/666#issuecomment-1611534587)
+ | 以管理员权限运行时无法使用文件拖拽功能 | **[需要社区帮助]** *“尽可能尝试修复相关代码，依然无法解决……如果谁有解决方案可以提出”* ——龙腾猫跃 | [#2531](https://github.com/Meloong-Git/PCL/issues/2531#issuecomment-1822511620)
  | 支持启动基岩版（BE）、教育版、传奇（Minecraft Legends；MCL）、地下城（Minecraft Dungeons；MCD）等其他 Minecraft 衍生游戏 | *“这玩意儿我根本启动不了！用官方启动器吧！告辞！” ——龙腾猫跃* | #81
  | 支持第三方登录全局设置 | 正在 Discussions 中投票。 | #57 (#58)
  | 支持更新整合包 | 正在 Discussions 中投票。 | #5068 (#5069)
@@ -117,11 +117,11 @@
 
  | 内容 | 解释 | 参考 |
  |--|--|--|
- | 因第三方组件引起的问题 | PCL 不会处理第三方造成的问题。 | *[Label:&nbsp;第三方](https://github.com/Hex-Dragon/PCL2/issues?q=label%3A%E7%AC%AC%E4%B8%89%E6%96%B9+is%3Aclosed)*
+ | 因第三方组件引起的问题 | PCL 不会处理第三方造成的问题。 | *[Label:&nbsp;第三方](https://github.com/Meloong-Git/PCL/issues?q=label%3A%E7%AC%AC%E4%B8%89%E6%96%B9+is%3Aclosed)*
  | 因使用可编译开源版本导致的问题 | 因可编译版本可能经过了二次修改，因此此类版本造成的问题可能与 PCL 原版无关。| #3948
  | 使用自动补全的 Java 无法使用第三方登录加入多人游戏服务器 | 此为低版本 Java 未信任 Let's Encrypt 等证书提供方签发的证书所致，请使用 8u101 或更高版本 Java 再试一次。<br> *搜索关键词：PKIX path building failed、javax.net.ssl.SSLHandshakeException、身份认证服务器目前正在停机维护、SSL 证书* | [Let's Encrypt Certificate Compatibility](https://letsencrypt.org/docs/certificate-compatibility/) #5252 [Authlib-Injector#117](https://github.com/yushijinhun/authlib-injector/pull/117#issuecomment-841990531)
  | 修改游戏主文件 | 超出启动器范畴，不会制作。| #5828
- | 因使用 32 位系统引起的问题 | 新版 Minecraft 已不支持 32 位系统，因此不会再额外为 32 位进行修复和调整。 | [#3649](https://github.com/Hex-Dragon/PCL2/issues/3649#issuecomment-2047054821)
+ | 因使用 32 位系统引起的问题 | 新版 Minecraft 已不支持 32 位系统，因此不会再额外为 32 位进行修复和调整。 | [#3649](https://github.com/Meloong-Git/PCL/issues/3649#issuecomment-2047054821)
  | 因系统问题无法打开 PCL | 系统原因，PCL 无法解决。<br> *搜索关键词：.NET、支持库、程序出现未知错误、显卡驱动、闪退、系统不完整。* | #2849 #2755 #2751 #2729 #2676 #2580 #2485 #2146 等 Issues
  | 调试模式性能损耗过大 | 个别问题，无法稳定复现。 | #365
  | 第三方 Yggdrasil 认证服务器 OAuth 登录支持 | 正在 Discussion 中投票，已有相关 Pull Request。 | **⇵ #5132** <br> #4941 (#4948)
@@ -170,15 +170,15 @@
  | 炽翎主页 | · [GitHub](https://github.com/YuShanNan/ChiLing-HomePage-PCL2/issues/new) | `http://samiuv.mcfuns.cn/PCL2/Custom.xaml` | @YuShanNan
  | Java 下载主页 | · [GitHub](https://github.com/zkitefly/PCL2-java_download_page/issues/new) | 暂无 | @zkitefly
  | Vocaloid WikiPage | · [GitHub](https://github.com/LTY-Followers/VocaloidWikiPageForPCL2/issues/new) | 暂无 | @wuliaodexiaoluo & @ shimoranla
- | OpenMCIM 仪表盘 | · [GitHub](https://github.com/Hex-Dragon/PCL2/discussions/4906) | `https://files.mcimirror.top/PCL` | @SALTWOOD
+ | OpenMCIM 仪表盘 | · [GitHub](https://github.com/Meloong-Git/PCL/discussions/4906) | `https://files.mcimirror.top/PCL` | @SALTWOOD
 --> 
 
 ### PCL 衍生版本
 >
 >[!IMPORTANT]
 > 下表列出了当前已知的所有已正式发布的 PCL 衍生版本，你可以通过下方提供的渠道进行下载。  
-> PCL 衍生版本的分发和传播需要遵循 [PCL2 仓库提供的指南](https://github.com/Hex-Dragon/PCL2/blob/main/LICENCE)。
-> 如果你在使用过程中遇到了问题或出现了 Bug，**请通过下表提供的渠道向衍生版本仓库提交反馈，而不是向本仓库（即 Hex-Dragon/PCL2）提交 Issue**。
+> PCL 衍生版本的分发和传播需要遵循 [PCL2 仓库提供的指南](https://github.com/Meloong-Git/PCL/blob/main/LICENCE)。
+> 如果你在使用过程中遇到了问题或出现了 Bug，**请通过下表提供的渠道向衍生版本仓库提交反馈，而不是向本仓库（即 Meloong-Git/PCL）提交 Issue**。
 > 
 > 请注意，**使用衍生版本造成的一切问题，PCL2 官方均不负责**。
 
