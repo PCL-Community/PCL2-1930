@@ -48,7 +48,7 @@
 
  | 内容 | 解释 | 参考 |
  |--|--|--|
- | **支持通过启动器联机游玩 Minecraft** | ***“至于联机，因为网易还在继续代理中国版，我和 HMCL 的维护者都觉得还得谨慎一点……况且现在也有 Mod 支持联机了……咳咳。”*** <br> ***“目前联机并不是遇到了技术问题。等到网易不代理国服了联机就有了”*** <br> <div align="right"> ***——龙腾猫跃*** </div> <br> *BakaXL 现已于 2023 年 10 月 8 日将其部分服务与 Octo 章鱼网络进行对接，并对其可用性进行初步评估，待评估完成后，Octo 网络会全面对其他启动器开放。*[^4]  | **[2.6.11&nbsp;更新日志](https://www.bilibili.com/read/cv28121157/)** #4166 [#4158](https://github.com/Hex-Dragon/PCL2/discussions/4158#discussioncomment-9968069)
+ | **支持通过启动器联机游玩 Minecraft** | **现联机功能已推送至快照版开始测试，等待正式版更新。**  | **[2.11.0&nbsp;更新日志](https://www.bilibili.com/opus/1127340164029349892/?from=readlist)**
  | **支持启动器多语言选项**<br>**· I18n support & Support more languages** | **社区正在进行翻译工作，已有相关 Pull Request。**<br>**· The community is working on translation. Related pull request already exists.**<br>*如若您需要多语言版本，请见 #4580。*<br>*· You can download the multi-language version at #4580.* | **⇵ #4145** <br> #891 #4580
  | PCL 消失、报毒、无法更新 | 为 Microsoft Defender 和 360 等杀毒软件误报，请在 Windows 安全中心和杀毒软件中添加排除项或白名单。具体教程见 PCL 内置帮助库。 |  PCL2&nbsp;内置帮助库 <br> #56 [#666](https://github.com/Hex-Dragon/PCL2/issues/666#issuecomment-1611534587)
  | 以管理员权限运行时无法使用文件拖拽功能 | **[需要社区帮助]** *“尽可能尝试修复相关代码，依然无法解决……如果谁有解决方案可以提出”* ——龙腾猫跃 | [#2531](https://github.com/Hex-Dragon/PCL2/issues/2531#issuecomment-1822511620)
@@ -243,11 +243,9 @@
 同时请注意，在沟通过程中请避免过多谈论无关内容或进行 [版聊](https://baike.baidu.com/item/%E7%89%88%E8%81%8A/403656)，尽管您可以对您发布的评论进行隐藏，**但当您发表无关内容时，已经对他人进行了不必要的打扰（因为该仓库有任何动态时 GitHub 会给关注了这个仓库的人发一次邮件）**，若无关内容过多，**该 Issue 将被锁定**。因此为了提高沟通效率，**请善用 Edit 编辑功能**，避免连续发布评论和发表无关内容。
 
 </details>
-
-[^1]:请注意，离线账号登录服务器本身违反 [Minecraft 最终用户协议](https://www.minecraft.net/zh-hans/eula) 提及的 [Minecraft 使用准则](https://www.minecraft.net/zh-hans/usage-guidelines) 的内容 ( 原文如此：*访问您的服务器：必须**只授予拥有 Minecraft 正规付费版本的用户*** ) ，请谨慎考虑。  
+ 
 [^2]:i. 对于较老 Mod 搜索结果无法显示支持 Mod 加载器，此为早期 CurseForge 不支持设置选择 Mod 加载器导致；<br>ii. 对于输入搜索关键词无法搜索到指定 Mod 或搜索时出现无关 Mod，此为 API 问题；<br>iii. 如确认为 Mod 作者上传时的设置问题，例如错误地选择了不支持的版本、Mod 前置标记错误、译名错误等问题，请尝试联系 Mod 作者或 MCMod 百科页（仅译名问题）进行沟通确认。  
 [^3]:由于 .minecraft/mods 文件夹下创建的子文件夹内的 Mod 不被 Mod 加载器（此为如 Forge、Fabric 类 Mod 加载器行为，非 PCL 行为）加载，因此在新版本中移除了此功能。  
-[^4]:**▷▷▷ 请注意，Octo 开放不等价于 PCL 上线联机，具体信息以龙猫发布的消息为准，仅供参考。届时切勿散布任何未经相关启动器作者及服务提供方证实的信息。**  
 <!--
 暂时无用的注释
 [^5]:复制过程中，除适配器名称需要替换外，其他内容不可替换；除适配器名称外，其他部分不要包含中文字符。
