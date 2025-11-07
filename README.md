@@ -161,7 +161,7 @@
  | PCL 主页市场 | · [GitHub](https://github.com/HomePlaza-Of-PCL2/Homepage-Market/issues/new/choose) | `http://pclhomeplazaoss.lingyunawa.top:26994/d/Homepages/JingHai-Lingyun/Custom.xaml` | @MoYuan-CN
  | PCL 新闻速报 | · [GitHub](https://github.com/Joker2184/UpdateHomepage/issues/new) | `http://pclhomeplazaoss.lingyunawa.top:26994/d/Homepages/Joker2184/UpdateHomepage.xaml` | @Joker2184
  | PCL 新功能说明书 | · [GitHub](https://github.com/WForst-Breeze/Whats-New-PCL2/issues/new) | `https://raw.gitcode.com/WForst-Breeze/WhatsNewPCL/raw/main/Custom.xaml` | @WForst-Breeze
- | 杂志主页 | · [Gitee](https://gitee.com/planet_of_daniel/pcl2-homepage-fhg/issues/new) | `http://pclhomeplazaoss.lingyunawa.top:26994/d/Homepages/Ext1nguisher/Custom.xaml` | @CreeperIsASpy
+ | 杂志主页 | · [GitHub](https://github.com/CreeperIsASpy/Magazine-Homepage-PCL/issues/new) | `http://pclhomeplazaoss.lingyunawa.top:26994/d/Homepages/Ext1nguisher/Custom.xaml` | @CreeperIsASpy
  | PCL GitHub 仪表盘 | · [GitHub](https://github.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage/issues/new) | `https://raw.gitcode.com/Deep-Dark-Forest/PCL2-GitHub-Dashboard-Homepage/raw/main/custom.xaml` | @Deep-Dark-Forest
 
 
