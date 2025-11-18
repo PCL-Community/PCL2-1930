@@ -48,7 +48,7 @@
 
  | 内容 | 解释 | 参考 |
  |--|--|--|
- | **支持通过启动器联机游玩 Minecraft** | **由于合规等不可抗力因素，为了避免给 EasyTier 社区带来风险，并且现有架构难以防御大规模攻击，故正式版与快照版的联机都将关闭。未来开发者会与 EasyTier 携手构建一个更加完善、合规、抗攻击的架构以继续免费地开放联机。联机的具体再次开放时间尚且未知。**  | **[Bilibili 公告](https://www.bilibili.com/opus/1135872352762986504)**
+ | **支持通过启动器联机游玩 Minecraft** | **由于合规性、受到 DDOS 攻击等不可抗力因素，为了避免给 EasyTier 社区带来风险，并且鉴于现有架构难以防御大规模攻击，故正式版与快照版的联机都将关闭。未来开发者会与 EasyTier 携手构建一个更加完善、合规、抗攻击的架构以继续免费地开放联机。联机的具体再次开放时间尚且未知。**  | **[Bilibili 公告](https://www.bilibili.com/opus/1135872352762986504)**
  | **支持启动器多语言选项**<br>**· I18n support & Support more languages** | **社区正在进行翻译工作，已有相关 Pull Request。**<br>**· The community is working on translation. Related pull request already exists.**<br>*如若您需要多语言版本，请见 #4580。*<br>*· You can download the multi-language version at #4580.* | **⇵ #4145** <br> #891 #4580
  | PCL 消失、报毒、无法更新 | 为 Microsoft Defender 和 360 等杀毒软件误报，请在 Windows 安全中心和杀毒软件中添加排除项或白名单。具体教程见 PCL 内置帮助库。 |  PCL2&nbsp;内置帮助库 <br> #56 [#666](https://github.com/Meloong-Git/PCL/issues/666#issuecomment-1611534587)
  | 以管理员权限运行时无法使用文件拖拽功能 | **[需要社区帮助]** *“尽可能尝试修复相关代码，依然无法解决……如果谁有解决方案可以提出”* ——龙腾猫跃 | [#2531](https://github.com/Meloong-Git/PCL/issues/2531#issuecomment-1822511620)
