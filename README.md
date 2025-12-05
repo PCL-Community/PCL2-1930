@@ -51,7 +51,6 @@
  | **支持通过启动器联机游玩 Minecraft** | **由于合规性、受到 DDOS 攻击等不可抗力因素，为了避免给 EasyTier 社区带来风险，并且鉴于现有架构难以防御大规模攻击，故正式版与快照版的联机都将关闭。未来开发者会与 EasyTier 携手构建一个更加完善、合规、抗攻击的架构以继续免费地开放联机。联机的具体再次开放时间尚且未知。**  | **[Bilibili 公告](https://www.bilibili.com/opus/1135872352762986504)**
  | **支持启动器多语言选项**<br>**· I18n support & Support more languages** | **社区正在进行翻译工作，已有相关 Pull Request。**<br>**· The community is working on translation. Related pull request already exists.**<br>*如若您需要多语言版本，请见 #4580。*<br>*· You can download the multi-language version at #4580.* | **⇵ #4145** <br> #891 #4580
  | PCL 消失、报毒、无法更新 | 为 Microsoft Defender 和 360 等杀毒软件误报，请在 Windows 安全中心和杀毒软件中添加排除项或白名单。具体教程见 PCL 内置帮助库。 |  PCL2&nbsp;内置帮助库 <br> #56 [#666](https://github.com/Meloong-Git/PCL/issues/666#issuecomment-1611534587)
- | 以管理员权限运行时无法使用文件拖拽功能 | **[需要社区帮助]** *“尽可能尝试修复相关代码，依然无法解决……如果谁有解决方案可以提出”* ——龙腾猫跃 | [#2531](https://github.com/Meloong-Git/PCL/issues/2531#issuecomment-1822511620)
  | 支持启动基岩版（BE）、教育版、传奇（Minecraft Legends；MCL）、地下城（Minecraft Dungeons；MCD）等其他 Minecraft 衍生游戏 | *“这玩意儿我根本启动不了！用官方启动器吧！告辞！” ——龙腾猫跃* | #81
  | 支持第三方登录全局设置 | 正在 Discussions 中投票。 | #57 (#58)
  | 支持更新整合包 | 正在 Discussions 中投票。 | #5068 (#5069)
@@ -70,7 +69,7 @@
  | 支持修改已安装版本的组件和 Mod 加载器 | 正在 Discussions 中投票。<br> *搜索关键词：Fabric、Forge、OptiFine、LiteLoader、NeoForge、Quilt。* | #220 (#227)
  | 支持识别和标注客户端/服务端 Mod | 由于 Mod 作者错误标注的情况非常多，实际上无法区分哪些为客户端 Mod，哪些为服务端 Mod。 | #2467
  | 安装整合包时支持修改 Mod 加载器版本 | 修改 Mod 加载器版本可能会导致严重的兼容性问题，请联系整合包作者解决，PCL 不会支持该功能。 | #3568
- | 支持下载地图 | 存在语言问题，不会制作。 | #44 #135
+ | 支持下载地图 | 正在 Discussions 中投票。 | #135 (#6344)
  | 支持下载第三方服务端及插件 | PCL 是启动器，此功能超出了启动器的范畴。 | #108
  | 支持下载特定版本的 Java | 没有合适的下载源，暂不考虑。 | #3585
  | 引进新 Mod / 整合包下载源 | 没有其他可用的国内的 API。 | #1658
@@ -96,7 +95,7 @@
  | 使用滑稽彩导致卡顿&掉帧&占用过大 | 无法解决或优化此类问题。 | #1575 #1590 #2336
  | 支持启动器字体自定义 | 会导致严重的 UI 适配问题，不考虑制作。 | #1724 #766 #366
  | 支持启动器开机自启动 | 不考虑在启动器内添加支持。 | #2896
- | 支持独立网络代理设置 | 正在 Discussion 中投票。 | #1228 (#1233)
+ | 支持独立网络代理设置 | 正在 Discussion 中投票，已有相关 Pull Request。 | **⇵ #5730** <br> #1228 (#1233)
  | 有关与 Minecraft 多人游戏服务器交互的内容 | 不会制作该功能。 | #829 #1993
  | 接入 ChatGPT、文心一言、Copilot、NewBing 等 AI 语言模型 | 不会制作该功能。 | #2791 #1557
  | 支持使用相对路径 | *“改这个那一大堆路径设置绝壁一周之内就会出来一大堆反馈让我加相对路径，想想都吓人，算了……” ——龙腾猫跃* | #1568 #1292 #1080
