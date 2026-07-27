@@ -62,7 +62,7 @@
  | 支持调整 OptiFine 和第三方披风选项 | 暂时不打算制作。 | #2045 #2065
  | 支持离线模式下 1.19.3+ 版本自定义皮肤 | 正在 Discussions 中投票。 | #1288 (#1596)
  | Minecraft 更新后 PCL 内未找到该最新版本 | 请在 **“设置 → 启动器 → 下载 → 版本列表获取”** 选择 **“尽量使用官方源”**。 | #1226
- | 支持识别、安装 Quilt | 已有相关 Pull Request。 | **⇵ #4074** <br> #48
+ | 支持识别、安装 Quilt | 由于使用人数过少，不会制作该功能。 | #48
  | 支持识别、安装 Cleanroom | 正在 Discussions 中投票。 | #3003 (#3004)
  | 支持识别、安装 OptiKai | 正在 Discussions 中投票。 | #3881 (#3882)
  | 支持安装 Legacy Fabric、Legacy Fabric API、Babric 等 | 已不再考虑专门为 Minecraft 1.9 及以前的版本追加新功能。 | #3171 #283
